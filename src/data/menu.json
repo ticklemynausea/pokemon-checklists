@@ -1,0 +1,49 @@
+{"menus":[
+	{"itemname":"Home", "link":"../../index.html"},
+	{"itemname":"Gen 1-2",
+		"isgroup":"1",
+		"menuitems":[
+			{"itemname":"Red & Blue Post Game", "link":"rb_checklist.html"},
+			{"itemname":"Yellow Post Game", "link":"rby_checklist.html"},
+			{"itemname":"Gold & Silver Post Game", "link":"gs_checklist.html"},
+			{"itemname":"Crystal Post Game", "link":"gsc_checklist.html"}
+		]
+	},
+	{"itemname":"Gen 3-4",
+		"isgroup":"1",
+		"menuitems":[
+			{"itemname":"Ruby & Sapphire Post Game", "link":"rs_checklist.html"},
+			{"itemname":"Emerald Post Game", "link":"rse_checklist.html"},
+			{"itemname":"Fire Red & Leaf Green Post Game", "link":"frlg_checklist.html"},
+			{"itemname":"Diamond & Pearl Post Game", "link":"dp_checklist.html"},
+			{"itemname":"Platinum Post Game", "link":"plat_checklist.html"},
+			{"itemname":"HG & SS Post Game", "link":"hgss_checklist.html"}
+		]
+	},
+	{"itemname":"Gen 5-6",
+		"isgroup":"1",
+		"menuitems":[
+			{"itemname":"Black & White Post Game", "link":"bw_checklist.html"},
+			{"itemname":"Black 2 & White 2 Post Game", "link":"b2w2_checklist.html"},
+			{"itemname":"X & Y Post Game", "link":"xy_checklist.html"},
+			{"itemname":"ORAS Post Game", "link":"oras_checklist.html"}
+		]
+	},
+	{"itemname":"Gen 7",
+		"isgroup":"1",
+		"menuitems":[
+			{"itemname":"Sun & Moon Post Game", "link":"sumo_checklist.html"},
+			{"itemname":"Ultra Sun & Ultra Moon Post Game", "link":"usum_checklist.html"}
+		]
+	},
+	{"itemname":"Useful Links",
+		"isgroup":"1",
+		"menuitems":[
+			{"itemname":"Manage your Living Dex", "link":"https://pokedextracker.com/","external":1},
+			{"itemname":"Pokemon SubReddit", "link":"https://www.reddit.com/r/pokemon/", "external":1},
+			{"itemname":"Serebii", "link":"https://www.serebii.net/", "external":1},
+			{"itemname":"Obsolete - Manage your Living Dex", "link":"http://www.livingdex.xyz/", "external":1}
+		]
+	},
+    {"itemname":"Contact", "link":"../../contact.html"}
+]}
