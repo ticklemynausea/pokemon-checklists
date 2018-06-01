@@ -1,4 +1,4 @@
-{"bw2":[
+{"b2w2":[
 	{"id":"task1",
 		"task":"Complete the Unova Pokedex (297)",
 		"category":"catchemall",
@@ -9,7 +9,7 @@
 			{"id":"sub1", "task":"Event Victini"},
 			{"id":"sub2", "task":"Event Keldeo"},
 			{"id":"sub3", "task":"Event Meloetta"},
-			{"id":"sub4", "task":"Event Genesect", "subtasks":[{"id":"sub1", "task":"Receive Oval Charm From Prof. Juniper"}]}			
+			{"id":"sub4", "task":"Event Genesect", "subtasks":[{"id":"sub1", "task":"Receive Oval Charm From Prof. Juniper"}]}
 		]
 	},
 	{"id":"task2",
@@ -209,7 +209,7 @@
 			{"id":"sub5", "task":"Double Super"},
 			{"id":"sub6", "task":"Multi Super"}
 		]
-	},	
+	},
 	{"id":"task17",
 		"task":"Promote Join Avenue to Lv. 100",
 		"category":"activities",
@@ -294,8 +294,8 @@
 			{"id":"sub15", "task":"Hyper Beam"},
 			{"id":"sub16", "task":"Light Screen"},
 			{"id":"sub17", "task":"Protect"},
-			{"id":"sub18", "task":"Rain Dance"},			
-			{"id":"sub19", "task":"Telekenisis"},			
+			{"id":"sub18", "task":"Rain Dance"},
+			{"id":"sub19", "task":"Telekenisis"},
 			{"id":"sub20", "task":"Safeguard"},
 			{"id":"sub21", "task":"Frustration"},
 			{"id":"sub22", "task":"Solar Beam"},
@@ -309,7 +309,7 @@
 			{"id":"sub30", "task":"Shadow Ball"},
 			{"id":"sub31", "task":"Brick Break"},
 			{"id":"sub32", "task":"Double Team"},
-			{"id":"sub33", "task":"Reflect"},						
+			{"id":"sub33", "task":"Reflect"},
 			{"id":"sub36", "task":"Sludge Bomb"},
 			{"id":"sub37", "task":"Sandstorm"},
 			{"id":"sub38", "task":"Fire Blast"},
@@ -324,7 +324,7 @@
 			{"id":"sub47", "task":"Low Sweep"},
 			{"id":"sub48", "task":"Round"},
 			{"id":"sub49", "task":"Echoed Voice"},
-			{"id":"sub50", "task":"Overheat"},			
+			{"id":"sub50", "task":"Overheat"},
 			{"id":"sub51", "task":"Ally Switch"},
 			{"id":"sub52", "task":"Focus Blast"},
 			{"id":"sub53", "task":"Energy Ball"},
@@ -373,5 +373,5 @@
 			{"id":"sub98", "task":"Rock Polish"},
 			{"id":"sub99", "task":"Flash"}
 		]
-	}	
+	}
 ]}

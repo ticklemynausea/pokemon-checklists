@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 import MenuLink from "./MenuLink";
 
-import { menus } from "../data/menu.json";
-
-const safeid = (key, name) => `key-${name.replace(/ /g, "_")}`;
+import data from "../data";
 
 class Menu extends Component {
   render() {
+    const { menus } = data;
+
     return (
       <Navbar inverse collapseOnSelect>
         <Navbar.Header>
@@ -20,13 +19,13 @@ class Menu extends Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
-            {menus.map((menu) => (console.log(menu),
+            {menus.map((menu) => (
               menu.isgroup === "1" ? (
-                <NavDropdown id={safeid("dropdown", menu.itemname)} title={menu.itemname} key={menu.itemname}>
+                <NavDropdown id={`dropdown-$(menu.key)`} title={menu.itemname} key={menu.key}>
                   {menu.menuitems.map((menuitem) => (
                     <MenuItem
                       componentClass={MenuLink}
-                      key={menuitem.link}
+                      key={menuitem.key}
                       item={menuitem}
                     />
                   ))}
@@ -34,7 +33,7 @@ class Menu extends Component {
               ) : (
                 <MenuItem
                   componentClass={MenuLink}
-                  key={menu.link}
+                  key={menu.key}
                   item={menu}
                 />
               )

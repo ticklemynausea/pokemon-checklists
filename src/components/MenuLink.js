@@ -10,11 +10,16 @@ class MenuLink extends Component {
   render() {
     const { link, itemname } = this.props.item;
 
-    return (
-      <Link to={link}>
-        {itemname}
-      </Link>
-   );
+    return link.startsWith("https://")
+      ? (
+        <a href={link} target="_blank">
+          {itemname}
+        </a>
+      ) : (
+        <Link to={link}>
+          {itemname}
+        </Link>
+      );
   }
 }
 
