@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from "prop-types";
-import { Panel, Grid, Row, Col } from "react-bootstrap";
+import { Panel } from "react-bootstrap";
 
 import ChecklistTask from "./ChecklistTask";
 
@@ -24,15 +24,11 @@ class ChecklistPanel extends Component {
           </Panel.Title>
         </Panel.Heading>
         <Panel.Body>
-          <Grid>
-            <Row>
-              <Col>
-                {panels.map((panel) => (
-                  <ChecklistTask key={panel.id} task={panel} />
-                ))}
-              </Col>
-            </Row>
-          </Grid>
+          <div className={`checklist-task-container checklist-task-container-${panels.length}`}>
+            {panels.map((panel) => (
+              <ChecklistTask key={panel.id} task={panel} />
+            ))}
+          </div>
         </Panel.Body>
       </Panel>
     );

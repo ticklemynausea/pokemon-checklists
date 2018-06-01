@@ -1,4 +1,5 @@
 import data_Menus from "./menu.json";
+import data_Categories from "./categories.json";
 import data_b2w2 from "./b2w2_postgame_checklist.json";
 import data_bw from "./bw_postgame_checklist.json";
 import data_dp from "./dp_postgame_checklist.json";
@@ -64,7 +65,7 @@ const groupByCategory = (page) => Object.entries(page.reduce((acc, curr) => ({
   .map(([key, value]) => ([
     {
       key: key,
-      name: key,
+      name: data_Categories[key],
     },
     value,
   ]));

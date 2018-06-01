@@ -14,20 +14,26 @@ class ChecklistTask extends Component {
       task,
     } = this.props;
 
-    return (<ListGroup bsClass="list-group checklist-task">
-      <ListGroupItem>
-        <h4 className="my-list-group-item-heading">
-          <ChecklistItem item={task} />
-        </h4>
-      </ListGroupItem>
-      {task.subtasks && (<ListGroupItem>
+    console.log(`checklist-task-${task.row}-${task.col}`);
+
+    return (
+      <div className={`checklist-task checklist-task-${task.row}-${task.col}`}>
         <ListGroup bsClass="my-list-group">
-          {task.subtasks.map((subtask) => (<ListGroupItem bsClass="my-list-group-item" key={subtask.id}>
-            <ChecklistItem item={subtask} />
-          </ListGroupItem>))}
+          <ListGroupItem>
+            <h4 className="my-list-group-item-heading">
+              <ChecklistItem item={task} />
+            </h4>
+          </ListGroupItem>
+          {task.subtasks && (<ListGroupItem>
+            <ListGroup bsClass="my-list-group my-list-group-flex">
+              {task.subtasks.map((subtask) => (<ListGroupItem bsClass="my-list-group-item" key={subtask.id}>
+                <ChecklistItem item={subtask} />
+              </ListGroupItem>))}
+            </ListGroup>
+          </ListGroupItem>)}
         </ListGroup>
-      </ListGroupItem>)}
-    </ListGroup>);
+      </div>
+    );
   }
 }
 

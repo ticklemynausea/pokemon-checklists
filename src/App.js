@@ -9,9 +9,9 @@ import NotFound from "./components/NotFound";
 
 import data from "./data";
 
+import "bootstrap/dist/css/bootstrap.min.css";
 import './fonts.css';
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const history = createBrowserHistory();
 

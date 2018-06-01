@@ -266,11 +266,11 @@ input[type='checkbox'] {
 and (max-device-width: 750px)
 {
 	input[type=checkbox] {
-	/* All browsers except webkit*/
-	transform: scale(2);
+    /* All browsers except webkit*/
+    transform: scale(2);
 
-	/* Webkit browsers*/
-	-webkit-transform: scale(2);
+    /* Webkit browsers*/
+    -webkit-transform: scale(2);
 	}
 
 	.task {
@@ -282,26 +282,20 @@ and (max-device-width: 750px)
 	}
 }
 
-@media print {
-	.postgame { padding: none; }
-	.badge-header-md { width: 200px; }
-
-	.task {
-		overflow: visible;
-	}
-	.subtask, .subsubtask {
-		font-family: inherit;
-	}
-
-	.addthis-smartlayers {
-		display:none;
-	}
-}
-
 .my-list-group {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.my-list-group-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.my-list-group-flex .my-list-group-item {
+  margin: 0 15px 15px 0;
 }
 
 .my-list-group-item-heading {
@@ -313,6 +307,7 @@ and (max-device-width: 750px)
   cursor: pointer;
   margin: 0;
   font-weight: normal;
+  display: inline-block;
 }
 
 .checklist-task .my-list-group-item-heading label {
@@ -323,10 +318,43 @@ and (max-device-width: 750px)
   display: inline-block;
 }
 
-.tooltip-trigger {
+.tooltip-container .tooltip-trigger {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  background-color: black;
-  margin-left: 10px;
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  content: " ";
+  background: url(/images/pokeball_bullet.png);
+  background-size: 100%;
+}
+
+.checklist-task-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checklist-task {
+  align-self: flex-start;
+  margin: 0 10px 10px 0;
+}
+
+.checklist-task-container-1 .checklist-task {
+  width: 100%;
+}
+
+.checklist-task-3-1,
+.checklist-task-3-2 {
+  width: calc(50% - 10px);
+}
+
+.checklist-task-3-3 {
+  width: 100%;
+}
+
+.checklist-task-3-3 {
+  width: 100%;
+}
+
+.panel-body {
+  margin-right: -15px;
 }
