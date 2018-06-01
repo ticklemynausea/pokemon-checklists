@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import PropTypes from "prop-types";
 
-import JSONViewer from "./JSONViewer";
+import ChecklistPanel from "./ChecklistPanel";
 
-class Page extends Component {
+class ChecklistPage extends Component {
   static propTypes = {
     page: PropTypes.object.isRequired,
+    checklist: PropTypes.any.isRequired,
   };
 
   render() {
-    const { page } = this.props;
+    const { page, checklist } = this.props;
 
     return (<div className="postgame container-fluid">
       <div id="row1" className="row">
@@ -18,10 +19,12 @@ class Page extends Component {
         </div>
       </div>
       <div>
-        <JSONViewer content={page} />
+        {checklist.map(
+          ([category, panels]) => (<ChecklistPanel key={category.key} category={category} panels={panels} />)
+        )}
       </div>
     </div>);
   }
 }
 
-export default Page;
+export default ChecklistPage;

@@ -10,7 +10,7 @@ class Menu extends Component {
     const { menus } = data;
 
     return (
-      <Navbar inverse collapseOnSelect>
+      <Navbar inverse collapseOnSelect fixedTop>
         <Navbar.Header>
           <Navbar.Brand>
             <a href="#brand">React-Bootstrap</a>

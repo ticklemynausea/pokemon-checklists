@@ -54,6 +54,21 @@ const transformMenu = (menu) => ({
   ),
 });
 
+const groupByCategory = (page) => Object.entries(page.reduce((acc, curr) => ({
+    ...acc,
+    [curr.category]: [
+      ...(acc[curr.category] || []),
+      curr,
+    ]
+  }), {}))
+  .map(([key, value]) => ([
+    {
+      key: key,
+      name: key,
+    },
+    value,
+  ]));
+
 const filterRoutes = (menu) => (menu.itemname !== "Useful Links");
 
 const data = {
@@ -61,10 +76,11 @@ const data = {
   routes: data_Menus.menus.filter(filterRoutes).map(transformMenu),
   pages: Object.entries(checklists)
     .map(([key, value]) => ([key.replace("data_", ""), value]))
+    .map(([key, value]) => ([key, groupByCategory(value[key])]))
     .reduce((acc, [key, value]) => ({
       ...acc,
-      [key + "_checklist"]: value[key],
-    }), {}),
+      [key + "_checklist"]: value,
+    }), {})
 };
 
 export default data;

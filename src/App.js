@@ -2,14 +2,15 @@ import React, { Component } from 'react';
 import { Router, Route, Switch } from "react-router";
 import createBrowserHistory from "history/createBrowserHistory";
 
-import './App.css';
 import Menu from "./components/Menu";
-
+import ChecklistPage from "./components/ChecklistPage";
 import Page from "./components/Page";
 import NotFound from "./components/NotFound";
 
 import data from "./data";
 
+import './fonts.css';
+import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const history = createBrowserHistory();
@@ -17,7 +18,6 @@ const history = createBrowserHistory();
 class App extends Component {
   render() {
     const { routes, pages } = data;
-    console.log(pages);
 
     return (
       <Router history={history}>
@@ -31,7 +31,7 @@ class App extends Component {
                     key={menuitem.key}
                     exact
                     path={menuitem.link}
-                    component={() => (<Page page={menuitem} checklist={pages[menuitem.key]} />)}
+                    component={() => (<ChecklistPage page={menuitem} checklist={pages[menuitem.key]} />)}
                   />
                 ))
               ) : (

@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'diner-skinnyregular';
+    src: url('/fonts/Diner-Skinny-webfont.eot');
+    src: url('/fonts/Diner-Skinny-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Diner-Skinny-webfont.woff') format('woff'),
+         url('/fonts/Diner-Skinny-webfont.ttf') format('truetype'),
+         url('/fonts/Diner-Skinny-webfont.svg#diner-skinnyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'diner-regularregular';
+    src: url('/fonts/Diner-Regular-webfont.eot');
+    src: url('/fonts/Diner-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Diner-Regular-webfont.woff') format('woff'),
+         url('/fonts/Diner-Regular-webfont.ttf') format('truetype'),
+         url('/fonts/Diner-Regular-webfont.svg#diner-regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ditedregular';
+    src: url('/fonts/Dited-webfont.eot');
+    src: url('/fonts/Dited-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Dited-webfont.woff') format('woff'),
+         url('/fonts/Dited-webfont.ttf') format('truetype'),
+         url('/fonts/Dited-webfont.svg#ditedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pokemon_solidnormal';
+    src: url('/fonts/pokemon_solid-webfont.eot');
+    src: url('/fonts/pokemon_solid-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/pokemon_solid-webfont.woff') format('woff'),
+         url('/fonts/pokemon_solid-webfont.ttf') format('truetype'),
+         url('/fonts/pokemon_solid-webfont.svg#pokemon_solidnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pokemon_hollownormal';
+    src: url('/fonts/pokemon_hollow-webfont.eot');
+    src: url('/fonts/pokemon_hollow-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/pokemon_hollow-webfont.woff') format('woff'),
+         url('/fonts/pokemon_hollow-webfont.ttf') format('truetype'),
+         url('/fonts/pokemon_hollow-webfont.svg#pokemon_hollownormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
