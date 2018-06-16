@@ -6,28 +6,36 @@ import ChecklistItem from "./ChecklistItem";
 
 class ChecklistTask extends Component {
   static propTypes = {
+    page: PropTypes.object.isRequired,
     task: PropTypes.object.isRequired,
   };
 
   render() {
     const {
+      page,
       task,
     } = this.props;
-
-    console.log(`checklist-task-${task.row}-${task.col}`);
 
     return (
       <div className={`checklist-task checklist-task-${task.row}-${task.col}`}>
         <ListGroup bsClass="my-list-group">
           <ListGroupItem>
             <h4 className="my-list-group-item-heading">
-              <ChecklistItem item={task} />
+              <ChecklistItem
+                page={page}
+                task={task}
+                item={task}
+              />
             </h4>
           </ListGroupItem>
           {task.subtasks && (<ListGroupItem>
             <ListGroup bsClass="my-list-group my-list-group-flex">
               {task.subtasks.map((subtask) => (<ListGroupItem bsClass="my-list-group-item" key={subtask.id}>
-                <ChecklistItem item={subtask} />
+                <ChecklistItem
+                  page={page}
+                  task={task}
+                  item={subtask}
+                />
               </ListGroupItem>))}
             </ListGroup>
           </ListGroupItem>)}

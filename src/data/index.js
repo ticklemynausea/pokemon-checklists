@@ -77,7 +77,8 @@ const data = {
   routes: data_Menus.menus.filter(filterRoutes).map(transformMenu),
   pages: Object.entries(checklists)
     .map(([key, value]) => ([key.replace("data_", ""), value]))
-    .map(([key, value]) => ([key, groupByCategory(value[key])]))
+    .map(([key, value]) => ([key, value[key].filter((o) => 'id' in o)]))
+    .map(([key, value]) => ([key, groupByCategory(value)]))
     .reduce((acc, [key, value]) => ({
       ...acc,
       [key + "_checklist"]: value,

@@ -9,6 +9,8 @@ import NotFound from "./components/NotFound";
 
 import data from "./data";
 
+import Store from "./Store";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import './fonts.css';
 import './App.css';
@@ -20,35 +22,41 @@ class App extends Component {
     const { routes, pages } = data;
 
     return (
-      <Router history={history}>
-        <div className="App">
-          <Menu />
-          <Switch>
-            {routes.map((menu) => (
-              menu.isgroup === "1" ? (
-                menu.menuitems.map((menuitem) => (
+      <Store>
+        <Router history={history}>
+          <div className="App">
+            <Menu />
+            <Switch>
+              {routes.map((menu) => (
+                menu.isgroup === "1" ? (
+                  menu.menuitems.map((menuitem) => (
+                    <Route
+                      key={menuitem.key}
+                      exact
+                      path={menuitem.link}
+                      component={() => (
+                        <ChecklistPage
+                          page={menuitem}
+                          checklist={pages[menuitem.key]}
+                        />)}
+                    />
+                  ))
+                ) : (
                   <Route
-                    key={menuitem.key}
+                    key={menu.key}
                     exact
-                    path={menuitem.link}
-                    component={() => (<ChecklistPage page={menuitem} checklist={pages[menuitem.key]} />)}
+                    path={menu.link}
+                    component={() => (
+                      <Page page={menu} />
+                    )}
                   />
-                ))
-              ) : (
-                <Route
-                  key={menu.key}
-                  exact
-                  path={menu.link}
-                  component={() => (
-                    <Page page={menu} />
-                  )}
-                />
-              )
-            ))}
-            <Route exact path="*" component={NotFound} />
-          </Switch>
-        </div>
-      </Router>
+                )
+              ))}
+              <Route exact path="*" component={NotFound} />
+            </Switch>
+          </div>
+        </Router>
+      </Store>
     );
   }
 }

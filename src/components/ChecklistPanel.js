@@ -6,6 +6,7 @@ import ChecklistTask from "./ChecklistTask";
 
 class ChecklistPanel extends Component {
   static propTypes = {
+    page: PropTypes.object.isRequired,
     category: PropTypes.object.isRequired,
     panels: PropTypes.array.isRequired,
   };
@@ -14,6 +15,7 @@ class ChecklistPanel extends Component {
     const {
       category,
       panels,
+      page,
     } = this.props;
 
     return (
@@ -26,7 +28,11 @@ class ChecklistPanel extends Component {
         <Panel.Body>
           <div className={`checklist-task-container checklist-task-container-${panels.length}`}>
             {panels.map((panel) => (
-              <ChecklistTask key={panel.id} task={panel} />
+              <ChecklistTask
+                key={panel.id}
+                page={page}
+                task={panel}
+              />
             ))}
           </div>
         </Panel.Body>
