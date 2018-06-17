@@ -1,0 +1,90 @@
+@import 'styles/partials/_mixins.scss';
+
+.ChecklistPanel {
+  &.ChecklistPanel_tm {
+    .ChecklistTask {
+      @include ChecklistColumns(25%);
+    }
+  }
+
+  &.ChecklistPanel_legendary {
+    .ChecklistTask {
+      @include ChecklistColumns(25%, 0, 0);
+    }
+  }
+}
+
+.ChecklistPage_rb_checklist {
+  .ChecklistPanel_catchemall {
+    @include PanelColumns(45%);
+
+    .ChecklistTask_task1 {
+      @include ChecklistColumns(25%);
+      order: 3;
+    }
+
+    .ChecklistTask_task2 {
+      @include ChecklistColumns(50%)
+    }
+
+    .ChecklistTask_task3 {
+      @include ChecklistColumns(50%)
+    }
+
+    .ChecklistTask_task1 {
+      .List .List .ListItem:nth-child(3) {
+        flex: 2 1 auto;
+      }
+    }
+  }
+
+}
+
+.ChecklistPage_rby_checklist {
+  .ChecklistPanel_catchemall {
+    @include PanelColumns(45%);
+
+    .ChecklistTask_task1 {
+      @include ChecklistColumns(25%);
+      order: 3;
+    }
+
+    .ChecklistTask_task2 {
+      @include ChecklistColumns(50%)
+    }
+
+    .ChecklistTask_task3 {
+      @include ChecklistColumns(50%)
+    }
+
+    .ChecklistTask_task1 {
+      .List .List .ListItem:nth-child(4) {
+        flex: 2 1 auto;
+      }
+    }
+  }
+}
+
+.ChecklistPage_gs_checklist,
+.ChecklistPage_gsc_checklist {
+  .ChecklistPanel_catchemall {
+    @include PanelColumns(45%);
+
+    .ChecklistTask_task3 {
+      order: 7;
+    }
+
+    .ChecklistTask_task8,
+    .ChecklistTask_task8a,
+    .ChecklistTask_task8b,
+    .ChecklistTask_task8c {
+      @include ChecklistColumns(25%, 0, 0);
+    }
+  }
+
+  .ChecklistPanel_epilogue {
+    @include PanelColumns(45%);
+  }
+}
+
+

@@ -1,11 +1,23 @@
-@mixin FlexContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 5px;
+@mixin PanelColumns($flexBasis, $flexGrow: 1, $flexShrink: 1) {
+  .PanelBody {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 15px;
+  }
+
+  .ChecklistTask {
+    flex: $flexGrow $flexShrink $flexBasis;
+    margin: 15px;
+  }
 }
 
-@mixin FlexItem {
-  flex: 1 1 auto;
-  margin: 5px;
+@mixin ChecklistColumns($flexBasis, $flexGrow: 1, $flexShrink: 1) {
+  .List .List {
+    display: flex;
+    flex-flow: row wrap;
+
+    .ListItem {
+      flex: $flexGrow $flexShrink $flexBasis;
+    }
+  }
 }

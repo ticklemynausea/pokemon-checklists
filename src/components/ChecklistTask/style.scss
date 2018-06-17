@@ -1,19 +1,19 @@
 .ChecklistTask {
-  .list {
+  .List {
     list-style-type: none;
     margin: 0;
     padding: 0;
 
-    .list-item-heading {
+    .ListHeading {
       margin-top: 0;
-      margin-bottom: 0;
+      margin-bottom: 15px;
 
       label {
         font-weight: bold;
       }
     }
 
-   .list-item:not(:last-child) {
+   .ListItem {
      line-height: 2.1rem;
     }
   }

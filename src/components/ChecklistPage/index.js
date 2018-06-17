@@ -13,7 +13,7 @@ class ChecklistPage extends Component {
     const { page, checklist } = this.props;
 
     return (
-      <div className="postgame container-fluid">
+      <div className={`ChecklistPage ChecklistPage_${page.key} container-fluid`}>
         <div id="row1" className="row">
           <div className="pageTitle col-sm-12 col-xs-12">
             {page.itemname}

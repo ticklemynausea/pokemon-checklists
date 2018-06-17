@@ -20,9 +20,9 @@ class ChecklistTask extends Component {
 
     return (
       <div className={`ChecklistTask ChecklistTask_${task.id}`}>
-        <ListGroup bsClass="list">
-          <ListGroupItem>
-            <h4 className="list-item-heading">
+        <ListGroup bsClass="List">
+          <ListGroupItem bsClass="">
+            <h4 className="ListHeading">
               <ChecklistItem
                 page={page}
                 task={task}
@@ -30,15 +30,17 @@ class ChecklistTask extends Component {
               />
             </h4>
           </ListGroupItem>
-          {task.subtasks && (<ListGroupItem>
-            <ListGroup bsClass="list list-flex">
-              {task.subtasks.map((subtask) => (<ListGroupItem bsClass="list-item" key={subtask.id}>
-                <ChecklistItem
-                  page={page}
-                  task={task}
-                  item={subtask}
-                />
-              </ListGroupItem>))}
+          {task.subtasks && (<ListGroupItem bsClass="">
+            <ListGroup bsClass="List">
+              {task.subtasks.map((subtask) => (
+                <ListGroupItem bsClass="ListItem" key={subtask.id}>
+                  <ChecklistItem
+                    page={page}
+                    task={task}
+                    item={subtask}
+                  />
+                </ListGroupItem>
+              ))}
             </ListGroup>
           </ListGroupItem>)}
         </ListGroup>

@@ -14,7 +14,7 @@ import Store from "Store";
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'styles/fonts.css';
 import 'styles/legacy.css';
-import 'styles/style.scss';
+import 'styles/checklists.scss';
 
 const history = createBrowserHistory();
 
