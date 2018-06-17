@@ -261,7 +261,6 @@ input[type='checkbox'] {
 .usumLunala { background: url("/images/ultra-lunala.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .usumSolgaleo { background: url("/images/ultra-solgaleo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 
-
 @media only screen
 and (max-device-width: 750px)
 {
@@ -280,4 +279,8 @@ and (max-device-width: 750px)
 	.subtask {
 		font-size: 14pt;
 	}
+}
+
+.pkspr {
+  top: 7px;
 }

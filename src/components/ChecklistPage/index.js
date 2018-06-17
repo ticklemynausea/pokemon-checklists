@@ -9,6 +9,10 @@ class ChecklistPage extends Component {
     checklist: PropTypes.any.isRequired,
   };
 
+  componentDidMount() {
+    window.PkSpr.process_dom();
+  }
+
   render() {
     const { page, checklist } = this.props;
 

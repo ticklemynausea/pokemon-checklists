@@ -1,9 +1,18 @@
 import React, { Component } from 'react';
 import PropTypes from "prop-types";
+import classnames from "classnames";
 
 import { Consumer } from "Store";
 
 import "./style.scss"
+
+const PokeIcon = ({ name, form }) => (
+  <span className={classnames({
+    pkspr: true,
+    [`pkmn-${name}`]: name,
+    [`form-${form}`]: form
+  })} />
+);
 
 class ChecklistItem extends Component {
   static propTypes = {
@@ -24,8 +33,11 @@ class ChecklistItem extends Component {
     return (
       <Consumer>
         {({ setValue, hasValue }) => (
-          <div className={`ChecklistItem ChecklistItem_${key}`}>
+          <div className={`ChecklistItem ChecklistItem_${key} ${this.props.className}`}>
             <label>
+
+              {item.pkmn && (<PokeIcon name={item.pkmn.pkmn.toLowerCase()} form={item.pkmn.form} />)}
+
               <input
                 type="checkbox"
                 checked={hasValue(key)}
@@ -33,9 +45,13 @@ class ChecklistItem extends Component {
               />
               {item.task}
             </label>
-            {item.tooltip && (<div className="tooltip-container">
-              <div className="tooltip-trigger" title={item.tooltip} />
-            </div>)}
+
+            {item.tooltip && (
+              <div className="tooltip-container">
+                <div className="tooltip-trigger" title={item.tooltip} />
+              </div>
+            )}
+
           </div>
         )}
       </Consumer>

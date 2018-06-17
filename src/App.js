@@ -11,6 +11,9 @@ import data from "data";
 
 import Store from "Store";
 
+import "pokesprite/pokesprite.min.js";
+import "pokesprite/pokesprite.min.css";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'styles/fonts.css';
 import 'styles/legacy.css';
