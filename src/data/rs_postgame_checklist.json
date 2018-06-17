@@ -231,6 +231,7 @@
 	},
 	{"id":"task63",
 		"task":"Berry Checklist",
+    "category": "berry",
 		"row": 9,
 		"col": 9,
 		"splitCol": 4,

@@ -377,14 +377,14 @@
 		"col": 9,
 		"splitCol": 2,
 		"subtasks":[
-			{"id":"sub", "task":"Shirts (111/99)", "formats":[{"word":"111","format":"boy"},{"word":"99","format":"girl"}]},
-			{"id":"sub", "task":"Bottoms (56,54)", "formats":[{"word":"56","format":"boy"},{"word":"54","format":"girl"}]},
-			{"id":"sub", "task":"Socks (12/31)", "formats":[{"word":"12","format":"boy"},{"word":"31","format":"girl"}]},
-			{"id":"sub", "task":"Shoes (41/43)", "formats":[{"word":"41","format":"boy"},{"word":"43","format":"girl"}]},
-			{"id":"sub", "task":"Hats (33/26)", "formats":[{"word":"33","format":"boy"},{"word":"26","format":"girl"}]},
-			{"id":"sub", "task":"Glasses (20/12)", "formats":[{"word":"20","format":"boy"},{"word":"12","format":"girl"}]},
-			{"id":"sub", "task":"Bags (35/28)", "formats":[{"word":"35","format":"boy"},{"word":"28","format":"girl"}]},
-			{"id":"sub", "task":"Accessories (2)", "formats":[{"all":"girl"}]}
+			{"id":"sub1", "task":"Shirts (111/99)", "formats":[{"word":"111","format":"boy"},{"word":"99","format":"girl"}]},
+			{"id":"sub2", "task":"Bottoms (56,54)", "formats":[{"word":"56","format":"boy"},{"word":"54","format":"girl"}]},
+			{"id":"sub3", "task":"Socks (12/31)", "formats":[{"word":"12","format":"boy"},{"word":"31","format":"girl"}]},
+			{"id":"sub4", "task":"Shoes (41/43)", "formats":[{"word":"41","format":"boy"},{"word":"43","format":"girl"}]},
+			{"id":"sub5", "task":"Hats (33/26)", "formats":[{"word":"33","format":"boy"},{"word":"26","format":"girl"}]},
+			{"id":"sub6", "task":"Glasses (20/12)", "formats":[{"word":"20","format":"boy"},{"word":"12","format":"girl"}]},
+			{"id":"sub7", "task":"Bags (35/28)", "formats":[{"word":"35","format":"boy"},{"word":"28","format":"girl"}]},
+			{"id":"sub8", "task":"Accessories (2)", "formats":[{"all":"girl"}]}
 		]
 	},
 	{"id":"task40",
@@ -417,7 +417,7 @@
 			{"id":"sub4", "task":"Meet Elite Four Kahili and receive TM92", "tooltip": "Hano Grand Hotel"},
 			{"id":"sub5", "task":"Meet Colress on Route 8 to receive drives for Genesect"},
 			{"id":"sub6", "task":"Visit Mallow's restaurant for several gifts", "tooltip": "Konikoni City"},
-			{"id":"sub7", "task":"Master Battle Royal's at the Battle Royal Dome on Royal Avenue"}			
+			{"id":"sub7", "task":"Master Battle Royal's at the Battle Royal Dome on Royal Avenue"}
 		]
 	},
 	{"id":"task42",
@@ -603,7 +603,7 @@
 			{"id":"sub24", "task":"Mago", "tooltip":"Route 4"},
 			{"id":"sub25", "task":"Oran", "tooltip":"Berry Fields, Route 2, Route 8, Route 16"},
 			{"id":"sub26", "task":"Pecha", "tooltip":"Route 3, Route 4, Route 5, Route 8, Route 16, Route 17"},
-			
+
 			{"id":"sub28", "task":"Roseli", "tooltip":"Poni Wilds"},
 			{"id":"sub29", "task":"Sitrus", "tooltip":"Route 2, Route 3, Route 8, Route 16, Route 17"},
 			{"id":"sub30", "task":"Lum", "tooltip":"Route 4, Route 5, Route 8, Route 16, Route 17"},
@@ -613,7 +613,7 @@
 			{"id":"sub34", "task":"Rawst", "tooltip":"Route 5, Route 17"},
 			{"id":"sub35", "task":"Haban", "tooltip":"Poni Wilds"},
 			{"id":"sub36", "task":"Wiki", "tooltip":"Route 4"},
-			
+
 			{"id":"sub38", "task":"Occa", "tooltip":"Poni Plains, Poni Wilds"},
 			{"id":"sub39", "task":"Colbur", "tooltip":"Poni Wilds"},
 			{"id":"sub40", "task":"Passho", "tooltip":"Poni Plains, Poni Wilds"},
@@ -651,7 +651,7 @@
 			{"id":"sub12", "task":"Kala'e Bay"},
 			{"id":"sub13", "task":"Ruins of Conflict - Outside"},
 			{"id":"sub14", "task":"Verdant Cavern - Trial Site"},
-			
+
 			{"id":"sub15", "task":"Route 4"},
 			{"id":"sub16", "task":"Route 5"},
 			{"id":"sub17", "task":"Route 7"},
@@ -670,7 +670,7 @@
 			{"id":"sub30", "task":"Royal Avenue (Night)"},
 			{"id":"sub31", "task":"Royal Avenue (Day)"},
 			{"id":"sub32", "task":"Wela Volcano Park - Top"},
-			
+
 			{"id":"sub33", "task":"Route 10 (Day)"},
 			{"id":"sub34", "task":"Route 11 (Night)"},
 			{"id":"sub35", "task":"Route 12"},
@@ -701,7 +701,7 @@
 			{"id":"sub60", "task":"Tapu Village"},
 			{"id":"sub61", "task":"Ula'ula Meadow"},
 			{"id":"sub62", "task":"Ula'ula Meadow"},
-			
+
 			{"id":"sub63", "task":"Ancient Poni Path (Day)"},
 			{"id":"sub64", "task":"Ancient Poni Path (Day)"},
 			{"id":"sub65", "task":"Ancient Poni Path (Night)"},
@@ -730,18 +730,18 @@
 			{"id":"sub88", "task":"Vast Poni Canyon - 3F"},
 			{"id":"sub89", "task":"Vast Poni Canyon - Inside"},
 			{"id":"sub90", "task":"Vast Poni Canyon - Top"},
-			
+
 			{"id":"sub91", "task":"Aether Paradise - Hallway"},
 			{"id":"sub92", "task":"Aether Paradise - Outside"},
 			{"id":"sub93", "task":"Aether Paradise - Outside (Day)"},
 			{"id":"sub94", "task":"Aether Paradise - Main Building"},
 			{"id":"sub95", "task":"Aether Paradise - Entrance (Night)"},
-			
+
 			{"id":"sub96", "task":"Core 1 - Melemele Island - Route 1 (Teaches Extreme Speed)"},
 			{"id":"sub97", "task":"Core 2 - Melemele Island - Iki Town (Teaches Thousand Arrows)"},
 			{"id":"sub98", "task":"Core 3 - Akala Island - Konikoni City (Dragon Dance)"},
 			{"id":"sub99", "task":"Core 4 - Ula'ula Island - Route 17 (Thousand Waves)"},
-			{"id":"sub100", "task":"Core 5 - Poni Island - Ancient Poni Path (Core Enforcer)"}			
+			{"id":"sub100", "task":"Core 5 - Poni Island - Ancient Poni Path (Core Enforcer)"}
 		]
 	}
 ]}

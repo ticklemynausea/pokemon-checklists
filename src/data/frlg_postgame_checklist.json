@@ -87,7 +87,7 @@
 			{"id":"sub1", "task":"Single - Defeat all 8 floors", "tooltip":"Earn an Up-Grade (Evolution item)"},
 			{"id":"sub2", "task":"Double - Defeat all 8 floors", "tooltip":"Earn a Dragon Scale"},
 			{"id":"sub3", "task":"Mixed - Defeat all 8 floors", "tooltip":"Earn a King's Rock"},
-			{"id":"sub3", "task":"Knockout - Defeat all 8 floors", "tooltip":"Earn a Metal Coat"}
+			{"id":"sub4", "task":"Knockout - Defeat all 8 floors", "tooltip":"Earn a Metal Coat"}
 		]
 	},
 
@@ -153,6 +153,7 @@
 	},
 	{"id":"task63",
 		"task":"Berry Checklist",
+		"category":"berry",
 		"row": 9,
 		"col": 9,
 		"splitCol": 4,
