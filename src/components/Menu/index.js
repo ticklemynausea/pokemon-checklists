@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
 
 import MenuLink from "components/MenuLink";
@@ -13,7 +14,7 @@ class Menu extends Component {
       <Navbar inverse collapseOnSelect fixedTop>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#brand">React-Bootstrap</a>
+            <Link to="/">Pokémon Checklists</Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
@@ -41,7 +42,6 @@ class Menu extends Component {
           </Nav>
           <Nav pullRight>
             <NavItem eventKey={2} href="#">
-              Link Right
             </NavItem>
           </Nav>
         </Navbar.Collapse>

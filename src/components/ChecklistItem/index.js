@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 
 import { Consumer } from "Store";
 
+import "./style.css"
+
 class ChecklistItem extends Component {
   static propTypes = {
     page: PropTypes.object.isRequired,

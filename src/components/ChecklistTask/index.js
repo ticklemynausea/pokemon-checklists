@@ -4,6 +4,8 @@ import { ListGroup, ListGroupItem } from "react-bootstrap";
 
 import ChecklistItem from "components/ChecklistItem";
 
+import "./style.css"
+
 class ChecklistTask extends Component {
   static propTypes = {
     page: PropTypes.object.isRequired,
@@ -17,7 +19,7 @@ class ChecklistTask extends Component {
     } = this.props;
 
     return (
-      <div className={`checklist-task checklist-task-${task.row}-${task.col}`}>
+      <div className={`ChecklistTask ChecklistTask_${task.key} checklist-task checklist-task-${task.row}-${task.col}`}>
         <ListGroup bsClass="my-list-group">
           <ListGroupItem>
             <h4 className="my-list-group-item-heading">

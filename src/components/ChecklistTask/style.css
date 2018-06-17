@@ -1,0 +1,58 @@
+.checklist-task label {
+  cursor: pointer;
+  margin: 0;
+  font-weight: normal;
+  display: inline-block;
+}
+
+.checklist-task .my-list-group-item-heading label {
+  font-weight: bold;
+}
+
+.checklist-task-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checklist-task {
+  align-self: flex-start;
+  margin: 0 10px 10px 0;
+}
+
+.checklist-task-container-1 .checklist-task {
+  width: 100%;
+}
+
+.checklist-task-3-1,
+.checklist-task-3-2 {
+  width: calc(50% - 10px);
+}
+
+.checklist-task-3-3 {
+  width: 100%;
+}
+
+.checklist-task-3-3 {
+  width: 100%;
+}
+
+.my-list-group {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.my-list-group-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.my-list-group-flex .my-list-group-item {
+  margin: 0 15px 15px 0;
+}
+
+.my-list-group-item-heading {
+  margin-top: 0;
+  margin-bottom: 0;
+}

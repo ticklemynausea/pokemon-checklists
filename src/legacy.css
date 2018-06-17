@@ -1,0 +1,283 @@
+body {
+	padding-top: 50px;
+	font-family: Verdana,Geneva,sans-serif;
+}
+
+label {
+    display: block;
+    margin-left: 20px;
+}
+
+.label-new {
+	font-size: 14pt;
+}
+
+input[type='checkbox'] {
+	margin-right: .5em !important;
+}
+
+.pagewrap {
+	background-color: white;
+}
+
+.pageTitle {
+	padding-top: 20px;
+	font-family: Verdana,Geneva,sans-serif;
+	font-variant: small-caps;
+	font-size: 32pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.biglist {
+	margin: 20px 0;
+}
+
+.notice {
+	color: red;
+	font-size: 16pt;
+	text-align: center;
+}
+
+.postgame_chkLabel[title]:after {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-left: 5px;
+	content: " ";
+	background: url("/images/pokeball_bullet.png");
+	background-size: 100%;
+}
+
+.tooltip {
+	left: 50px !important;
+}
+
+.tooltip-inner {
+	font-size: 11pt;
+}
+
+.postgame {
+	background-color: white;
+	padding: 20px;
+}
+
+.ruby {
+	color: #A50B00;
+}
+
+.sapphire {
+	color: #171A9A;
+}
+
+.red {
+	color: red;
+}
+
+.seafoam {
+	color: #24B976;
+}
+
+.gold {
+	color: #E6C970;
+}
+
+.silver {
+	color: #6290A4;
+}
+
+.boy {
+	color: #66A2F0;
+}
+
+.girl {
+	color: #FF6CAD;
+}
+
+.sun {
+	color: #EC7448;
+}
+
+.moon {
+	color: #5D3287;
+}
+
+.black {
+	background-color: #F5F5F5;
+	color: #000000;
+	padding: 3px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.white {
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 3px;
+	border-radius: 5px;
+}
+
+.credit {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.row-header {
+	padding-bottom: 10px;
+}
+
+.teamLogo-header {
+	width: 60px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.badge-header {
+	width: 275px;
+	margin: 0 auto;
+}
+
+.badge-header-md {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.badge-header-contents {
+	margin: 0 auto;
+}
+
+.badge-sm {
+	width: 30px;
+	display: inline-block;
+}
+
+.badge-md {
+	width: 45px;
+	display: inline-block;
+}
+
+.task {
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 11pt;
+	padding-top: 10px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.subtask {
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 8pt;
+	margin-left: 1.5em;
+	/* display: inline; */
+}
+
+.dpLogo { width: 100px; height: 100px; }
+.dpBadge { width: 45px; height: 45px; }
+.dpDialga { background: url("/images/Dialga.png"); background-size: contain; background-repeat: no-repeat; width: 100px; height: 100px; }
+.dpPalkia { background: url("/images/Palkia.png"); background-size: contain; background-repeat: no-repeat; width: 100px; height: 100px; }
+.dpCoalBadge { background: url("/images/dpCoalBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.dpForestBadge { background: url("/images/dpForestBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.dpCobbleBadge { background: url("/images/dpCobbleBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.dpFenBadge { background: url("/images/dpFenBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.dpRelicBadge { background: url("/images/dpRelicBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.dpMineBadge { background: url("/images/dpMineBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.dpIcicleBadge { background: url("/images/dpIcicleBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.dpBeaconBadge { background: url("/images/dpBeaconBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+
+.platLogo { width: 125px; height: 125px; }
+.platBadge { width: 60px; height: 60px; }
+.platGiratinaAlt { background: url("/images/Giratina-Altered.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.platGiratinaOrigin { background: url("/images/Giratina-Origin.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.platAzelf { background: url("/images/Azelf.png"); background-size: contain; background-repeat: no-repeat; width: 60px; height: 60px; }
+.platMesprit { background: url("/images/Mesprit.png"); background-size: contain; background-repeat: no-repeat; width: 60px; height: 60px; }
+.platUxie { background: url("/images/Uxie.png"); background-size: contain; background-repeat: no-repeat; width: 60px; height: 60px; }
+
+.hgssLogo { width: 125px; height: 125px; }
+.hgssBadge { width: 30px; height: 30px; }
+.hgssHooh { background: url("/images/Ho-Oh.png"); width: 100px; background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.hgssLugia { background: url("/images/Lugia.png"); width: 100px; background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.hgssZephyrBadge { background: url("/images/hgss_Zephyr_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.hgssHiveBadge { background: url("/images/hgss_Hive_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.hgssPlainBadge { background: url("/images/hgss_Plain_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.hgssFogBadge { background: url("/images/hgss_Fog_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.hgssStormBadge { background: url("/images/hgss_Storm_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.hgssMineralBadge { background: url("/images/hgss_Mineral_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.hgssGlacierBadge { background: url("/images/hgss_Glacier_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.hgssRisingBadge { background: url("/images/hgss_Rising_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+
+.bwLogo { width: 125px; height: 125px; }
+.bwBadge { width: 45px; height: 45px; }
+.bwReshiram { background: url("/images/Reshiram.png"); width: 100px; background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.bwZekrom { background: url("/images/Zekrom.png"); width: 100px; background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.bwTrioBadge { background: url("/images/bw_Trio_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.bwBasicBadge { background: url("/images/bw_Basic_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.bwInsectBadge { background: url("/images/bw_Insect_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.bwBoltBadge { background: url("/images/bw_Bolt_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.bwQuakeBadge { background: url("/images/bw_Quake_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.bwJetBadge { background: url("/images/bw_Jet_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.bwFreezeBadge { background: url("/images/bw_Freeze_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.bwLegendBadge { background: url("/images/bw_Legend_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.bw2ToxicBadge { background: url("/images/bw2_Toxic_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.bw2WaveBadge { background: url("/images/bw2_Wave_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+
+.xyLogo { width: 125px; height: 125px; }
+.xyBadge { width: 30px; height: 30px; }
+.xLogo { background: url("/images/x_logo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.yLogo { background: url("/images/y_logo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.xyBugBadge { background: url("/images/xy_Bug_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.xyCliffBadge { background: url("/images/xy_Cliff_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.xyRumbleBadge { background: url("/images/xy_Rumble_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.xyPlantBadge { background: url("/images/xy_Plant_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.xyVoltageBadge { background: url("/images/xy_Voltage_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.xyFairyBadge { background: url("/images/xy_Fairy_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.xyPsychicBadge { background: url("/images/xy_Psychic_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.xyIcebergBadge { background: url("/images/xy_Iceberg_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+
+.orasLogo { width: 125px; height: 125px; }
+.orasBadge { width: 30px; height: 30px; }
+.teamMagma { background: url("/images/magma_logo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.teamAqua { background: url("/images/aqua_logo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.orasStoneBadge { background: url("/images/oras_stone_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasKnuckleBadge { background: url("/images/oras_knuckle_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasDynamoBadge { background: url("/images/oras_dynamo_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasHeatBadge { background: url("/images/oras_heat_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasBalanceBadge { background: url("/images/oras_balance_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasFeatherBadge { background: url("/images/oras_feather_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasMindBadge { background: url("/images/oras_mind_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasRainBadge { background: url("/images/oras_rain_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+
+.sumoLogo { width: 125px; height: 125px; }
+.sumoBadge { width: 50px; height: 50px; }
+.sumoLunala { background: url("/images/Lunala.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.sumoSolgaleo { background: url("/images/Solgaleo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.sumoKoko { background: url("/images/TapuKoko.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
+.sumoLele { background: url("/images/TapuLele.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
+.sumoBulu { background: url("/images/TapuBulu.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
+.sumoFini { background: url("/images/TapuFini.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
+
+.usumLogo { width: 125px; height: 125px; }
+.usumBadge { width: 50px; height: 50px; }
+.usumLunala { background: url("/images/ultra-lunala.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.usumSolgaleo { background: url("/images/ultra-solgaleo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+
+
+@media only screen
+and (max-device-width: 750px)
+{
+	input[type=checkbox] {
+    /* All browsers except webkit*/
+    transform: scale(2);
+
+    /* Webkit browsers*/
+    -webkit-transform: scale(2);
+	}
+
+	.task {
+		font-size: 15pt;
+	}
+
+	.subtask {
+		font-size: 14pt;
+	}
+}

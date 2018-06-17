@@ -1,0 +1,13 @@
+.tooltip-container {
+  display: inline-block;
+}
+
+.tooltip-container .tooltip-trigger {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  content: " ";
+  background: url(/images/pokeball_bullet.png);
+  background-size: 100%;
+}
