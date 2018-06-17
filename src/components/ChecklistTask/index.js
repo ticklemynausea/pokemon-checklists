@@ -4,7 +4,7 @@ import { ListGroup, ListGroupItem } from "react-bootstrap";
 
 import ChecklistItem from "components/ChecklistItem";
 
-import "./style.css"
+import "./style.scss"
 
 class ChecklistTask extends Component {
   static propTypes = {
@@ -19,10 +19,10 @@ class ChecklistTask extends Component {
     } = this.props;
 
     return (
-      <div className={`ChecklistTask ChecklistTask_${task.key} checklist-task checklist-task-${task.row}-${task.col}`}>
-        <ListGroup bsClass="my-list-group">
+      <div className={`ChecklistTask ChecklistTask_${task.id}`}>
+        <ListGroup bsClass="list">
           <ListGroupItem>
-            <h4 className="my-list-group-item-heading">
+            <h4 className="list-item-heading">
               <ChecklistItem
                 page={page}
                 task={task}
@@ -31,8 +31,8 @@ class ChecklistTask extends Component {
             </h4>
           </ListGroupItem>
           {task.subtasks && (<ListGroupItem>
-            <ListGroup bsClass="my-list-group my-list-group-flex">
-              {task.subtasks.map((subtask) => (<ListGroupItem bsClass="my-list-group-item" key={subtask.id}>
+            <ListGroup bsClass="list list-flex">
+              {task.subtasks.map((subtask) => (<ListGroupItem bsClass="list-item" key={subtask.id}>
                 <ChecklistItem
                   page={page}
                   task={task}

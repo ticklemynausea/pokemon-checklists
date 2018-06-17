@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import { Consumer } from "Store";
 
-import "./style.css"
+import "./style.scss"
 
 class ChecklistItem extends Component {
   static propTypes = {
@@ -24,7 +24,7 @@ class ChecklistItem extends Component {
     return (
       <Consumer>
         {({ setValue, hasValue }) => (
-          <div>
+          <div className={`ChecklistItem ChecklistItem_${key}`}>
             <label>
               <input
                 type="checkbox"

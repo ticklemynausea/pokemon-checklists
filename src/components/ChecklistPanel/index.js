@@ -4,6 +4,8 @@ import { Panel } from "react-bootstrap";
 
 import ChecklistTask from "components/ChecklistTask";
 
+import "./style.scss"
+
 class ChecklistPanel extends Component {
   static propTypes = {
     page: PropTypes.object.isRequired,
@@ -19,22 +21,20 @@ class ChecklistPanel extends Component {
     } = this.props;
 
     return (
-      <Panel>
+      <Panel className={`ChecklistPanel ChecklistPanel_${category.key}`}>
         <Panel.Heading>
           <Panel.Title componentClass="h3">
             {category.name}
           </Panel.Title>
         </Panel.Heading>
-        <Panel.Body>
-          <div className={`checklist-task-container checklist-task-container-${panels.length}`}>
-            {panels.map((panel) => (
-              <ChecklistTask
-                key={panel.id}
-                page={page}
-                task={panel}
-              />
-            ))}
-          </div>
+        <Panel.Body className="PanelBody">
+          {panels.map((panel) => (
+            <ChecklistTask
+              key={panel.id}
+              page={page}
+              task={panel}
+            />
+          ))}
         </Panel.Body>
       </Panel>
     );

@@ -12,9 +12,9 @@ import data from "data";
 import Store from "Store";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import 'fonts.css';
-import 'legacy.css';
-import 'style.css';
+import 'styles/fonts.css';
+import 'styles/legacy.css';
+import 'styles/style.scss';
 
 const history = createBrowserHistory();
 
