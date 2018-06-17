@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from "prop-types";
 
-import JSONViewer from "./JSONViewer";
+import JSONViewer from "components/JSONViewer";
 
 class Page extends Component {
   static propTypes = {

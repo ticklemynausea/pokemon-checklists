@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from "prop-types";
 import { ListGroup, ListGroupItem } from "react-bootstrap";
 
-import ChecklistItem from "./ChecklistItem";
+import ChecklistItem from "components/ChecklistItem";
 
 class ChecklistTask extends Component {
   static propTypes = {

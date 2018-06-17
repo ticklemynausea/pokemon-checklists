@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
 
-import MenuLink from "./MenuLink";
+import MenuLink from "components/MenuLink";
 
-import data from "../data";
+import data from "data";
 
 class Menu extends Component {
   render() {

@@ -1,4 +1,14 @@
 module.exports = function override(config, env) {
-  console.log(config);
+  config = {
+    ...config,
+    resolve: {
+      ...config.resolve,
+      modules: [
+        ...config.resolve.modules,
+        "src",
+      ]
+    }
+  }
+
   return config;
 }

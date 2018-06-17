@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from "prop-types";
 
-import ChecklistPanel from "./ChecklistPanel";
+import ChecklistPanel from "components/ChecklistPanel";
 
 class ChecklistPage extends Component {
   static propTypes = {
