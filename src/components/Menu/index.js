@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
+import { Navbar, Nav, NavItem, NavDropdown } from "react-bootstrap";
 
 import MenuLink from "components/MenuLink";
 
@@ -24,16 +24,14 @@ class Menu extends Component {
               menu.isgroup === "1" ? (
                 <NavDropdown id={`dropdown-$(menu.key)`} title={menu.itemname} key={menu.key}>
                   {menu.menuitems.map((menuitem) => (
-                    <MenuItem
-                      componentClass={MenuLink}
+                    <MenuLink
                       key={menuitem.key}
                       item={menuitem}
                     />
                   ))}
                 </NavDropdown>
               ) : (
-                <MenuItem
-                  componentClass={MenuLink}
+                <MenuLink
                   key={menu.key}
                   item={menu}
                 />
