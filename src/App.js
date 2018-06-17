@@ -13,7 +13,7 @@ import Store from "Store";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'fonts.css';
-import 'App.css';
+import 'style.css';
 
 const history = createBrowserHistory();
 

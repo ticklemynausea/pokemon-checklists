@@ -1,4 +1,4 @@
-import React, { createContext } from "react";
+import React, { Component, createContext } from "react";
 
 const setValue = (data, key, checked) => {
  if (checked) {
@@ -27,7 +27,7 @@ const {
   Consumer
 } = createContext();
 
-class Store extends React.Component {
+class Store extends Component {
   setValue = (key, checked) => {
     this.setState({
       data: setValue(this.state.data, key, checked)
