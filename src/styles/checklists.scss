@@ -1,17 +1,24 @@
 @import 'styles/partials/_mixins.scss';
 
 .ChecklistPanel {
-  &.ChecklistPanel_tm {
-    .ChecklistTask {
-      @include ChecklistColumns(25%);
-    }
-  }
-
   &.ChecklistPanel_legendary {
     .ChecklistTask {
       @include ChecklistColumns(25%, 0, 0);
     }
   }
+
+  &.ChecklistPanel_tm {
+    .ChecklistTask {
+      @include ChecklistColumns(25%, 0, 0);
+    }
+  }
+
+  &.ChecklistPanel_berry {
+    .ChecklistTask {
+      @include ChecklistColumns(25%, 0, 0);
+    }
+  }
+
 }
 
 .ChecklistPage_rb_checklist {
@@ -88,3 +95,387 @@
 }
 
 
+.ChecklistPage_rs_checklist,
+.ChecklistPage_rse_checklist {
+  .ChecklistPanel_catchemall {
+    @include PanelColumns(45%);
+  }
+
+  .ChecklistPanel_activities {
+    @include PanelColumns(45%);
+
+    .ChecklistTask {
+      @include ChecklistColumns(25%);
+
+      &.ChecklistTask_task25 {
+        @include ChecklistColumns(33.33%, 0, 0);
+      }
+    }
+  }
+
+  .ChecklistPanel_battle {
+    .ChecklistTask {
+      @include ChecklistColumns(33.3%, 0, 0);
+    }
+  }
+}
+
+.ChecklistPage_frlg_checklist {
+  .ChecklistPanel_catchemall {
+    @include PanelColumns(33.33%);
+
+    .ChecklistTask_task1 {
+      @include ChecklistColumns(25%);
+      order: 3;
+    }
+
+    .ChecklistTask_task2,
+    .ChecklistTask_task3, {
+      @include ChecklistColumns(50%, 0, 0);
+    }
+  }
+
+  .ChecklistPanel_upgrades {
+    .ChecklistTask {
+      @include ChecklistColumns(50%, 0, 0);
+    }
+  }
+
+  .ChecklistPanel_battle {
+    .ChecklistTask {
+      @include ChecklistColumns(25%, 0, 0);
+    }
+  }
+}
+
+.ChecklistPage_dp_checklist,
+.ChecklistPage_plat_checklist {
+  .ChecklistPanel_catchemall {
+    @include PanelColumns(33.33%);
+
+    .ChecklistTask_task1,
+    .ChecklistTask_task4,
+    .ChecklistTask_task5 {
+      @include ChecklistColumns(50%, 0, 0);
+    }
+
+    .ChecklistTask_task3 {
+      order: 5;
+    }
+  }
+
+
+  .ChecklistPanel_collectibles {
+    @include PanelColumns(45%);
+
+    .ChecklistTask_task6 {
+      @include ChecklistColumns(50%, 0, 0);
+    }
+  }
+
+  .ChecklistPanel_upgrades {
+    @include PanelColumns(45%);
+
+    .ChecklistTask_task7 {
+      @include ChecklistColumns(50%, 0, 0);
+    }
+  }
+
+  .ChecklistPanel_battle {
+    @include PanelColumns(45%);
+  }
+}
+
+.ChecklistPage_hgss_checklist {
+  .ChecklistPanel_catchemall {
+    @include PanelColumns(45%);
+  }
+
+  .ChecklistPanel_legendary {
+    .ChecklistTask {
+      @include ChecklistColumns(33%, 0, 0);
+    }
+  }
+
+  .ChecklistPanel_battle {
+    @include PanelColumns(45%);
+  }
+
+  .ChecklistPanel_activities {
+    @include PanelColumns(45%);
+  }
+}
+
+.ChecklistPage_bw_checklist,
+.ChecklistPage_b2w2_checklist {
+
+  .ChecklistPanel_battle {
+    .ChecklistTask_task11 {
+      order: 1;
+    }
+
+    .ChecklistTask_task16 {
+      order: 2;
+    }
+  }
+}
+
+.ChecklistPage_bw_checklist {
+  .ChecklistPanel_catchemall {
+    @include PanelColumns(45%);
+  }
+
+  .ChecklistPanel_legendary {
+    @include PanelColumns(45%);
+
+    .ChecklistTask {
+      @include ChecklistColumns(50%, 0, 0);
+    }
+  }
+}
+
+.ChecklistPage_b2w2_checklist {
+  .ChecklistPanel_catchemall {
+    @include PanelColumns(45%);
+
+    .ChecklistTask_task3 {
+      @include ChecklistColumns(25%);
+      order: 6;
+    }
+  }
+
+  .ChecklistPanel_legendary {
+    .ChecklistTask {
+      @include ChecklistColumns(25%, 0, 0);
+    }
+  }
+
+  .ChecklistPanel_activities {
+    .ChecklistTask_task4 {
+      @include ChecklistColumns(25%, 0, 0);
+      order: 4;
+    }
+  }
+
+  .ChecklistPanel_battle {
+    @include PanelColumns(45%);
+
+    .ChecklistTask_task7 {
+      @include ChecklistColumns(25%);
+      order: 4;
+    }
+
+    .ChecklistTask_task14 {
+      @include ChecklistColumns(50%);
+    }
+  }
+
+  .ChecklistPanel_funfest {
+    .ChecklistTask {
+      @include ChecklistColumns(33.3%, 0, 0);
+    }
+  }
+}
+
+.ChecklistPage_xy_checklist {
+  .ChecklistPanel_catchemall {
+    @include PanelColumns(45%);
+
+    .ChecklistTask {
+      @include ChecklistColumns(50%);
+    }
+
+    .ChecklistTask_task4 {
+      order: 5;
+    }
+  }
+
+  .ChecklistPanel_legendary {
+    @include PanelColumns(45%);
+
+    .ChecklistTask {
+      @include ChecklistColumns(25%, 0, 0);
+    }
+  }
+
+  .ChecklistPanel_battle {
+    @include PanelColumns(45%);
+
+    .ChecklistTask {
+      @include ChecklistColumns(10%);
+    }
+
+    .ChecklistTask_task21 {
+      order: 9;
+    }
+  }
+
+  .ChecklistPanel_upgrades {
+    @include PanelColumns(45%);
+  }
+
+  .ChecklistPanel_activities {
+    @include PanelColumns(45%);
+  }
+
+  .ChecklistPanel_megastones {
+    .ChecklistTask {
+      @include ChecklistColumns(25%, 0, 0);
+    }
+  }
+}
+
+.ChecklistPage_oras_checklist {
+  .ChecklistPanel_catchemall {
+    @include PanelColumns(45%);
+  }
+
+  .ChecklistPanel_legendary {
+    @include PanelColumns(33.3%);
+
+    .ChecklistTask {
+      @include ChecklistColumns(33%, 0, 0);
+    }
+  }
+
+  .ChecklistPanel_megastones {
+    @include PanelColumns(45%);
+
+    .ChecklistTask {
+      @include ChecklistColumns(33%);
+    }
+  }
+
+  .ChecklistPanel_activities {
+    @include PanelColumns(45%);
+
+    .ChecklistTask_task5 {
+      order: 7;
+    }
+  }
+
+  .ChecklistPanel_epilogue {
+    @include PanelColumns(45%);
+  }
+
+  .ChecklistPanel_battle {
+    @include PanelColumns(45%);
+  }
+}
+
+.ChecklistPage_sumo_checklist {
+  .ChecklistPanel_catchemall {
+    @include PanelColumns(45%);
+
+    .ChecklistTask_task8 {
+      @include ChecklistColumns(33%, 0, 0);
+    }
+  }
+
+  .ChecklistPanel_legendary {
+    @include PanelColumns(45%);
+
+    .ChecklistTask {
+      @include ChecklistColumns(50%, 0, 0);
+    }
+
+    .ChecklistTask_task5 {
+      @include ChecklistColumns(33%, 0, 0);
+    }
+  }
+
+  .ChecklistPanel_quests {
+    @include PanelColumns(45%);
+  }
+
+  .ChecklistPanel_upgrades {
+    .ChecklistTask_task15 {
+      @include ChecklistColumns(33%, 0, 0);
+    }
+  }
+
+  .ChecklistPanel_zcrystals {
+    .ChecklistTask_task24 {
+      @include ChecklistColumns(50%, 0, 0);
+    }
+
+    .ChecklistTask_task25 {
+      @include ChecklistColumns(33%, 0, 0);
+    }
+  }
+
+  .ChecklistPanel_megastones {
+    @include PanelColumns(45%);
+
+    .ChecklistTask {
+      @include ChecklistColumns(25%);
+    }
+  }
+
+  .ChecklistPanel_battle {
+    @include PanelColumns(45%);
+  }
+
+  .ChecklistPanel_zygarde {
+    .ChecklistTask {
+      @include ChecklistColumns(50%, 0, 0);
+    }
+  }
+}
+
+.ChecklistPage_usum_checklist {
+  .ChecklistPanel_catchemall {
+    @include PanelColumns(45%);
+
+    .ChecklistTask_task4 {
+      @include ChecklistColumns(50%, 0, 0);
+      order: 5;
+    }
+  }
+
+  .ChecklistPanel_legendary {
+    .ChecklistTask {
+      @include ChecklistColumns(33%, 0, 0);
+    }
+  }
+
+  .ChecklistPanel_pokemon {
+    .ChecklistTask {
+      @include ChecklistColumns(33%, 0, 0);
+    }
+  }
+
+  .ChecklistPanel_zcrystals {
+    .ChecklistTask_task22 {
+      @include ChecklistColumns(50%, 0, 0);
+    }
+
+    .ChecklistTask_task23 {
+      @include ChecklistColumns(33%, 0, 0);
+    }
+  }
+
+  .ChecklistPanel_megastones {
+    @include PanelColumns(45%);
+
+    .ChecklistTask {
+      @include ChecklistColumns(25%);
+    }
+  }
+
+  .ChecklistPanel_battle {
+    @include PanelColumns(45%);
+  }
+
+  .ChecklistPanel_activities {
+    .ChecklistTask_task50 {
+      @include ChecklistColumns(50%);
+    }
+  }
+
+  .ChecklistPanel_collectibles {
+    .ChecklistTask {
+      @include ChecklistColumns(50%);
+    }
+  }
+}

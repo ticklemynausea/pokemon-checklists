@@ -26,6 +26,7 @@
 		"col": 1,
 		"splitCol": 2,
 		"sort":"alpha",
+    "category": "activities",
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Latios (Black 2)", "formats":[{"word":"(Black 2)", "format":"black"}]},
 			{"id":"sub2", "task":"Capture Latias (White 2)", "formats":[{"word":"(White 2)", "format":"white"}]},
@@ -43,6 +44,7 @@
 	},
 	{"id":"task4",
 		"task":"Find and Capture All of N's Pokemon (if you played Black and White)",
+    "category": "activities",
 		"row": 3,
 		"col": 2,
 		"splitCol": 2,
@@ -176,7 +178,6 @@
 			{"id":"sub1", "task":"Driftveil"},
 			{"id":"sub2", "task":"Rental"},
 			{"id":"sub3", "task":"Mix"},
-			{"id":"sub4", "task":"Download (Required Nintendo Wi-Fi Connection which is no longer active)"},
 			{"id":"sub5", "task":"Unova Leaders"},
 			{"id":"sub6", "task":"Kanto Leaders"},
 			{"id":"sub7", "task":"Johto Leaders"},
@@ -186,7 +187,8 @@
 			{"id":"sub11", "task":"Champions"},
 			{"id":"sub12", "task":"Rental Masters"},
 			{"id":"sub13", "task":"Mix Masters"},
-			{"id":"sub14", "task":"Type Expert"}
+			{"id":"sub14", "task":"Type Expert"},
+			{"id":"sub4", "task":"Download (Required Nintendo Wi-Fi Connection which is no longer active)"}
 		]
 	},
 	{"id":"task15",
@@ -271,7 +273,7 @@
 	},
 	{"id":"task20",
 		"task":"Collect All 95 Technical Machines (TMs)",
-		"category":"tms",
+		"category":"tm",
 		"row": 8,
 		"col": 8,
 		"splitCol":4,

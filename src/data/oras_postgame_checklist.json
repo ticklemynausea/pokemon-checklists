@@ -112,7 +112,7 @@
 	},
 	{"id":"task7",
 		"task":"Collect All 100 Technical Machines (TMs)",
-		"category":"tms",
+		"category":"tm",
 		"row": 8,
 		"col": 8,
 		"splitCol": 4,

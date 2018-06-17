@@ -249,7 +249,7 @@
 		]
 	},
 
-	
+
 	{
 		"_note": "task19 can be found elsewhere in this list"
 	},
@@ -567,7 +567,7 @@
 			{"id":"sub10", "task":"Defeat Challenger - Tristan"}
 		]
 	},
-	
+
 	{"id":"task39",
 		"task":"Collect all the different Outfits",
 		"category":"fashion",
@@ -672,9 +672,10 @@
 			{"id":"sub4", "task":"Receive DNA Splicers, Prison Bottle, and Soul Dew from Aether Foundation Employee", "tooltip": "B2F Lab Area"}
 		]
 	},
-	
+
 	{"id":"task50",
 		"task":"Complete all Sub-events",
+    "category": "activities",
 		"row": 5,
 		"col": 5,
 		"splitCol": 3,
@@ -697,7 +698,7 @@
 			{"id":"sub16", "task":"Get a Berry delicious gift", "tooltip":"Speak with the Delibird in the Berry farmer's house"},
 			{"id":"sub19", "task":"Help Actress Meredith refine her acting around Alola", "tooltip":"Find and defeat Actress Meredith in Melemele Meadow, Royal Avenue, Ula'ula Meadow, & Poni Meadow (after becoming league champion) to earn TM75"},
 			{"id":"sub20", "task":"Defeat Makana on Route 3 for TM19", "tooltip":"Defeat all the trainers on Route 3 to challenge this Ace Trainer"},
-			
+
 			{"id":"sub21", "task":"Get a Soothe Bell on Route 3", "tooltip":"Speak to the breeder on Route 3"},
 			{"id":"sub23", "task":"Resolve the family dispute in Hau'oli City Hall", "tooltip":"Defeat Gentleman Reginald to calm him down"},
 			{"id":"sub24", "task":"Get the Gracidea flower at the Gracidea shop", "tooltip":"Speak with the woman to the cashier's right"},
@@ -705,7 +706,7 @@
 			{"id":"sub26", "task":"Cleanup six trashy areas in the mall (Night)", "tooltip":"Approach the Grimer near the stage in the Hau'oli City mall"},
 			{"id":"sub28", "task":"Receive a spare shell Bell", "tooltip":"Speak to the Madame at the front desk of City Hall"},
 			{"id":"sub29", "task":"Fix the Hau'oli City Vending Machine with Rotoms help"},
-			
+
 			{"id":"sub31", "task":"Help out a Trial Guide on Route 3 (Daily)", "tooltip":"Take over for a Trial Guide and open the barricade at the right times"},
 			{"id":"sub32", "task":"Solve the seven mysteries at the Trainer School at night", "tooltip":"Speak with the little boy on Big Wave Beach"},
 			{"id":"sub33", "task":"Deliver the Kala'e Bay Beach Bottle", "tooltip":"Take the letter to an old woman in Iki Town"},
@@ -742,7 +743,7 @@
 			{"id":"sub67", "task":"Free Samples at Thrifty Megamart! (Daily)", "tooltip":"Speak to the clerk once a day to get a free sample berry"},
 			{"id":"sub68", "task":"Be generous to the Hypno", "tooltip":"Be generous to the Hypno to get TM44"},
 			{"id":"sub69", "task":"Get a Lemonade from the Drifloon you rescued", "tooltip":"Speak to the Drifloon at the Thrifty Megamart to get a Lemonade"},
-			
+
 			{"id":"sub70", "task":"Best of show on Route 8", "tooltip":"Near the entrance to route 8 is a father and son that want to see Passimian (Sun) or Oranguru (Moon)"},
 			{"id":"sub72", "task":"Defeat Ace Trainer Eileen on Route 8", "tooltip":"Defeat all the trainers on Route 8 to challenge this Ace Trainer"},
 			{"id":"sub74", "task":"Battle a Preschooler for a Lum Berry", "tooltip":"Outside the Pokemon Center on Route 8"},
@@ -750,7 +751,7 @@
 			{"id":"sub76", "task":"Investigate the Ditto Five on Route 9 and Konikoni City", "tooltip":"Speak to the office at the front desk at the Police Station, Catch each Ditto as they each have 2 high IV values and earn money for each ditto you catch!"},
 			{"id":"sub77", "task":"Inspire Office Worker Dugal in battle near the waterfront", "tooltip":"Use a Z-Move in battle with Office Worker Dugal in Konikoni City"},
 			{"id":"sub78", "task":"Help out with a hairy situation near the lighthouse", "tooltip":"Show the hair stylist an Alolan Dugtrio and then later dye your hair honey blonde and show her again"},
-			
+
 			{"id":"sub81", "task":"Watch Pikachu's wedding", "tooltip":"Speak to the little boy by one of the ponds of the Hano Grand Resort"},
 			{"id":"sub82", "task":"Intervene on Chuusters behalf at the Hano Grand Resort", "tooltip":"Battle the Reporter hounding Chuuster outside the Hano Grand Resort for Pikanium Z"},
 			{"id":"sub83", "task":"Pop down to the beach and speak to the swimmer", "tooltip":"Speak to the swimmer on the Hano Grand Resort Beach to get a Soda Pop"},
@@ -770,7 +771,7 @@
 			{"id":"sub96", "task":"Get a Stick on Aether Paradise 1F", "tooltip":"Talk to an Aether Foundation Employee on Aether Paradise 1F"},
 			{"id":"sub97", "task":"Entertain an old man in the ferry terminal", "tooltip":"Take the time to speak with an old man in the ferry terminal to earn a Nugget"},
 			{"id":"sub98", "task":"Have a drink at the Cafe in Malie City's Pokemon Center", "tooltip":"Have a drink here and the woman who works the healing counter will join you and share some poke beans"},
-			
+
 			{"id":"sub100", "task":"Conquer the Kantonian Gym", "tooltip":"Beat all the trainers inside the Kantonian Gym for a Surge Badge, Soda Pop, and Poke Beans"},
 			{"id":"sub101", "task":"Defeat Trainer Ryuki at the Kantonian Gym", "tooltip":"After earning the Surge Badge, visit the gym later and defeat this trainer for a Dragon Scale"},
 			{"id":"sub102", "task":"Follow in the old mans footsteps near Malie Community Center", "tooltip":"Speak to an old man near in front of the Community Center"},
@@ -792,7 +793,7 @@
 			{"id":"sub117", "task":"Return to Malie Garden's Nugget Bridge for a fight", "tooltip":"Battle the five trainers on Nugget Bridge to earn a Big Bugget prize"},
 			{"id":"sub118", "task":"Inspire a Lass's love of her pokemon", "tooltip":"Battle Lass Lisa in the southeast part of Malie Garden to earn 5 Net Balls"},
 			{"id":"sub119", "task":"Solve additional roller puzzles at the observatory", "tooltip":"Speak to a scientist in the Observatory near the room Sophocles trial was in to solve more puzzles and earn a PP Max"},
-			
+
 			{"id":"sub120", "task":"Defeat Collector Andrew on Route 12", "tooltip":"Defeat all the trainers on Route 12 to challenge Collector Andrew, beat him to earn TM82"},
 			{"id":"sub121", "task":"Find a message in a bottle on Ula'ula Beach", "tooltip":"After reading the message, battle Rising Star Nainoa on the beach to earn a Pearl String"},
 			{"id":"sub122", "task":"Get a rare Poke Ball from Samson Oak at the Geothermal Plant", "tooltip":"Speak with Samson Oak in the Geothermal plant to get a Lure Ball"},
@@ -812,7 +813,7 @@
 			{"id":"sub137", "task":"Defeat Golfer Dean near Ula'ula Meadow", "tooltiip":"Defeat all the trainers in Ula'ula Meadow to challenge this Golfer, beat him to earn a Flame Orb"},
 			{"id":"sub138", "task":"Help a Grunt find his groove", "tooltiip":"Speak to a grunt near the empty pool near the Shady House"},
 			{"id":"sub139", "task":"Defeat Office Worker Royce on the west side of Po Town", "tooltiip":"Defeat Office Worker Royce on the west side of Po Town and you can buy a Big Nugget from him for $5,000 and then sell it for $20,000 at a Poke Mart"},
-			
+
 			{"id":"sub140", "task":"Stop in the Malie City Pokemon Center", "tooltip":"Speak to a preschooler who's standing with her Mimikyu to get a Reaper Cloth"},
 			{"id":"sub141", "task":"Dine at the Sushi High Roller in Malie City", "tooltip":"If Nanu shows up to dine with you he'll pay for the meal and give you 8 heart scales"},
 			{"id":"sub142", "task":"Take two TMs to go at the malasada shop (Night)", "tooltip":"Visit the Malasada shop at night and speak to an Oranguru"},
@@ -840,6 +841,7 @@
 		"row": 6,
 		"col": 6,
 		"splitCol": 4,
+		"category": "collectibles",
 		"subtasks":[
 			{"id":"sub1", "task":"Hau’oli City (Shopping) -  Beside the Salon"},
 			{"id":"sub2", "task":"Hau’oli City (Shopping) - Outside Malasada Shop"},
@@ -945,6 +947,7 @@
 	},
 	{"id":"task61",
 		"task":"Collect all Alola Photo Club Backgrounds",
+		"category": "collectibles",
 		"row": 7,
 		"col": 7,
 		"splitCol": 4,
@@ -1019,6 +1022,7 @@
 	},
 	{"id":"task62",
 		"task":"Collect All 100 Technical Machines (TMs)",
+		"category": "tm",
 		"row": 8,
 		"col": 8,
 		"splitCol": 4,
@@ -1128,6 +1132,7 @@
 	},
 	{"id":"task63",
 		"task":"Berry Checklist",
+    "category": "berry",
 		"row": 9,
 		"col": 9,
 		"splitCol": 4,

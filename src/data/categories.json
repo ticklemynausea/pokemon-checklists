@@ -1,9 +1,9 @@
 {
-  "activities": "Island Activities",
+  "activities": "Activities",
   "battle": "Battle",
   "berry": "Berries",
   "catchemall": "Gotta Catch'em All!",
-  "collectibles": "Zygarde",
+  "collectibles": "Collectibles",
   "epilogue": "Epilogue",
   "fashion": "Fashion",
   "funfest": "Funfest???",
@@ -15,5 +15,6 @@
   "upgrades": "Upgrades",
   "wormhole": "Wormholes",
   "zcrystals": "Z-Crystals",
-  "zygarde": "Zygarde"
+  "zygarde": "Zygarde",
+  "pokemon": "Pokémon"
 }
