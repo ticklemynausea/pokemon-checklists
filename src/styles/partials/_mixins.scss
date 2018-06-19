@@ -1,23 +1,46 @@
+@import 'styles/partials/_variables.scss';
+
 @mixin PanelColumns($flexBasis, $flexGrow: 1, $flexShrink: 1) {
   .PanelBody {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     padding: 15px;
   }
 
   .ChecklistTask {
-    flex: $flexGrow $flexShrink $flexBasis;
+    flex: 1 1 1;
     margin: 15px;
+  }
+
+  @media (min-width: $bs-breakpoint-lg) {
+    .PanelBody {
+      flex-flow: row wrap;
+    }
+
+    .ChecklistTask {
+      flex: $flexGrow $flexShrink $flexBasis;
+    }
   }
 }
 
 @mixin ChecklistColumns($flexBasis, $flexGrow: 1, $flexShrink: 1) {
   .List .List {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
 
     .ListItem {
-      flex: $flexGrow $flexShrink $flexBasis;
+      flex: 1 1 1;
+    }
+  }
+
+  @media (min-width: $bs-breakpoint-lg) {
+    .List .List {
+      display: flex;
+      flex-flow: row wrap;
+
+      .ListItem {
+        flex: $flexGrow $flexShrink $flexBasis;
+      }
     }
   }
 }

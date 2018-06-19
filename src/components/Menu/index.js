@@ -40,6 +40,7 @@ class Menu extends Component {
           </Nav>
           <Nav pullRight>
             <NavItem eventKey={2} href="#">
+              Login
             </NavItem>
           </Nav>
         </Navbar.Collapse>

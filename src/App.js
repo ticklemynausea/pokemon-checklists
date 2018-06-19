@@ -15,9 +15,10 @@ import "pokesprite/pokesprite.min.js";
 import "pokesprite/pokesprite.min.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import 'styles/layout.scss';
 import 'styles/fonts.css';
-import 'styles/legacy.css';
 import 'styles/checklists.scss';
+import 'styles/legacy.css';
 
 const history = createBrowserHistory();
 

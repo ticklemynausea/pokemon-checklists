@@ -11,7 +11,7 @@ class Page extends Component {
   render() {
     const { page } = this.props;
 
-    return (<div className="postgame container-fluid">
+    return (<div className="container-fluid">
       <div id="row1" className="row">
         <div className="pageTitle col-sm-12 col-xs-12">
           {page.itemname}

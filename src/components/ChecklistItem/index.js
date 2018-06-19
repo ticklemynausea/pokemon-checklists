@@ -35,7 +35,6 @@ class ChecklistItem extends Component {
         {({ setValue, hasValue }) => (
           <div className={`ChecklistItem ChecklistItem_${key} ${this.props.className}`}>
             <label>
-
               {item.pkmn && (<PokeIcon name={item.pkmn.pkmn.toLowerCase()} form={item.pkmn.form} />)}
 
               <input
@@ -43,7 +42,10 @@ class ChecklistItem extends Component {
                 checked={hasValue(key)}
                 onChange={({ target }) => setValue(key, target.checked)}
               />
-              {item.task}
+
+              <span>
+                {item.task}
+              </span>
             </label>
 
             {item.tooltip && (
@@ -51,7 +53,6 @@ class ChecklistItem extends Component {
                 <div className="tooltip-trigger" title={item.tooltip} />
               </div>
             )}
-
           </div>
         )}
       </Consumer>

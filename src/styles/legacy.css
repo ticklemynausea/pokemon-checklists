@@ -1,65 +1,14 @@
-body {
-	padding-top: 50px;
-	font-family: Verdana,Geneva,sans-serif;
-}
 
-label {
-    display: block;
-    margin-left: 20px;
-}
 
-.label-new {
-	font-size: 14pt;
-}
 
-input[type='checkbox'] {
-	margin-right: .5em !important;
-}
 
 .pagewrap {
 	background-color: white;
 }
 
 .pageTitle {
-	padding-top: 20px;
-	font-family: Verdana,Geneva,sans-serif;
-	font-variant: small-caps;
 	font-size: 32pt;
-	font-weight: bold;
 	text-align: center;
-}
-
-.biglist {
-	margin: 20px 0;
-}
-
-.notice {
-	color: red;
-	font-size: 16pt;
-	text-align: center;
-}
-
-.postgame_chkLabel[title]:after {
-	display: inline-block;
-	width: 15px;
-	height: 15px;
-	margin-left: 5px;
-	content: " ";
-	background: url("/images/pokeball_bullet.png");
-	background-size: 100%;
-}
-
-.tooltip {
-	left: 50px !important;
-}
-
-.tooltip-inner {
-	font-size: 11pt;
-}
-
-.postgame {
-	background-color: white;
-	padding: 20px;
 }
 
 .ruby {
