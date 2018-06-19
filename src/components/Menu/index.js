@@ -21,7 +21,7 @@ class Menu extends Component {
         <Navbar.Collapse>
           <Nav>
             {menus.map((menu) => (
-              menu.isgroup === "1" ? (
+              menu.menuitems ? (
                 <NavDropdown id={`dropdown-$(menu.key)`} title={menu.itemname} key={menu.key}>
                   {menu.menuitems.map((menuitem) => (
                     <MenuLink

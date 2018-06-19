@@ -21,7 +21,7 @@
 
 }
 
-.ChecklistPage_rb_checklist {
+.ChecklistPage_rb {
   .ChecklistPanel_catchemall {
     @include PanelColumns(45%);
 
@@ -47,7 +47,7 @@
 
 }
 
-.ChecklistPage_rby_checklist {
+.ChecklistPage_rby {
   .ChecklistPanel_catchemall {
     @include PanelColumns(45%);
 
@@ -72,8 +72,8 @@
   }
 }
 
-.ChecklistPage_gs_checklist,
-.ChecklistPage_gsc_checklist {
+.ChecklistPage_gs,
+.ChecklistPage_gsc {
   .ChecklistPanel_catchemall {
     @include PanelColumns(45%);
 
@@ -95,8 +95,8 @@
 }
 
 
-.ChecklistPage_rs_checklist,
-.ChecklistPage_rse_checklist {
+.ChecklistPage_rs,
+.ChecklistPage_rse {
   .ChecklistPanel_catchemall {
     @include PanelColumns(45%);
   }
@@ -120,7 +120,7 @@
   }
 }
 
-.ChecklistPage_frlg_checklist {
+.ChecklistPage_frlg {
   .ChecklistPanel_catchemall {
     @include PanelColumns(33.33%);
 
@@ -148,8 +148,8 @@
   }
 }
 
-.ChecklistPage_dp_checklist,
-.ChecklistPage_plat_checklist {
+.ChecklistPage_dp,
+.ChecklistPage_plat {
   .ChecklistPanel_catchemall {
     @include PanelColumns(33.33%);
 
@@ -186,7 +186,7 @@
   }
 }
 
-.ChecklistPage_hgss_checklist {
+.ChecklistPage_hgss {
   .ChecklistPanel_catchemall {
     @include PanelColumns(45%);
   }
@@ -206,8 +206,8 @@
   }
 }
 
-.ChecklistPage_bw_checklist,
-.ChecklistPage_b2w2_checklist {
+.ChecklistPage_bw,
+.ChecklistPage_b2w2 {
 
   .ChecklistPanel_battle {
     .ChecklistTask_task11 {
@@ -220,7 +220,7 @@
   }
 }
 
-.ChecklistPage_bw_checklist {
+.ChecklistPage_bw {
   .ChecklistPanel_catchemall {
     @include PanelColumns(45%);
   }
@@ -234,7 +234,7 @@
   }
 }
 
-.ChecklistPage_b2w2_checklist {
+.ChecklistPage_b2w2 {
   .ChecklistPanel_catchemall {
     @include PanelColumns(45%);
 
@@ -277,7 +277,7 @@
   }
 }
 
-.ChecklistPage_xy_checklist {
+.ChecklistPage_xy {
   .ChecklistPanel_catchemall {
     @include PanelColumns(45%);
 
@@ -325,7 +325,7 @@
   }
 }
 
-.ChecklistPage_oras_checklist {
+.ChecklistPage_oras {
   .ChecklistPanel_catchemall {
     @include PanelColumns(45%);
   }
@@ -363,7 +363,7 @@
   }
 }
 
-.ChecklistPage_sumo_checklist {
+.ChecklistPage_sumo {
   .ChecklistPanel_catchemall {
     @include PanelColumns(45%);
 
@@ -423,7 +423,7 @@
   }
 }
 
-.ChecklistPage_usum_checklist {
+.ChecklistPage_usum {
   .ChecklistPanel_catchemall {
     @include PanelColumns(45%);
 

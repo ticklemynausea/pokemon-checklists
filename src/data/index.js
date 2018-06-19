@@ -38,19 +38,17 @@ const checklists = {
 
 const sanitizeLink = (link) => link.startsWith("https://")
   ? link
-  : "/" + link.replace(/index|\.html$|\.\.\//g, "");
-
-const sanitizeKey = (key) => key.replace(/\.html$|\.\.\//g, "");
+  : "/" + link.replace(/^index$/, "");
 
 const transformMenu = (menu) => ({
   ...menu,
   link: menu.link && sanitizeLink(menu.link),
-  key: sanitizeKey(menu.link || menu.itemname),
+  key: menu.link || menu.itemname,
   menuitems: menu.menuitems && menu.menuitems.map(
     (menuitem) => ({
       ...menuitem,
       link: menuitem.link && sanitizeLink(menuitem.link),
-      key: sanitizeKey(menuitem.link || menuitem.itemname),
+      key: menuitem.link || menuitem.itemname,
     }),
   ),
 });
@@ -81,7 +79,7 @@ const data = {
     .map(([key, value]) => ([key, groupByCategory(value)]))
     .reduce((acc, [key, value]) => ({
       ...acc,
-      [key + "_checklist"]: value,
+      [key]: value,
     }), {})
 };
 

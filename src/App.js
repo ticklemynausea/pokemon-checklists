@@ -32,7 +32,7 @@ class App extends Component {
             <Menu />
             <Switch>
               {routes.map((menu) => (
-                menu.isgroup === "1" ? (
+                menu.menuitems ? (
                   menu.menuitems.map((menuitem) => (
                     <Route
                       key={menuitem.key}

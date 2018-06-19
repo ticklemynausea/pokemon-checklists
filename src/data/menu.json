@@ -2,125 +2,116 @@
   "menus": [
     {
       "itemname": "Home",
-      "link": "../../index.html"
+      "link": "index"
     },
     {
       "itemname": "Gen 1-2",
-      "isgroup": "1",
       "menuitems": [
         {
           "itemname": "Red & Blue Post Game",
-          "link": "rb_checklist.html"
+          "link": "rb"
         },
         {
           "itemname": "Yellow Post Game",
-          "link": "rby_checklist.html"
+          "link": "rby"
         },
         {
           "itemname": "Gold & Silver Post Game",
-          "link": "gs_checklist.html"
+          "link": "gs"
         },
         {
           "itemname": "Crystal Post Game",
-          "link": "gsc_checklist.html"
+          "link": "gsc"
         }
       ]
     },
     {
       "itemname": "Gen 3-4",
-      "isgroup": "1",
       "menuitems": [
         {
           "itemname": "Ruby & Sapphire Post Game",
-          "link": "rs_checklist.html"
+          "link": "rs"
         },
         {
           "itemname": "Emerald Post Game",
-          "link": "rse_checklist.html"
+          "link": "rse"
         },
         {
           "itemname": "Fire Red & Leaf Green Post Game",
-          "link": "frlg_checklist.html"
+          "link": "frlg"
         },
         {
           "itemname": "Diamond & Pearl Post Game",
-          "link": "dp_checklist.html"
+          "link": "dp"
         },
         {
           "itemname": "Platinum Post Game",
-          "link": "plat_checklist.html"
+          "link": "plat"
         },
         {
           "itemname": "HG & SS Post Game",
-          "link": "hgss_checklist.html"
+          "link": "hgss"
         }
       ]
     },
     {
       "itemname": "Gen 5-6",
-      "isgroup": "1",
       "menuitems": [
         {
           "itemname": "Black & White Post Game",
-          "link": "bw_checklist.html"
+          "link": "bw"
         },
         {
           "itemname": "Black 2 & White 2 Post Game",
-          "link": "b2w2_checklist.html"
+          "link": "b2w2"
         },
         {
           "itemname": "X & Y Post Game",
-          "link": "xy_checklist.html"
+          "link": "xy"
         },
         {
           "itemname": "ORAS Post Game",
-          "link": "oras_checklist.html"
+          "link": "oras"
         }
       ]
     },
     {
       "itemname": "Gen 7",
-      "isgroup": "1",
       "menuitems": [
         {
           "itemname": "Sun & Moon Post Game",
-          "link": "sumo_checklist.html"
+          "link": "sumo"
         },
         {
           "itemname": "Ultra Sun & Ultra Moon Post Game",
-          "link": "usum_checklist.html"
+          "link": "usum"
         }
       ]
     },
     {
       "itemname": "Useful Links",
-      "isgroup": "1",
       "menuitems": [
         {
           "itemname": "Manage your Living Dex",
-          "link": "https://pokedextracker.com/",
-          "external": 1
+          "link": "https://pokedextracker.com/"
         },
         {
           "itemname": "Pokemon SubReddit",
-          "link": "https://www.reddit.com/r/pokemon/",
-          "external": 1
+          "link": "https://www.reddit.com/r/pokemon/"
         },
         {
           "itemname": "Serebii",
-          "link": "https://www.serebii.net/",
-          "external": 1
+          "link": "https://www.serebii.net/"
         },
         {
           "itemname": "Obsolete - Manage your Living Dex",
-          "link": "http://www.livingdex.xyz/",
-          "external": 1
+          "link": "http://www.livingdex.xyz/"
         }
       ]
     },
     {
       "itemname": "Contact",
-      "link": "../../contact.html"
+      "link": "contact"
     }
   ]
 }
