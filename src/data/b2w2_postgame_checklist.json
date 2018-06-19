@@ -1,10 +1,7 @@
-{"b2w2":[
+[
 	{"id":"task1",
 		"task":"Complete the Unova Pokedex (297)",
 		"category":"catchemall",
-		"markTask":false,
-		"row": 3,
-		"col": 1,
 		"subtasks":[
 			{"id":"sub1", "task":"Event Victini"},
 			{"id":"sub2", "task":"Event Keldeo"},
@@ -12,30 +9,24 @@
 			{"id":"sub4", "task":"Event Genesect", "subtasks":[{"id":"sub1", "task":"Receive Oval Charm From Prof. Juniper"}]}
 		]
 	},
-	{"id":"task2",
+	{
+    "id":"task2",
 		"task":"Trade for Alt Version Legendary (Reshiram / Zekrom)",
-		"category":"legendary",
-		"row": 3,
-		"col": 3
+		"category":"legendary"
 	},
 	{"id":"task3",
 		"task":"Complete the National Pokedex (636)",
 		"category":"catchemall",
-		"markTask":false,
-		"row": 3,
-		"col": 1,
-		"splitCol": 2,
-		"sort":"alpha",
     "category": "activities",
 		"subtasks":[
-			{"id":"sub1", "task":"Capture Latios (Black 2)", "formats":[{"word":"(Black 2)", "format":"black"}]},
-			{"id":"sub2", "task":"Capture Latias (White 2)", "formats":[{"word":"(White 2)", "format":"white"}]},
+			{"id":"sub1", "task":"Capture Latios (Black 2)"},
+			{"id":"sub2", "task":"Capture Latias (White 2)"},
 			{"id":"sub3", "task":"Capture Uxie"},
 			{"id":"sub4", "task":"Capture Mesprit"},
 			{"id":"sub5", "task":"Capture Azelf"},
 			{"id":"sub6", "task":"Capture Regirock"},
-			{"id":"sub7", "task":"Capture Registeel (Black 2)", "formats":[{"word":"(Black 2)", "format":"black"}]},
-			{"id":"sub8", "task":"Capture Regice (White 2)", "formats":[{"word":"(White 2)", "format":"white"}]},
+			{"id":"sub7", "task":"Capture Registeel (Black 2)"},
+			{"id":"sub8", "task":"Capture Regice (White 2)"},
 			{"id":"sub9", "task":"Capture Regigigas"},
 			{"id":"sub10", "task":"Capture Cresselia"},
 			{"id":"sub11", "task":"Capture Heatran"},
@@ -45,10 +36,6 @@
 	{"id":"task4",
 		"task":"Find and Capture All of N's Pokemon (if you played Black and White)",
     "category": "activities",
-		"row": 3,
-		"col": 2,
-		"splitCol": 2,
-		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Purrloin"},
 			{"id":"sub2", "task":"Pidove"},
@@ -70,10 +57,6 @@
 	{"id":"task5",
 		"task":"Receive All Event Legendaries",
 		"category":"legendary",
-		"row": 3,
-		"col": 4,
-		"splitCol": 2,
-		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Mew"},
 			{"id":"sub2", "task":"Celebi"},
@@ -88,16 +71,11 @@
 	},
 	{"id":"task6",
 		"task":"Final Rival Battle in Driftveil City",
-		"category":"battle",
-		"row": 3,
-		"col": 13
+		"category":"battle"
 	},
 	{"id":"task7",
 		"task":"Defeat Benga in White Forest/Black City",
 		"category":"battle",
-		"row": 3,
-		"col": 13,
-		"splitCol": "2",
 		"subtasks":[
 			{"id":"sub1", "task":"1"},
 			{"id":"sub2", "task":"2"},
@@ -113,15 +91,11 @@
 	},
 	{"id":"task8",
 		"task":"Final Colress Battle in P2 Lab",
-				"category":"battle",
-		"row": 3,
-		"col": 13
+      "category":"battle"
 	},
 	{"id":"task9",
 		"task":"Achieve Gold Trainer Card (or Black/White card if game sync)",
 		"category":"upgrades",
-		"row": 3,
-		"col": 5,
 		"subtasks":[
 			{"id":"sub1", "task":"Defeat the Elite Four"},
 			{"id":"sub2", "task":"Complete Unova Pokedex"},
@@ -132,15 +106,11 @@
 	},
 	{"id":"task10",
 		"task":"Elite Rank at Battle Institute Test",
-		"category":"battle",
-		"row": 3,
-		"col": 13
+		"category":"battle"
 	},
 	{"id":"task11",
 		"task":"Catch Both Basculin",
 		"category":"catchemall",
-		"row": 3,
-		"col": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Blue Stripe"},
 			{"id":"sub2", "task":"Red Stripe"}
@@ -149,8 +119,6 @@
 	{"id":"task12",
 		"task":"Catch Both Frillish",
 		"category":"catchemall",
-		"row": 3,
-		"col": 1,
 		"subtasks":[
 			{"id":"sub1", "task":"Male Frillish (Blue)"},
 			{"id":"sub2", "task":"Female Frillish (Pink)"}
@@ -159,9 +127,6 @@
 	{"id":"task13",
 		"task":"See All 4 Seasons Of Deerling / Sawsbuck",
 		"category":"catchemall",
-		"row": 3,
-		"col": 2,
-		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Spring"},
 			{"id":"sub2", "task":"Summer"},
@@ -172,8 +137,6 @@
 	{"id":"task14",
 		"task":"Complete All World Tournaments",
 		"category":"battle",
-		"row": 3,
-		"col": 14,
 		"subtasks":[
 			{"id":"sub1", "task":"Driftveil"},
 			{"id":"sub2", "task":"Rental"},
@@ -193,16 +156,11 @@
 	},
 	{"id":"task15",
 		"task":"Achieve EX Ranking at PokeStar Studios",
-		"category":"activities",
-		"row": 3,
-		"col": 17
+		"category":"activities"
 	},
 	{"id":"task16",
 		"task":"Complete All Battle Subway Lines",
 		"category":"battle",
-		"row": 3,
-		"col": 13,
-		"splitCol":2,
 		"subtasks":[
 			{"id":"sub1", "task":"Single"},
 			{"id":"sub2", "task":"Double"},
@@ -214,22 +172,15 @@
 	},
 	{"id":"task17",
 		"task":"Promote Join Avenue to Lv. 100",
-		"category":"activities",
-		"row": 3,
-		"col": 17
+		"category":"activities"
 	},
 	{"id":"task18",
 		"task":"Complete Dropped Item Quest (Yancy/Curtis)",
-		"category":"activities",
-		"row": 3,
-		"col": 17
+		"category":"activities"
 	},
 	{"id":"task19",
 		"task":"Complete All Funfest Missions (40)",
 		"category":"funfest",
-		"row": 3,
-		"col": 7,
-		"splitCol": 3,
 		"subtasks":[
 			{"id":"sub1", "task":"The First Berry Search!"},
 			{"id":"sub2", "task":"Collect Berries"},
@@ -240,13 +191,13 @@
 			{"id":"sub7", "task":"Search for # Pokemon!"},
 			{"id":"sub8", "task":"Train with Martial Artists!"},
 			{"id":"sub9", "task":"Sparring with # Trainers!"},
-			{"id":"sub10", "task":"Get Rick Quick! / Treasure Hunting!", "formats":[{"word":"Get Rick Quick!","format":"black"},{"word":"Treasure Hunting!","format":"white"}]},
-			{"id":"sub11", "task":"Exciting Trading! / Exhilarating Trading!", "formats":[{"word":"Exciting Trading!","format":"black"},{"word":"Exhilarating Trading!","format":"white"}]},
+			{"id":"sub10", "task":"Get Rick Quick! / Treasure Hunting!"},
+			{"id":"sub11", "task":"Exciting Trading! / Exhilarating Trading!"},
 			{"id":"sub12", "task":"Find Emolga!"},
 			{"id":"sub13", "task":"Wings Falling on the Draw Bridge!"},
 			{"id":"sub14", "task":"Find Treasures!"},
 			{"id":"sub15", "task":"Mushrooms' Hide-and-Seek!"},
-			{"id":"sub16", "task":"Find Mysterious Ores! / Find Shiny Ores!", "formats":[{"word":"Find Mysterious Ores!","format":"black"},{"word":"Find Shiny Ores!","format":"white"}]},
+			{"id":"sub16", "task":"Find Mysterious Ores! / Find Shiny Ores!"},
 			{"id":"sub17", "task":"Find # Lost Treasures!"},
 			{"id":"sub18", "task":"Big Harvest of Berries!"},
 			{"id":"sub19", "task":"Ring the Bell..."},
@@ -257,12 +208,12 @@
 			{"id":"sub24", "task":"Push the limits of your Memory..."},
 			{"id":"sub25", "task":"Find the Rustling Grass!"},
 			{"id":"sub26", "task":"Find Shards!"},
-			{"id":"sub27", "task":"Forgotten Lost Items / Not-Found Lost Items", "formats":[{"word":"Forgotten Lost Items","format":"black"},{"word":"Not-Found Lost Items","format":"white"}]},
-			{"id":"sub28", "task":"What is the Best Price? / What is the Real Price?", "formats":[{"word":"What is the Best Price?","format":"black"},{"word":"What is the Real Price?","format":"white"}]},
+			{"id":"sub27", "task":"Forgotten Lost Items / Not-Found Lost Items"},
+			{"id":"sub28", "task":"What is the Best Price? / What is the Real Price?"},
 			{"id":"sub29", "task":"Give me the Item!"},
 			{"id":"sub30", "task":"Do a Great Trade-Up!"},
 			{"id":"sub31", "task":"Search Hidden Grottoes!"},
-			{"id":"sub32", "task":"Noisy Hidden Grottoes! / Quiet Hidden Grottoes!", "formats":[{"word":"Noisy Hidden Grottoes!","format":"black"},{"word":"Quiet Hidden Grottoes!","format":"white"}]},
+			{"id":"sub32", "task":"Noisy Hidden Grottoes! / Quiet Hidden Grottoes!"},
 			{"id":"sub33", "task":"Fishing Competition!"},
 			{"id":"sub34", "task":"Mulch Collector!"},
 			{"id":"sub35", "task":"Where are Fluttering Hearts?"},
@@ -274,10 +225,6 @@
 	{"id":"task20",
 		"task":"Collect All 95 Technical Machines (TMs)",
 		"category":"tm",
-		"row": 8,
-		"col": 8,
-		"splitCol":4,
-		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Hone Claws"},
 			{"id":"sub2", "task":"Dragon Claws"},
@@ -376,4 +323,4 @@
 			{"id":"sub99", "task":"Flash"}
 		]
 	}
-]}
+]

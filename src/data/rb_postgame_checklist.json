@@ -1,10 +1,7 @@
-{"rb":[
+[
 	{"id":"task1",
 		"task":"Complete the Kanto Pokedex (150)",
 		"category":"catchemall",
-		"markTask":false,
-		"row": 3,
-		"col": 1,
 		"subtasks":[
 			{"id":"sub1", "task":"Obtain Snorlax", "tooltip":"Route 12 & 16"},
 			{"id":"sub2", "task":"Obtain Porygon", "tooltip":"Game Corner"},
@@ -14,9 +11,7 @@
 	{"id":"task2",
 		"task":"Obtain all In-Game Gift Pokémon",
 		"category":"catchemall",
-		"row": 3,
-		"col": 1,
-		"splitCol": 2,
+		"": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Hitmonlee", "tooltip": "Defeat the Fighting Dojo gym or trade"},
 			{"id":"sub2", "task":"Hitmonchan", "tooltip": "Defeat the Fighting Dojo gym or trade"},
@@ -30,9 +25,6 @@
 	{"id":"task3",
 		"task":"Complete all In-Game Pokémon Trades",
 		"category":"catchemall",
-		"row": 3,
-		"col": 2,
-		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Trade Abra for Mr. Mime", "tooltip": "Route 2 House"},
 			{"id":"sub2", "task":"Trade Nidoran M for Nidoran F", "tooltip": "Route 5 House"},
@@ -48,8 +40,6 @@
 	{"id":"task4",
 		"task":"Capture In-Game Legendaries",
 		"category":"legendary",
-		"row": 3,
-		"col": 3,
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Zapdos", "tooltip":"Power Plant"},
 			{"id":"sub2", "task":"Capture Moltres", "tooltip":"Victory Road"},
@@ -60,10 +50,6 @@
 	{"id":"task7",
 		"task":"Collect All 50 Technical Machines (TMs)",
 		"category":"tm",
-		"row": 8,
-		"col": 8,
-		"splitCol": 4,
-		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Mega Punch"},
 			{"id":"sub2", "task":"Razor Wind"},
@@ -117,4 +103,4 @@
 			{"id":"sub50", "task":"Substitute"}
 		]
 	}
-]}
+]

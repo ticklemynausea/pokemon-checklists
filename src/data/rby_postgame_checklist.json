@@ -1,10 +1,7 @@
-{"rby":[
+[
 	{"id":"task1",
 		"task":"Complete the Kanto Pokedex (150)",
 		"category":"catchemall",
-		"markTask":false,
-		"row": 3,
-		"col": 1,
 		"subtasks":[
 			{"id":"sub1", "task":"Obtain Snorlax", "tooltip":"Route 12 & 16"},
 			{"id":"sub2", "task":"Obtain Vulpix", "tooltip":"Game Corner (1000 coins)"},
@@ -15,9 +12,6 @@
 	{"id":"task2",
 		"task":"Obtain all In-Game Gift Pokémon",
 		"category":"catchemall",
-		"row": 3,
-		"col": 1,
-		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Bulbasaur", "tooltip":"Cerulean City, from a girl if your Pikachu is in good spirits"},
 			{"id":"sub2", "task":"Charmander", "tooltip":"Route 24, from a trainer on a plateau after nugget bridge"},
@@ -34,9 +28,6 @@
 	{"id":"task3",
 		"task":"Complete all In-Game Pokémon Trades",
 		"category":"catchemall",
-		"row": 3,
-		"col": 2,
-		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Trade Clefairy for Mr. Mime", "tooltip": "Route 2 House"},
 			{"id":"sub2", "task":"Trade Cubone for Machoke", "tooltip": "Route 5 House"},
@@ -50,8 +41,6 @@
 	{"id":"task4",
 		"task":"Capture In-Game Legendaries",
 		"category":"legendary",
-		"row": 3,
-		"col": 3,
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Zapdos", "tooltip":"Power Plant"},
 			{"id":"sub2", "task":"Capture Moltres", "tooltip":"Victory Road"},
@@ -62,10 +51,6 @@
 	{"id":"task7",
 		"task":"Collect All 50 Technical Machines (TMs)",
 		"category":"tm",
-		"row": 8,
-		"col": 8,
-		"splitCol": 4,
-		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Mega Punch"},
 			{"id":"sub2", "task":"Razor Wind"},
@@ -119,4 +104,4 @@
 			{"id":"sub50", "task":"Substitute"}
 		]
 	}
-]}
+]

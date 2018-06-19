@@ -1,30 +1,22 @@
-{"oras":[
+[
 	{"id":"task1",
 		"task":"Complete the OR / AS Hoenn Pokedex (211)",
 		"category":"catchemall",
-		"markTask":false,
-		"row": 3,
-		"col": 1,
-		"splitCol":2,
 		"subtasks":[
 			{"id":"sub1", "task":"Obtain 'Platinum Crowns' on All Routes"},
-			{"id":"sub2", "task":"Capture Groudon / Kyogre (Cave of Origin)", "formats":[{"word":"Groudon","format":"ruby"},{"word":"Kyogre","format":"sapphire"}]},
-			{"id":"sub3", "task":"Trade for Kyogre / Groudon", "formats":[{"word":"Groudon","format":"sapphire"},{"word":"Kyogre","format":"ruby"}]},
+			{"id":"sub2", "task":"Capture Groudon / Kyogre (Cave of Origin)"},
+			{"id":"sub3", "task":"Trade for Kyogre / Groudon"},
 			{"id":"sub4", "task":"Capture Regirock (Desert Ruins)", "tooltip":"Available at different times"},
 			{"id":"sub5", "task":"Capture Regice (Island Cave)", "tooltip":"Available at different times"},
 			{"id":"sub6", "task":"Capture Registeel (Ancient Tomb)", "tooltip":"Available at different times"},
 			{"id":"sub7", "task":"Capture Rayquaza (Sky Pillar)"},
 			{"id":"sub8", "task":"Capture Deoxys (Sky Pillar)"},
-			{"id":"sub9", "task":"Trade for Latias / Latios (OR EON Ticket)","formats":[{"word":"Latias","format":"ruby"},{"word":"Latios","format":"sapphire"}]}
+			{"id":"sub9", "task":"Trade for Latias / Latios (OR EON Ticket)"}
 		]
 	},
 	{"id":"task2",
 		"task":"Capture Additional In-Game Legendaries",
 		"category":"legendary",
-		"row": 3,
-		"col": 3,
-		"sort":"alpha",
-		"splitCol":3,
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Regigigas (Island Cave)", "tooltip":"Available at different times"},
 			{"id":"sub2", "task":"Capture Ho-oh / Lugia (Sea Mauville)"},
@@ -50,9 +42,6 @@
 	{"id":"task3",
 		"task":"Complete National Dex (719)",
 		"category":"catchemall",
-		"markTask":false,
-		"row": 3,
-		"col": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Obtain Johto Starter From Prof. Birch"},
 			{"id":"sub2", "task":"Obtain Unova Starter From Prof. Birch"},
@@ -62,16 +51,12 @@
 	{"id":"task4",
 		"task":"Collect All \"New\" Mega Stones",
 		"category":"megastones",
-		"row": 3,
-		"col": 12,
-		"sort":"alpha",
-		"splitCol":2,
 		"subtasks":[
 			{"id":"sub1", "task":"Beedrill", "spoiler":"(Sea Mauville)", "tooltip":"From Beginning"},
 			{"id":"sub2", "task":"Pidgeot", "spoiler":"(Rustboro - Show Mr. Stone the Intriguing Stone)", "tooltip":"From Beginning"},
 			{"id":"sub3", "task":"Slowbro", "spoiler":"(Shoal Cave - Give man 4 Shoal Salts & 4 Shoal Shells)", "tooltip":"From Beginning"},
 			{"id":"sub4", "task":"Steelix", "spoiler":"(Granite Cave)", "tooltip":"From Beginning"},
-			{"id":"sub5", "task":"Steelix", "spoiler":"(Transfer from Demo Version)", "formats":[{"all":"seafoam"}]},
+			{"id":"sub5", "task":"Steelix", "spoiler":"(Transfer from Demo Version)"},
 			{"id":"sub6", "task":"Sceptile", "spoiler":"(Route 120 (If Starter), Route 114 - Stone Salesman (If not Starter))"},
 			{"id":"sub7", "task":"Swampert", "spoiler":"(Route 120 (If Starter), Route 114 - Stone Salesman (If not Starter))"},
 			{"id":"sub8", "task":"Sableye", "spoiler":"(Sootopolis City)", "tooltip":"From Beginning"},
@@ -79,31 +64,25 @@
 			{"id":"sub10", "task":"Camerupt", "spoiler":"(Magma Hideout - Delta Ep (Omega Ruby) / Battle Resort (Alpha Sapphire))"},
 			{"id":"sub11", "task":"Altaria", "spoiler":"(Lilycove City - Show Collector Altaria)", "tooltip":"From Beginning"},
 			{"id":"sub12", "task":"Glalie", "spoiler":"(Shoal Cave Basement)", "tooltip":"From Beginning"},
-			{"id":"sub13", "task":"Glalie", "spoiler":"(Transfer from Demo Version)", "formats":[{"all":"seafoam"}]},
+			{"id":"sub13", "task":"Glalie", "spoiler":"(Transfer from Demo Version)"},
 			{"id":"sub14", "task":"Salamence", "spoiler":"(Meteor Falls - Zinnia's Grandmother)", "tooltip":"After Delta Episode"},
 			{"id":"sub15", "task":"Metagross", "spoiler":"(Pokemon League - Steven Stone Rematch)", "tooltip":"After Delta Episode"},
-			{"id":"sub16", "task":"Metagross", "spoiler":"(Shiny Beldum Event)", "formats":[{"all":"seafoam"}]},
+			{"id":"sub16", "task":"Metagross", "spoiler":"(Shiny Beldum Event)"},
 			{"id":"sub17", "task":"Latias", "spoiler":"(Littleroot Town - Mother / On Latias (Alpha Sapphire)"},
 			{"id":"sub18", "task":"Latios", "spoiler":"(On Latios (Omega Ruby)/ Littleroot Town - Mother)"},
 			{"id":"sub19", "task":"Lopunny", "spoiler":"(Mauville Hills - Man in suit)", "tooltip":"After Primal Groudon/Kyogre narrative"},
 			{"id":"sub20", "task":"Gallade", "spoiler":"(Professor Cozmo)", "tooltip":"After Delta Episode"},
 			{"id":"sub21", "task":"Audino", "spoiler":"(Battle Resort - Looker)", "tooltip":"After Delta Episode"},
-			{"id":"sub22", "task":"Diancie", "spoiler":"(Diancie Event - Stone from Pokemon Center)", "formats":[{"all":"seafoam"}]}
+			{"id":"sub22", "task":"Diancie", "spoiler":"(Diancie Event - Stone from Pokemon Center)"}
 		]
 	},
 	{"id":"task5",
 		"task":"Complete All Master Rank Pokemon Contests",
-		"category":"activities",
-		"row": 3,
-		"col": 18,
-		"subtasks":[]
+		"category":"activities"
 	},
 	{"id":"task6",
 		"task":"Obtain Both Bicycles (Acro & Mach Bikes)",
 		"category":"activities",
-		"markTask":false,
-		"row": 3,
-		"col": 17,
 		"subtasks":[
 			{"id":"sub1", "task":"Show Mach bike to Hex Maniac (Route 111)"},
 			{"id":"sub2", "task":"Show Acro bike to Bird Keeper (Route 119)"},
@@ -113,9 +92,6 @@
 	{"id":"task7",
 		"task":"Collect All 100 Technical Machines (TMs)",
 		"category":"tm",
-		"row": 8,
-		"col": 8,
-		"splitCol": 4,
 		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Hone Claws"},
@@ -223,10 +199,6 @@
 	{"id":"task8",
 		"task":"Berry Checklist",
 		"category":"berry",
-		"row": 9,
-		"col": 9,
-		"splitCol": 4,
-		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Cherri"},
 			{"id":"sub2", "task":"Leppa"},
@@ -299,19 +271,16 @@
 	{"id":"task9",
 		"task":"Complete the Delta Episode Sub-Plot",
 		"category":"epilogue",
-		"row": 3,
-		"col": 15,
-		"splitCol":2,
 		"subtasks":[
 			{"id":"sub1", "task":"1. Encounter Zinnia In Littleroot"},
-			{"id":"sub2", "task":"2. Defeat Courtney / Matt in Petalburg","formats":[{"word":"Courtney","format":"ruby"},{"word":"Matt","format":"sapphire"}]},
+			{"id":"sub2", "task":"2. Defeat Courtney / Matt in Petalburg"},
 			{"id":"sub3", "task":"3. Talk to Mr. Stone in Rustboro"},
 			{"id":"sub4", "task":"4. Defeat Zinnia in Granite Cave"},
 			{"id":"sub5", "task":"5. Talk with Prof. Cozmo in Mossdeep"},
 			{"id":"sub6", "task":"6. Talk to Steven at Meteor Falls"},
 			{"id":"sub7", "task":"7. Help Devon Corp in Rustboro"},
-			{"id":"sub8", "task":"8. Defeat Courtney / Matt in Mossdeep","formats":[{"word":"Courtney","format":"ruby"},{"word":"Matt","format":"sapphire"}]},
-			{"id":"sub9", "task":"9. Defeat Team Magma / Team Aqua Hideout","formats":[{"word":"Team Magma","format":"ruby"},{"word":"Team Aqua","format":"sapphire"}]},
+			{"id":"sub8", "task":"8. Defeat Courtney / Matt in Mossdeep"},
+			{"id":"sub9", "task":"9. Defeat Team Magma / Team Aqua Hideout"},
 			{"id":"sub10", "task":"10. Talk to Steven in Mossdeep"},
 			{"id":"sub11", "task":"11. Talk to Wallace in Sootopolis & Defeat Him at Entrance of Sky Pillar"},
 			{"id":"sub12", "task":"12. Talk to Zinnia at Base of Sky Pillar"},
@@ -323,28 +292,21 @@
 	{"id":"task10",
 		"task":"Complete Regular & Super Battle Maison Battles",
 		"category":"battle",
-		"row": 3,
-		"col": 13,
-		"splitCol":2,
 		"subtasks":[
-			{"id":"sub1", "task":"Single Battle", "multicheck":2},
-			{"id":"sub2", "task":"Double Battle", "multicheck":2},
-			{"id":"sub3", "task":"Triple Battle", "multicheck":2},
-			{"id":"sub4", "task":"Rotation Battle", "multicheck":2},
-			{"id":"sub5", "task":"Multi Battle", "multicheck":2}
+			{"id":"sub1", "task":"Single Battle"},
+			{"id":"sub2", "task":"Double Battle"},
+			{"id":"sub3", "task":"Triple Battle"},
+			{"id":"sub4", "task":"Rotation Battle"},
+			{"id":"sub5", "task":"Multi Battle"}
 		]
 	},
 	{"id":"task11",
 		"task":"Rematch \"Mega\" Elite Four Post-Delta Episode",
-		"category":"battle",
-		"row": 3,
-		"col": 14
+		"category":"battle"
 	},
 	{"id":"task12",
 		"task":"Rematch Wally at the Battle Resort",
 		"category":"battle",
-		"row": 3,
-		"col": 14,
 		"subtasks":[
 			{"id":"sub1", "task":"Rematch Wally After Beating Super Battle"}
 		]
@@ -352,8 +314,6 @@
 	{"id":"task13",
 		"task":"Complete All Mauville Food Court Battles",
 		"category":"battle",
-		"row": 3,
-		"col": 14,
 		"subtasks":[
 			{"id":"sub1", "task":"Village Sub Combo (Single)"},
 			{"id":"sub2", "task":"Magnemite Croquette (Double)"},
@@ -363,10 +323,8 @@
 	{"id":"task14",
 		"task":"Obtain Gold Trainer Card",
 		"category":"upgrades",
-		"row": 3,
-		"col": 5,
 		"subtasks":[
-			{"id":"sub1", "task":"Defeat the Elite Four", "default":"true"},
+			{"id":"sub1", "task":"Defeat the Elite Four"},
 			{"id":"sub2", "task":"Complete the Hoenn Dex"},
 			{"id":"sub3", "task":"Defeat 1 Battle Maison 50th Streak"}
 		]
@@ -374,10 +332,6 @@
 	{"id":"task16",
 		"task":"Collect All \"Retro\" Mega Stones",
 		"category":"megastones",
-		"row": 3,
-		"col": 12,
-		"sort":"alpha",
-		"splitCol":2,
 		"subtasks":[
 			{"id":"sub1","task":"Venusaur", "spoiler":"(Route 119)", "tooltip":"After Primal Groudon/Kyogre narrative"},
 			{"id":"sub2","task":"Charizard X", "spoiler":"(Fiery Path)", "tooltip":"After Primal Groudon/Kyogre narrative"},
@@ -411,9 +365,6 @@
 	},
 	{"id":"task15",
 		"task":"Complete All Trick House Chambers",
-		"category":"activities",
-		"row": 3,
-		"col": 18,
 		"subtasks":[
 			{"id":"sub1", "task":"Chamber 1 - Cut"},
 			{"id":"sub2", "task":"Chamber 2 - Rock Smash"},
@@ -426,8 +377,6 @@
 	{"id":"task17",
 		"task":"Achieve All Ranks in Secret Base Capture the Flag",
 		"category":"activities",
-		"row": 3,
-		"col": 17,
 		"subtasks":[
 			{"id":"sub1", "task":"Bronze Rank - 30 Flags (Blackboard)"},
 			{"id":"sub2", "task":"Silver Rank - 100 Flags (Jukebox)"},
@@ -438,8 +387,6 @@
 	{"id":"task18",
 		"task":"Obtain Elegant Items from Glass Workshop",
 		"category":"activities",
-		"row": 3,
-		"col": 17,
 		"subtasks":[
 			{"id":"sub1", "task":"Elegant Chair"},
 			{"id":"sub2", "task":"Elegant Desk"}
@@ -448,9 +395,6 @@
 	{"id":"task19",
 		"task":"Obtain Master Rank from Battle Institute",
 		"category":"battle",
-		"row": 3,
-		"col": 13,
-		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Beginner Rank"},
 			{"id":"sub2", "task":"Novice Rank"},
@@ -462,25 +406,18 @@
 	},
 	{"id":"task20",
 		"task":"Complete Mr. Bonding Subquest",
-		"category":"activities",
-		"row": 3,
-		"col": 18
+		"category":"activities"
 	},
 	{"id":"task21",
 		"task":"Complete Wattson's New Mauville Subquest",
-		"category":"activities",
-		"row": 3,
-		"col": 18
+		"category":"activities"
 	},
 	{"id":"task22",
 		"task":"Bonus Story Sequences - Optional & Event",
 		"category":"epilogue",
-		"formats":[{"word":"Optional", "format":"red"}, {"word":"Event", "format":"seafoam"}],
-		"row": 3,
-		"col": 15,
 		"subtasks":[
-			{"id":"sub1", "task":"Event Shiny Beldum & Mr. Stone / Steven Stone / Route 114 Fossil Maniac", "formats":[{"word":"Event", "format":"seafoam"}]},
-			{"id":"sub2", "task":"Event Diancie & PKMN Center Gentleman", "formats":[{"word":"Event", "format":"seafoam"}]}
+			{"id":"sub1", "task":"Event Shiny Beldum & Mr. Stone / Steven Stone / Route 114 Fossil Maniac"},
+			{"id":"sub2", "task":"Event Diancie & PKMN Center Gentleman"}
 		]
 	}
-]}
+]

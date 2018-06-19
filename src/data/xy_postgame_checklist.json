@@ -1,10 +1,7 @@
-{"xy":[
+[
 	{"id":"task1",
 		"task":"Complete the Kalos Pokedex",
 		"category":"catchemall",
-		"markTask":false,
-		"row": 3,
-		"col": 1,
 		"subtasks":[
 			{"id":"sub1", "task":"(150) Central Pokedex"},
 			{"id":"sub2", "task":"(150) Costal Pokdex"},
@@ -16,9 +13,6 @@
 	{"id":"task2",
 		"task":"Locate & Capture Articuno, Zapdos OR Moltres",
 		"category":"legendary",
-		"markTask":false,
-		"row": 3,
-		"col": 3,
 		"subtasks":[
 			{"id":"sub1", "task":"Trade for Bird #2"},
 			{"id":"sub2", "task":"Trade for Bird #3"}
@@ -26,22 +20,15 @@
 	},
 	{"id":"task3",
 		"task":"Trade for Alt Version Legendary (Yveltal / Xerneas)",
-		"category":"legendary",
-		"row": 3,
-		"col": 4
+		"category":"legendary"
 	},
 	{"id":"task4",
 		"task":"Receive Second Starter from Shauna (Vaniville)",
-		"category":"catchemall",
-		"row": 3,
-		"col": 2
+		"category":"catchemall"
 	},
 	{"id":"task5",
 		"task":"Catch All Available Pokemon in Friend Safaris",
 		"category":"catchemall",
-		"row": 3,
-		"col": 1,
-		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"(12) Normal Type"},
 			{"id":"sub2", "task":"(12) Bug Type"},
@@ -65,15 +52,11 @@
 	},
 	{"id":"task6",
 		"task":"Grand Duke/Duchess Ranking at Battle Chateau",
-		"category":"battle",
-		"row": 3,
-		"col": 13
+		"category":"battle"
 	},
 	{"id":"task7",
 		"task":"Max-out your Style in Lumiose City",
 		"category":"upgrades",
-		"row": 3,
-		"col": 5,
 		"subtasks":[
 			{"id":"sub1","task":"Collect All 16 O-Powers"},
 			{"id":"sub2","task":"Collect \"Hatching\" O-Power in Lumiose"}
@@ -81,15 +64,11 @@
 	},
 	{"id":"task8",
 		"task":"Final Rival Battle in Kiloude City",
-		"category":"battle",
-		"row": 3,
-		"col": 13
+		"category":"battle"
 	},
 	{"id":"task9",
 		"task":"Achieve Gold Trainer Card",
 		"category":"upgrades",
-		"row": 3,
-		"col": 6,
 		"subtasks":[
 			{"id":"sub1","task":"Defeat the Elite Four"},
 			{"id":"sub2","task":"Complete Kalos Pokedex"},
@@ -99,9 +78,6 @@
 	{"id":"task10",
 		"task":"Take a Photograph at all Locations",
 		"category": "activities",
-		"row": 3,
-		"col": 17,
-		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1","task":"Aquacorde Town"},
 			{"id":"sub2","task":"Lumiose City"},
@@ -120,24 +96,18 @@
 	{"id":"task11",
 		"task":"Purchase All Clothing",
 		"category": "activities",
-		"row": 3,
-		"col": 18,
 		"subtasks":[
-			{"id":"sub1","task":"Boys: 12 Acces, 7 Bags, 19 Hats, 34 Shirts, 14 Shoes, 16 Trousers", "formats":[{"all":"boy"}]},
-			{"id":"sub2","task":"Girls: 24 Acces, 16 Bags, 44 Bottoms, 9 Dresses, 27 Hats, 24 Shoes, 26 Socks, 34 Tops", "formats":[{"all":"girl"}]}
+			{"id":"sub1","task":"Boys: 12 Acces, 7 Bags, 19 Hats, 34 Shirts, 14 Shoes, 16 Trousers"},
+			{"id":"sub2","task":"Girls: 24 Acces, 16 Bags, 44 Bottoms, 9 Dresses, 27 Hats, 24 Shoes, 26 Socks, 34 Tops"}
 		]
 	},
 	{"id":"task12",
 		"task":"Perfect Score at Restaurant Le Naw",
-		"category":"battle",
-		"row": 3,
-		"col": 14
+		"category":"battle"
 	},
 	{"id":"task13",
 		"task":"Perfect Scores at Restaurant Le Yeah",
 		"category":"battle",
-		"row": 3,
-		"col": 14,
 		"subtasks":[
 			{"id":"sub1","task":"Triple"},
 			{"id":"sub2","task":"Rotation"}
@@ -146,8 +116,6 @@
 	{"id":"task14",
 		"task":"Perfect Scores at Restaurant Le Wow",
 		"category":"battle",
-		"row": 3,
-		"col": 14,
 		"subtasks":[
 			{"id":"sub1","task":"Double"},
 			{"id":"sub2","task":"Triple"},
@@ -157,8 +125,6 @@
 	{"id":"task15",
 		"task":"Perfect Scores at Sushi High Roller",
 		"category":"battle",
-		"row": 3,
-		"col": 14,
 		"subtasks":[
 			{"id":"sub1","task":"Double"},
 			{"id":"sub2","task":"Triple"},
@@ -168,9 +134,6 @@
 	{"id":"task16",
 		"task":"Collect All Mega-Evolution Stones",
 		"category":"megastones",
-		"row": 3,
-		"col": 12,
-		"splitCol":2,
 		"subtasks":[
 			{"id":"sub1","task":"Starter #2 (Vernal Ave)"},
 			{"id":"sub2","task":"Starter #3 (Vernal Ave)"},
@@ -200,15 +163,11 @@
 	},
 	{"id":"task17",
 		"task":"Trade for Alt. Version Mega-Stones",
-		"category":"megastones",
-		"row": 3,
-		"col": 12
+		"category":"megastones"
 	},
 	{"id":"task18",
 		"task":"Completed All Looker Missions",
 		"category":"epilogue",
-		"row": 3,
-		"col": 15,
 		"subtasks":[
 			{"id":"sub1","task":"1. This Guy is a Real...Looker"},
 			{"id":"sub2","task":"2. In the Back Alleys"},
@@ -220,15 +179,11 @@
 	},
 	{"id":"task19",
 		"task":"Complete All Super Training Regimes",
-		"category": "activities",
-		"row": 3,
-		"col": 18
+		"category": "activities"
 	},
 	{"id":"task20",
 		"task":"Complete Secret Super Training Regimes",
 		"category": "activities",
-		"row": 3,
-		"col": 18,
 		"subtasks":[
 			{"id":"sub1","task":"Secret Super Training Lv. 1"},
 			{"id":"sub2","task":"Secret Super Training Lv. 2"}
@@ -236,16 +191,11 @@
 	},
 	{"id":"task21",
 		"task":"Master Rank at Battle Institute Test",
-		"category":"battle",
-		"row": 3,
-		"col": 13
+		"category":"battle"
 	},
 	{"id":"task22",
 		"task":"Battle Maison Standard Challenges",
 		"category":"battle",
-		"row": 3,
-		"col": 13,
-		"splitCol":2,
 		"subtasks":[
 			{"id":"sub1","task":"Single"},
 			{"id":"sub2","task":"Double"},
@@ -257,9 +207,6 @@
 	{"id":"task23",
 		"task":"Battle Maison Super Challenges",
 		"category":"battle",
-		"row": 3,
-		"col": 13,
-		"splitCol":2,
 		"subtasks":[
 			{"id":"sub1","task":"Single"},
 			{"id":"sub2","task":"Double"},
@@ -271,10 +218,6 @@
 	{"id":"task24",
 		"task":"Trade for all different Region Vivillon",
 		"category":"catchemall",
-		"row": 3,
-		"col": 2,
-		"splitCol": 3,
-		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1","task":"River"},
 			{"id":"sub2","task":"Meadow"},
@@ -294,15 +237,13 @@
 			{"id":"sub16","task":"Icy Snow"},
 			{"id":"sub17","task":"Sandstorm"},
 			{"id":"sub18","task":"Jungle"},
-			{"id":"sub19","task":"Pokeball (Event 2)", "tooltip":"This was available as a wifi event in August 2014", "formats":[{"all":"seafoam"}]},
-			{"id":"sub20","task":"Fancy (Event 1)", "tooltip":"This was available as a wifi event in July 2014", "formats":[{"all":"seafoam"}]}
+			{"id":"sub19","task":"Pokeball (Event 2)", "tooltip":"This was available as a wifi event in August 2014"},
+			{"id":"sub20","task":"Fancy (Event 1)", "tooltip":"This was available as a wifi event in July 2014"}
 		]
 	},
 	{"id":"task25",
 		"task":"Catch all Different Color Flabebe",
 		"category":"catchemall",
-		"row": 3,
-		"col": 2,
 		"subtasks":[
 			{"id":"sub1","task":"Red"},
 			{"id":"sub2","task":"Orange"},
@@ -314,10 +255,6 @@
 	{"id":"task30",
 		"task":"Collect All 100 Technical Machines (TMs)",
 		"category": "tm",
-		"row": 8,
-		"col": 8,
-		"splitCol": 4,
-		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Hone Claws"},
 			{"id":"sub2", "task":"Dragon Claw"},
@@ -424,10 +361,6 @@
 	{"id":"task31",
 		"task":"Berry Checklist",
 		"category":"berry",
-		"row": 9,
-		"col": 9,
-		"splitCol": 4,
-		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Kelpsy", "tooltip":"Mutate Chesto and Persim"},
 			{"id":"sub2", "task":"Wacan"},
@@ -478,4 +411,4 @@
 			{"id":"sub47", "task":"Shuca"}
 		]
 	}
-]}
+]

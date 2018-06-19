@@ -1,11 +1,7 @@
-{"plat":[
+[
 	{"id":"task1",
 		"task":"Complete the Platinum Sinnoh Pokedex (151)",
 		"category":"catchemall",
-		"markTask":false,
-		"row": 3,
-		"col": 1,
-		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Spiritomb", "tooltip":"Spirit Tower Well - You must talk to 32 people in the Sinnoh Underground and then head to Rt. 209"},
 			{"id":"sub2", "task":"Capture Rotom", "tooltip":"Old Chateau - You must approach the television at night"},
@@ -13,15 +9,12 @@
 			{"id":"sub4", "task":"Capture Uxie", "tooltip":"Lake Acuity"},
 			{"id":"sub5", "task":"Capture Mesprit", "tooltip":"Roaming"},
 			{"id":"sub6", "task":"Capture Azelf", "tooltip":"Lake Valor"},
-			{"id":"sub7", "task":"Manaphy Egg From Pokemon Rangers", "formats":[{"all":"seafoam"}]}
+			{"id":"sub7", "task":"Manaphy Egg From Pokemon Rangers"}
 		]
 	},
 	{"id":"task2",
 		"task":"Capture Additional In-Game Legendaries",
 		"category":"legendary",
-		"row": 3,
-		"col": 3,
-		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Dialga", "tooltip":"Spear Pillar"},
 			{"id":"sub2", "task":"Capture Palkia", "tooltip":"Spear Pillar"},
@@ -42,17 +35,11 @@
 	},
 	{"id":"task3",
 		"task":"Complete National Dex (493)",
-		"category":"catchemall",
-		"row": 3,
-		"col": 1
+		"category":"catchemall"
 	},
 	{"id":"task4",
 		"task":"Collect All Trophy Garden Pokemon (16)",
 		"category":"catchemall",
-		"row": 3,
-		"col": 2,
-		"splitCol": 3,
-		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Clefairy"},
 			{"id":"sub2", "task":"Chansey"},
@@ -74,22 +61,15 @@
 	},
 	{"id":"task5",
 		"task":"Collect All Battle Frontier Prints",
-		"category":"battle",
-		"row": 3,
-		"col": 13
+		"category":"battle"
 	},
 	{"id":"task6",
 		"task":"Re-battle Elite Four Post National Dex",
-		"category":"battle",
-		"row": 3,
-		"col": 13
+		"category":"battle"
 	},
 	{"id":"task7",
 		"task":"Collect All Poketch Applications",
 		"category":"upgrades",
-		"row": 3,
-		"col": 5,
-		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Digital Clock"},
 			{"id":"sub2", "task":"Memo Pad"},
@@ -121,8 +101,6 @@
 	{"id":"task8",
 		"task":"Obtain Black Trainer Card",
 		"category":"upgrades",
-		"row": 3,
-		"col": 6,
 		"subtasks":[
 			{"id":"sub1", "task":"Defeat the Elite Four"},
 			{"id":"sub2", "task":"Complete 1 Master Rank Super Contest"},
@@ -134,13 +112,10 @@
 	{"id":"task9",
 		"task":"Complete 3 Levels of Rival Battles",
 		"category":"battle",
-		"row": 3,
-		"col": 13,
-		"splitCol": 3,
 		"subtasks":[
 			{"id":"sub1", "task":"Lv. 65"},
 			{"id":"sub2", "task":"Lv. 75"},
 			{"id":"sub3", "task":"Lv. 85"}
 		]
-	}	
-]}
+	}
+]

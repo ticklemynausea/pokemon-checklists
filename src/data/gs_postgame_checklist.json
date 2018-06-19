@@ -1,11 +1,7 @@
-{"gs":[
+[
 	{"id":"task1",
 		"task":"Complete the Johto Pokedex (251)",
 		"category":"catchemall",
-		"markTask":false,
-		"row": 3,
-		"col": 1,
-		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Obtain Electrode", "tooltip":"Mahogany Town Rocket Hideout"},
 			{"id":"sub2", "task":"Obtain Gyarados (Shiny)", "tooltip":"Lake of Rage"},
@@ -17,9 +13,6 @@
 	{"id":"task2",
 		"task":"Obtain all In-Game Gift Pokémon",
 		"category":"catchemall",
-		"row": 3,
-		"col": 1,
-		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Spearow", "tooltip": "Deliver the mail for the man on Route 35?"},
 			{"id":"sub2", "task":"Eevee", "tooltip": "Pick up Eevee at Bills House"},
@@ -31,9 +24,6 @@
 	{"id":"task3",
 		"task":"Complete all In-Game Pokémon Trades",
 		"category":"catchemall",
-		"row": 3,
-		"col": 1,
-		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Trade Bellsprout for Onix", "tooltip": "Violet City House"},
 			{"id":"sub2", "task":"Trade Drowzee for Machop", "tooltip": "Goldenrod City Department Store"},
@@ -46,9 +36,6 @@
 	{"id":"task8",
 		"task":"Capture all different Unowns unlocked in the Northeastern chamber",
 		"category":"catchemall",
-		"row": 3,
-		"col": 2,
-		"splitCol": 3,
 		"subtasks":[
 			{"id":"sub1","task":"A", "pkmn":{ "pkmn":"unown", "form":"a"}},
 			{"id":"sub2","task":"B", "pkmn":{ "pkmn":"unown", "form":"b"}},
@@ -66,9 +53,6 @@
 	{"id":"task8a",
 		"task":"Capture all different Unowns unlocked in the Southwestern chamber",
 		"category":"catchemall",
-		"row": 3,
-		"col": 2,
-		"splitCol": 3,
 		"subtasks":[
 			{"id":"sub1","task":"L", "pkmn":{ "pkmn":"unown", "form":"l"}},
 			{"id":"sub2","task":"M", "pkmn":{ "pkmn":"unown", "form":"m"}},
@@ -82,9 +66,6 @@
 	{"id":"task8b",
 		"task":"Capture all different Unowns unlocked in the Southeastern chamber",
 		"category":"catchemall",
-		"row": 3,
-		"col": 2,
-		"splitCol": 3,
 		"subtasks":[
 			{"id":"sub1","task":"S", "pkmn":{ "pkmn":"unown", "form":"s"}},
 			{"id":"sub2","task":"T", "pkmn":{ "pkmn":"unown", "form":"t"}},
@@ -96,9 +77,6 @@
 	{"id":"task8c",
 		"task":"Capture all different Unowns unlocked in the Northwestern chamber",
 		"category":"catchemall",
-		"row": 3,
-		"col": 2,
-		"splitCol": 3,
 		"subtasks":[
 			{"id":"sub1","task":"X", "pkmn":{ "pkmn":"unown", "form":"x"}},
 			{"id":"sub2","task":"Y", "pkmn":{ "pkmn":"unown", "form":"y"}},
@@ -108,9 +86,6 @@
 	{"id":"task4",
 		"task":"Capture In-Game Legendaries",
 		"category":"legendary",
-		"row": 3,
-		"col": 3,
-		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Raikou", "pkmn":{ "pkmn":"Raikou" }, "tooltip":"Roaming Johto"},
 			{"id":"sub2", "task":"Capture Entei", "pkmn":{ "pkmn":"Entei" }, "tooltip":"Roaming Johto"},
@@ -122,8 +97,6 @@
 	{"id":"task5",
 		"task":"Obtain all Poké Gear Upgrades",
 		"category":"upgrades",
-		"row": 3,
-		"col": 5,
 		"subtasks":[
 			{"id":"sub1", "task":"Town Map", "tooltip": "Guide Gent in Cherrygrove City"},
 			{"id":"sub2", "task":"Radio", "tooltip": "Goldenrod Radio Tower (front desk); Lavender Radio Tower (EXPN Card)"}
@@ -133,23 +106,18 @@
 	{"id":"task10",
 		"task":"Explore the Kanto Region",
 		"category":"epilogue",
-		"row": 3,
-		"col": 15,
 		"subtasks":[
 			{"id":"sub1", "task":"Restore power to the Kanto Power Plant", "tooltip":"Defeat the Team Rocket grunt in Cerulean City Gym to obtain the missing part"},
 			{"id":"sub2", "task":"Find Champion Blue on Cinnabar Island", "tooltip":"Finding him will return him to the Viridian Gym to be battled"},
 			{"id":"sub3", "task":"Defeat Blaine on the Seafoam Islands"},
 			{"id":"sub4", "task":"Defeat Red", "tooltip":"After collecting 16 badges find and defeat Red in Silver Cave"},
 			{"id":"sub5", "task":"Return the lost doll to the woman in Saffron City"},
-			{"id":"sub6", "task":"Obtain the Focus Band at the Fighting Dojo"},
-			{"hide": true, "id":"sub7", "task":"Defeat the Karate King in Mt. Mortar"}
+			{"id":"sub6", "task":"Obtain the Focus Band at the Fighting Dojo"}
 		]
 	},
 	{"id":"task11",
 		"task":"Collect all 8 Kanto Badges",
 		"category":"epilogue",
-		"row": 3,
-		"col": 16,
 		"subtasks":[
 			{"id":"sub1", "task":"Boulder"},
 			{"id":"sub2", "task":"Cascade"},
@@ -165,10 +133,6 @@
 	{"id":"task7",
 		"task":"Collect All 50 Technical Machines (TMs)",
 		"category":"tm",
-		"row": 8,
-		"col": 8,
-		"splitCol": 4,
-		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Dynamic Punch"},
 			{"id":"sub2", "task":"Headbutt"},
@@ -222,4 +186,4 @@
 			{"id":"sub50", "task":"Nightmare"}
 		]
 	}
-]}
+]
