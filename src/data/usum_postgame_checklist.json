@@ -1,1078 +1,4135 @@
 [
-	{"id":"task1",
-		"task":"Complete the Alola Pokédex",
-		"category":"catchemall",
-		"subtasks":[
-			{"id":"sub1", "task":"(150) Melemele Pokédex"},
-			{"id":"sub2", "task":"(160) Akala Pokdex"},
-			{"id":"sub3", "task":"(160) Ula'ula Pokédex"},
-			{"id":"sub4", "task":"(130) Poni Pokédex"}
-		]
-	},
-	{"id":"task2",
-		"task":"Catch all Different Oricorio",
-		"category":"catchemall",
-		"subtasks":[
-			{"id":"sub1", "task":"Baille Style", "tooltip":"Ula'ula Island"},
-			{"id":"sub2", "task":"Pom-Pom Style", "tooltip":"Melemele Island"},
-			{"id":"sub3", "task":"P'au Style", "tooltip":"Akala Island"},
-			{"id":"sub4", "task":"Sensu Style", "tooltip":"Poni Island"}
-		]
-	},
-	{"id":"task3",
-		"task":"Collect all different colors of Minior",
-		"category":"catchemall",
-		"subtasks":[
-			{"id":"sub1", "task":"Red"},
-			{"id":"sub2", "task":"Orange"},
-			{"id":"sub3", "task":"Yellow"},
-			{"id":"sub4", "task":"Green"},
-			{"id":"sub5", "task":"Blue"},
-			{"id":"sub6", "task":"Indigo"},
-			{"id":"sub7", "task":"Violet"},
-			{"id":"sub8", "task":"Black (Shiny)"}
-		]
-	},
-	{"id":"task4",
-		"task":"Obtain In-Game Gift Pokémon",
-		"category":"catchemall",
-		"subtasks":[
-			{"id":"sub1", "task":"Dusk Form Lycanroc", "tooltip":"Get the special Rockruff via Mystery Gift Nov 17 2017 - Jan 10 2018"},
-			{"id":"sub2", "task":"Ash Hat Pikachu", "tooltip":"Scan the special event QR Code to receive Ash Hat Pikachu"},
-			{"id":"sub3", "task":"Eevee", "tooltip": "Paniola Ranch - Egg from Nursery"},
-			{"id":"sub4", "task":"Porygon", "tooltip": "Aether House - Visit after defeating Elite Four"},
-			{"id":"sub5", "task":"Aerodactyl", "tooltip": "Seafolk Village - Ace Trainer in the Huntail boat"},
-			{"id":"sub6", "task":"Pikachu","tooltip":"Heahea City - Get High Scores on all Mantine Surf courses"},
-			{"id":"sub7", "task":"Type: Null", "tooltip": "Ancient Poni Path- Post Game, speak to Wicke"},
-			{"id":"sub8", "task":"Zygarde","tooltip":"Route 16 - Defeat Elite Four and Capture wild Zygarde in Resolution Cave, Defeat Dexio in battle"},
-			{"id":"sub9", "task":"Gumshoos / Raticate (Totem Sized)", "tooltip":"Heahea Beach - Collect 20 totem stickers, speak to Samson Oak"},
-			{"id":"sub10", "task":"Marowak / Araquanid (Totem Sized)","tooltip":"Heahea Beach - Collect 40 totem stickers, speak to Samson Oak"},
-			{"id":"sub11", "task":"Lurantis / Salazzle (Totem Sized)","tooltip":"Heahea Beach - Collect 50 totem stickers, speak to Samson Oak"},
-			{"id":"sub12", "task":"Vikvavolt / Togedemaru (Totem Sized)","tooltip":"Heahea Beach - Collect 70 totem stickers, speak to Samson Oak"},
-			{"id":"sub13", "task":"Mimikyu (Totem Sized)","tooltip":"Heahea Beach - Collect 80 totem stickers, speak to Samson Oak"},
-			{"id":"sub14", "task":"Ribombee / Kommo-o (Totem Sized)","tooltip":"Heahea Beach - Collect 100 totem stickers, speak to Samson Oak"},
-			{"id":"sub15", "task":"Magearna", "tooltip":"Scan the special event QR Code to receive Magearna"}
-		]
-	},
-	{"id":"task5",
-		"task":"Complete all In-Game Pokémon Trades",
-		"category":"catchemall",
-		"subtasks":[
-			{"id":"sub1", "task":"Trade Spearow for Hawlucha", "tooltip": "Route 2 Pokemon Center"},
-			{"id":"sub2", "task":"Trade Lillipup for Noibat", "tooltip": "Route 5 Pokemon Center"},
-			{"id":"sub3", "task":"Trade Tentacool for Barboach", "tooltip": "Royal Avenue Pokemon Center"},
-			{"id":"sub4", "task":"Trade Trumbeak for Arbok ", "tooltip": "Route 8 Pokemon Center"},
-			{"id":"sub5", "task":"Trade Phantump for Trevenant", "tooltip": "Tapu Village Pokemon Center"},
-			{"id":"sub6", "task":"Trade Granbull for West Sea Shellos", "tooltip": "Seafolk Village (This is the only way to get West Sea Shellos in the game)"},
-			{"id":"sub7", "task":"Trade Bewear for Tauros", "tooltip": "Poni Gauntlet"}
-		]
-	},
-	{"id":"task6",
-		"task":"Capture Additional In-Game Legendaries",
-		"category":"legendary",
-		"subtasks":[
-			{"id":"sub1", "task":"Capture Tapu Koko"},
-			{"id":"sub2", "task":"Capture Tapu Lele"},
-			{"id":"sub3", "task":"Capture Tapu Bulu"},
-			{"id":"sub4", "task":"Capture Tapu Fini"},
-			{"id":"sub5", "task":"Capture Lunala / Solgaleo", "tooltip":"Go to Mahalo Trail after Minas Trial to capture Solgaleo or Lunala if you can"},
-			{"id":"sub6", "task":"Obtain Cosmog"},
-			{"id":"sub7", "task":"Collect Zygarde Complete Form"},
-			{"id":"sub8", "task":"Capture Necrozma"},
-			{"id":"sub9", "task":"Obtain Dusk Mane Necrozma"},
-			{"id":"sub10", "task":"Obtain Dawn Wings Necrozma"},
-			{"id":"sub11", "task":"Capture Articuno", "tooltip":"Wormhole Color - Red"},
-			{"id":"sub12", "task":"Capture Zapdos", "tooltip":"Wormhole Color - Red"},
-			{"id":"sub13", "task":"Capture Moltres", "tooltip":"Wormhole Color - Red"},
-			{"id":"sub14", "task":"Capture Mewtwo", "tooltip":"Wormhole Color - Green"},
-			{"id":"sub15", "task":"Capture/Trade for Raikou", "tooltip":"Ultra Sun, Wormhole Color - Green"},
-			{"id":"sub16", "task":"Capture/Trade for Entei", "tooltip":"Ultra Moon, Wormhole Color - Green"},
-			{"id":"sub17", "task":"Capture Suicune", "tooltip":"Requires Raikou and Entei in your team, Wormhole Color - Blue"},
-			{"id":"sub18", "task":"Capture/Trade for Lugia", "tooltip":"Ultra Moon, Wormhole Color - Blue"},
-			{"id":"sub19", "task":"Capture/Trade for Ho-Oh", "tooltip":"Ultra Sun, Wormhole Color - Red"},
-			{"id":"sub20", "task":"Capture Regirock", "tooltip":"Wormhole Color - Yellow"},
-			{"id":"sub21", "task":"Capture Regice", "tooltip":"Wormhole Color - Yellow"},
-			{"id":"sub22", "task":"Capture Registeel", "tooltip":"Wormhole Color - Yellow"},
-			{"id":"sub23", "task":"Capture/Trade for Regigigas", "tooltip":"Ultra Moon - Wormhole Color - Yellow"},
-			{"id":"sub24", "task":"Capture/Trade for Latias", "tooltip":"Ultra Moon, Wormhole Color - Blue"},
-			{"id":"sub25", "task":"Capture/Trade for Latios", "tooltip":"Ultra Sun, Wormhole Color - Blue"},
-			{"id":"sub26", "task":"Capture/Trade for Kyogre", "tooltip":"Ultra Moon, Wormhole Color - Blue"},
-			{"id":"sub27", "task":"Capture/Trade for Groudon", "tooltip":"Ultra Sun, Wormhole Color - Yellow"},
-			{"id":"sub28", "task":"Capture Rayquaza", "tooltip":"Requires Kyogre and Groudon in your team, Wormhole Color - Red"},
-			{"id":"sub29", "task":"Capture Uxie", "tooltip":"Wormhole Color - Blue"},
-			{"id":"sub30", "task":"Capture Mesprit", "tooltip":"Wormhole Color - Blue"},
-			{"id":"sub31", "task":"Capture Azelf", "tooltip":"Wormhole Color - Blue"},
-			{"id":"sub32", "task":"Capture/Trade for Dialga", "tooltip":"Ultra Sun, Wormhole Color - Green"},
-			{"id":"sub33", "task":"Capture/Trade for Palkia", "tooltip":"Ultra Moon, Wormhole Color - Blue"},
-			{"id":"sub34", "task":"Capture Giratina", "tooltip":"Requires Dialga and Palkia on your team, Wormhole Color - Yellow"},
-			{"id":"sub35", "task":"Capture/Trade for Heatran", "tooltip":"Ultra Sun - Wormhole Color - Yellow"},
-			{"id":"sub36", "task":"Capture Cresselia", "tooltip":"Wormhole Color - Red"},
-			{"id":"sub37", "task":"Capture Cobalion", "tooltip":"Wormhole Color - Green"},
-			{"id":"sub38", "task":"Capture Terrakion", "tooltip":"Wormhole Color - Green"},
-			{"id":"sub39", "task":"Capture Virizion", "tooltip":"Wormhole Color - Green"},
-			{"id":"sub40", "task":"Capture/Trade for Tornadus", "tooltip":"Ultra Sun, Wormhole Color - Red"},
-			{"id":"sub41", "task":"Capture/Trade for Thundurus", "tooltip":"Ultra Moon, Wormhole Color - Red"},
-			{"id":"sub42", "task":"Capture Landorus", "tooltip":"Requires Tornadus and Thundurus on your team, Wormhole Color - Red"},
-			{"id":"sub43", "task":"Capture/Trade for Reshiram", "tooltip":"Ultra Sun, Wormhole Color - Green"},
-			{"id":"sub44", "task":"Capture/Trade for Zekrom", "tooltip":"Ultra Moon, Wormhole Color - Green"},
-			{"id":"sub45", "task":"Capture Kyurem", "tooltip":"Requires Reshiram and Zekrom on your team, Wormhole Color - Blue"},
-			{"id":"sub46", "task":"Capture/Trade for Xerneas", "tooltip":"Ultra Sun, Wormhole Color - Green"},
-			{"id":"sub47", "task":"Capture/Trade for Yveltal", "tooltip":"Ultra Moon, Wormhole Color - Red"}
-		]
-	},
-	{"id":"task7",
-		"task":"Trade for Alt Version Legendary (Lunala / Solgaleo)",
-		"category":"legendary"
-	},
-	{"id":"task8",
-		"task":"Obtain all the Ultra Beasts",
-		"category":"legendary",
-		"subtasks":[
-			{"id":"sub1", "task":"Obtain UB Poipole"},
-			{"id":"sub2", "task":"Obtain UB Naganadel", "tooltip": "Evolve UB Poipole" },
-			{"id":"sub3", "task":"Capture UB-01 - Nihilego"},
-			{"id":"sub4", "task":"Capture/Trade for UB-02 - Buzzwole", "tooltip":"Only available in Pokémon Ultra Sun (Ultra Jungle)"},
-			{"id":"sub5", "task":"Capture/Trade for UB-02 - Pheromosa", "tooltip":"Only available in Pokémon Ultra Moon (Ultra Desert"},
-			{"id":"sub6", "task":"Capture UB-03 - Xurkitree", "tooltip":"Found in Ultra Plant"},
-			{"id":"sub7", "task":"Capture/Trade for UB-04 - Kartana", "tooltip":"Only available in Pokémon Ultra Sun (Ultra Crater)"},
-			{"id":"sub8", "task":"Capture/Trade for UB-04 - Celesteela", "tooltip":"Only available in Pokémon Ultra Moon (Ultra Forest)"},
-			{"id":"sub9", "task":"Capture UB-05 - Guzzlord", "tooltip":"Found in Ultra Ruin"},
-			{"id":"sub10", "task":"Capture/Trade for UB Stakataka", "tooltip":"Only available in Pokémon Ultra Moon (Poni Grove)"},
-			{"id":"sub11", "task":"Capture/Trade for UB Blacephalon", "tooltip":"Only available in Pokémon Ultra Sun (Poni Grove)"}
-		]
-	},
-	{"id":"task6a",
-		"task":"Capture all standard pokemon available in wormholes",
-		"category":"pokemon",
-		"subtasks":[
-			{"id":"sub1", "task":"Barbaracle", "tooltip":"Available in Blue Wormhole"},
-			{"id":"sub2", "task":"Floatzel", "tooltip":"Available in Blue Wormhole"},
-			{"id":"sub3", "task":"Lombre", "tooltip":"Available in Blue Wormhole"},
-			{"id":"sub4", "task":"Quagsire", "tooltip":"Available in Blue Wormhole"},
-			{"id":"sub5", "task":"Stunfisk", "tooltip":"Available in Blue Wormhole"},
-
-			{"id":"sub10", "task":"Audino", "tooltip":"Available in Green Wormhole"},
-			{"id":"sub11", "task":"Drapion", "tooltip":"Available in Green Wormhole"},
-			{"id":"sub12", "task":"Grumpig", "tooltip":"Available in Green Wormhole"},
-			{"id":"sub13", "task":"Heliolisk", "tooltip":"Available in Green Wormhole"},
-			{"id":"sub14", "task":"Nuzleaf", "tooltip":"Available in Green Wormhole"},
-
-			{"id":"sub20", "task":"Altaria", "tooltip":"Available in Red Wormhole"},
-			{"id":"sub21", "task":"Sigilyph", "tooltip":"Available in Red Wormhole"},
-			{"id":"sub22", "task":"Swanna", "tooltip":"Available in Red Wormhole"},
-			{"id":"sub23", "task":"Swellow", "tooltip":"Available in Red Wormhole"},
-			{"id":"sub24", "task":"Yanmega", "tooltip":"Available in Red Wormhole"},
-
-			{"id":"sub30", "task":"Abomasnow", "tooltip":"Available in Yellow Wormhole"},
-			{"id":"sub31", "task":"Crustle", "tooltip":"Available in Yellow Wormhole"},
-			{"id":"sub32", "task":"Hippowdon", "tooltip":"Available in Yellow Wormhole"},
-			{"id":"sub33", "task":"Magcargo", "tooltip":"Available in Yellow Wormhole"},
-			{"id":"sub34", "task":"Medicham", "tooltip":"Available in Yellow Wormhole"}
-		]
-	},
-	{"id":"task9",
-		"task":"Complete all Pokédex side quests",
-		"category":"quests",
-		"subtasks":[
-			{"id":"sub1", "task":"Show Abra to the woman at the Hau'oli Pokemon Center"},
-			{"id":"sub2", "task":"Show Crabrawler to the woman at the Route 2 Pokemon Center"},
-			{"id":"sub3", "task":"Show Sableye to the man in yellow on Route 3"},
-			{"id":"sub4", "task":"Show Salazzle to the woman at the Heahea City Apparel Shop"},
-			{"id":"sub5", "task":"Show Corsola to the man at the Route 5 Pokemon Center"},
-			{"id":"sub6", "task":"Show Goomy to the Aether employee at the Route 8 Aether Trailer"},
-			{"id":"sub7", "task":"Show Natu (Sun) or Hoothoot (Moon) to the Aether employee at the Konikoni City Pokemon"},
-			{"id":"sub8", "task":"Show Minior to the collector at the Malie City Apparel Shop"},
-			{"id":"sub9", "task":"Show Alolan Persian to Samson Oak at the Malie City Library"},
-			{"id":"sub10", "task":"Show Garchomp to the Aether employee at the Route 16 Pokemon Center"}
-		]
-	},
-	{"id":"task10",
-		"task":"Collect all stamps in your Trainer Passport",
-		"category":"quests",
-		"subtasks":[
-			{"id":"sub1", "task":"Become an Official Pokemon Trainer"},
-			{"id":"sub2", "task":"Melemele Trial Completion"},
-			{"id":"sub3", "task":"Akala Trial Completion"},
-			{"id":"sub4", "task":"Ula'ula Trial Completion"},
-			{"id":"sub5", "task":"Poni Trial Completion"},
-			{"id":"sub6", "task":"Island Challenge Completion"},
-			{"id":"sub7", "task":"Melemele Pokedex Completion", "tooltip": "Talk to Game Freak Game Director"},
-			{"id":"sub8", "task":"Akala Pokedex Completion", "tooltip": "Talk to Game Freak Game Director"},
-			{"id":"sub9", "task":"Ula'ula Pokedex Completion", "tooltip": "Talk to Game Freak Game Director"},
-			{"id":"sub10", "task":"Poni Pokedex Completion", "tooltip": "Talk to Game Freak Game Director"},
-			{"id":"sub11", "task":"Alola Pokedex Completion", "tooltip": "Talk to Game Freak Game Director"},
-			{"id":"sub12", "task":"50 Consecutive Single Battle Wins", "tooltip": "Single Battles at the Battle Tree"},
-			{"id":"sub13", "task":"50 Consecutive Double Battle Wins", "tooltip": "Double Battles at the Battle Tree"},
-			{"id":"sub14", "task":"50 Consecutive Multi Battle Wins", "tooltip": "Multi Battles at the Battle Tree"},
-			{"id":"sub15", "task":"Obtain the Poke Finder Pro", "tooltip": "Obtain final version of the Poke Finder"}
-		]
-	},
-	{"id":"task11",
-		"task":"Get the high score on all Mantine Surf Locations",
-		"category":"quests",
-		"subtasks":[
-			{"id":"sub1", "task":"Get the High Score at Big Wave Beach"},
-			{"id":"sub2", "task":"Get the High Score at Heahea Beach"},
-			{"id":"sub3", "task":"Get the High Score at Ula'ula Beach"},
-			{"id":"sub4", "task":"Get the High Score at Poni Beach"},
-			{"id":"sub5", "task":"Visit the Surf Association after getting the high score on all 4 courses", "tooltip":"Get a surfing pikachu from the Boss"}
-		]
-	},
-	{"id":"task20",
-		"task":"Obtain all Poké Finder Upgrades",
-		"category":"upgrades",
-		"subtasks":[
-			{"id":"sub1", "task":"Version 1 - Normal Pokedex Camera", "tooltip": "Reach Hau'oli City Shopping District"},
-			{"id":"sub2", "task":"Version 2 - Enhanced Zoom", "tooltip": "Reach 1,500 cumulative likes"},
-			{"id":"sub3", "task":"Version 3 - More Zoom", "tooltip": "Reach 10,000 cumulative likes"},
-			{"id":"sub4", "task":"Version 4 - Even More Zoom", "tooltip": "Reach 100,000 cumulative likes"},
-			{"id":"sub5", "task":"Version 5 - Pokemon calling button that draws pokemon's attention to you", "tooltip": "Reach 1.5 million cumulative likes"}
-		]
-	},
-	{"id":"task21",
-		"task":"Use Poké Finder at all Locations",
-		"category":"upgrades",
-		"subtasks":[
-			{"id":"sub1", "task":"Hau'oli Cemetary", "tooltip":"Furfrou (Day), Gastly (Night), Pikipek (Day),Zubat (Night)"},
-			{"id":"sub2", "task":"Hau'oli City - Beachfront", "tooltip":" Drifloon (Day-Rare), Murkrow (Night), Pelipper, Wingull"},
-			{"id":"sub3", "task":"Hau'oli City - Shopping District", "tooltip":"Dunsparce, Growlithe, Alolan Meowth (Night), Pikachu, Rockruff (Day)"},
-			{"id":"sub4", "task":"Melemele Meadow", "tooltip":"Cutiefly (Day), Oricorio, Flabebe, Floette"},
-			{"id":"sub5", "task":"Kala'e Bay", "tooltip":"Corsola, Alolan Dugtrio, Slowpoke, Smoochum"},
-
-			{"id":"sub6", "task":"Brooklet Hill", "tooltip":"Psyduck, Poliwag, Politoed, Dewpider (Day), Surskit (Night)"},
-			{"id":"sub7", "task":"Lush Jungle", "tooltip":"Bounsweet (Day), Comfey, Fomantis (Night), Goodra (Rare), Kecleon, Morelull (Night), Paras (Day)"},
-			{"id":"sub8", "task":"Paniola Ranch", "tooltip":"Eevee, Lillipup, Mareep, Espeon (Day), Umbreon (Night)"},
-			{"id":"sub9","task": "Pikachu Valley", "tooltip":"Pikachu"},
-			{"id":"sub10", "task":"Route 8", "tooltip":"Bewear, Yungoos (Day), Alolan Rattata (Night), Crabrawler"},
-			{"id":"sub11", "task":"Royal Avenue", "tooltip":"Jigglypuff, Butterfree (Day), Oricorio (Night)"},
-			{"id":"sub12", "task":"Wela Volcano Park", "tooltip":"Fletchling (Day), Cubone, Magby, Salandit, Talonflame (Rare - Day)"},
-
-			{"id":"sub20", "task":"Blush Mountain", "tooltip":"Dedenne, Elekid, Togedemaru, Magneton, Porygon-Z(Rare)"},
-			{"id":"sub21", "task":"Mount Hokulani", "tooltip":"Beldum, Clefairy (Night), Clefable (Night), Elgyem, Magnezone (Rare-Night), Metang"},
-			{"id":"sub22", "task":"Mount Lanakila", "tooltip":"Vanillish, Vanillite, Glalie (Day), Absol (Day), Sneasel (Night), Froslass (Rare-Night)"},
-			{"id":"sub23", "task":"Route 13", "tooltip":"Sandile, Gible, Trapinch, Flygon (Rare)"},
-			{"id":"sub24", "task":"Thrifty Megamart Abandoned Site", "tooltip":"Gastly, Haunter, Gengar, Mimikyu, Shuppet"},
-			{"id":"sub25", "task":"Ula'ula Meadow", "tooltip":"Ledian (Day), Ariados (Night), Floette, Florges Oricorio"},
-
-			{"id":"sub30", "task":"Poni Coast", "tooltip":"Bewear, Fearow, Lickitung"},
-			{"id":"sub31", "task":"Poni Meadow", "tooltip":"Oricorio, Ribombee (Day), Dragonite (Rare), Mismagius (Night)"},
-			{"id":"sub32", "task":"Vast Poni Canyon", "tooltip":"Mienshao, Gigalith, Jangmo-o, Hakamo-o, Lucario (Rare)"}
-		]
-	},
-	{"id":"task22",
-		"task":"Obtain Eevium Z",
-		"category":"zcrystals",
-		"subtasks":[
-			{"id":"sub1", "task":"Speak with the Veteran Cashier at Thrifty Megamart on Royal Avenue"},
-			{"id":"sub2", "task":"Defeat Vaporeon User", "tooltip": "Trainers school 3F"},
-			{"id":"sub3", "task":"Defeat Flareon User", "tooltip": "Tide Song Hotel"},
-			{"id":"sub4", "task":"Defeat Jolteon User", "tooltip": "Malie Community Center"},
-			{"id":"sub5", "task":"Defeat Espeon User", "tooltip": "Geothermal Plant"},
-			{"id":"sub6", "task":"Defeat Umbreon User", "tooltip": "Hau'oli Cemetary"},
-			{"id":"sub7", "task":"Defeat Glaceon User", "tooltip": "Southwest house in Iki Town"},
-			{"id":"sub8", "task":"Defeat Leafeon User", "tooltip": "Hano Beach"},
-			{"id":"sub9", "task":"Defeat Sylveon User", "tooltip": "Northeast house of Seafolk Village"},
-			{"id":"sub10", "task":"Defeat Kagetora and claim the Eevium Z"}
-		]
-	},
-	{"id":"task23",
-		"task":"Collect All Z-Move Crystals",
-		"category":"zcrystals",
-		"subtasks":[
-			{"id":"sub1", "task":"Aloraichium Z", "tooltip":"Talk to woman in Seafolk Village (Steelix sub) and have Alola Raichu in your party"},
-			{"id":"sub2", "task":"Buginium Z", "tooltip":"Shady House"},
-			{"id":"sub3", "task":"Darkinium Z", "tooltip":"Malie City, Defeat Kahuna Nanu"},
-			{"id":"sub4", "task":"Decidium Z", "tooltip":"If Rowlet is starter - Gifted by Kukui after defeating Guzma first time, Defeat Kahuna Hala after becoming Champion"},
-			{"id":"sub5", "task":"Dragonium Z", "tooltip":"Vast Poni Canyon, Complete Seventh Trial"},
-			{"id":"sub6", "task":"Eevium Z", "tooltip":"See task 'Obtain Eevium Z' elsewhere in list"},
-			{"id":"sub7", "task":"Electrium Z", "tooltip":"Hokulani Observatory, Defeat Sophocles Trial"},
-			{"id":"sub8", "task":"Fairium Z", "tooltip":"Complete Mina's Trial"},
-			{"id":"sub9", "task":"Fightinium Z", "tooltip":"Iki Town, Defeat Hala"},
-			{"id":"sub10", "task":"Firium Z", "tooltip":"Wela Volcano Park, Defeat Kiawe's Trial"},
-			{"id":"sub11", "task":"Flyininum Z", "tooltip":"Ten Carat Hill, Requires Tauros and Machamp"},
-			{"id":"sub12", "task":"Ghostium Z", "tooltip":"Route 14, Defeat Acerola's Trial"},
-			{"id":"sub13", "task":"Grassium Z", "tooltip":"Lush Jungle, Defeat Mallow's Trial"},
-			{"id":"sub14", "task":"Groundium Z", "tooltip":"Exeggutor Island, Defeat Kahuna Hapu"},
-			{"id":"sub15", "task":"Icium Z", "tooltip":"Mount Lanakila"},
-			{"id":"sub16", "task":"Incinium Z", "tooltip":"If Litten is starter - Gifted by Kukui after defeating Guzma first time, Defeat Kahuna Hala after becoming Champion"},
-			{"id":"sub17", "task":"Kommonium Z", "tooltip":"Plains Grotto on Poni Island"},
-			{"id":"sub18", "task":"Lunalium Z", "tooltip":"Receive from Lillie after catching Lunala or Receive after finding Cosmog in Reverse World"},
-			{"id":"sub19", "task":"Lycanium Z", "tooltip":"Defeat Hau at Malie City"},
-			{"id":"sub20", "task":"Marshadium Z", "tooltip":"Show Marshadow to man on 3F of Tide Song Hotel"},
-			{"id":"sub21", "task":"Mewnium Z", "tooltip":"Show Mew to man on 3F of Tide Song Hotel"},
-			{"id":"sub22", "task":"Mimikium Z", "tooltip":"Follow Mimikyu through the shop at night at the Thrifty Megamart"},
-			{"id":"sub23", "task":"Normalium Z", "tooltip":"Verdant Cavern, Defeat Ilima's Trial"},
-			{"id":"sub24", "task":"Pikanium Z", "tooltip":"Help out the Pikachu at Hano Grand Resort"},
-			{"id":"sub25", "task":"Pikashunium Z", "tooltip":"Speak with Pikachu in Pikachu Valley after obtaining a Pikachu with a cap"},
-			{"id":"sub26", "task":"Poisonium Z", "tooltip":"From Plumeria on Poni Island"},
-			{"id":"sub27", "task":"Primarium Z", "tooltip":"If Popplio is starter - Gifted by Kukui after defeating Guzma first time, Defeat Kahuna Hala after becoming Champion"},
-			{"id":"sub28", "task":"Psychium Z", "tooltip":"Haina Desert"},
-			{"id":"sub29", "task":"Rockium Z", "tooltip":"Ruins of Life, Defeat Kahuna Olivia"},
-			{"id":"sub30", "task":"Snorlium Z", "tooltip":"Show Snorlax to man on 3F of Tide Song Hotel"},
-			{"id":"sub31", "task":"Solganium Z", "tooltip":"Receive from Lillie after catching Solgaleo or Receive after finding Cosmog in Reverse World"},
-			{"id":"sub32", "task":"Steelium Z", "tooltip":"Mount Hokulani, Defeat Molayne's Trial"},
-			{"id":"sub33", "task":"Tapunium Z", "tooltip":"After becoming champion and catching/defeating Tapu Koko (Needs to know Natures Madness)"},
-			{"id":"sub34", "task":"Ultranecrozium Z", "tooltip":"Mount Lanakila"},
-			{"id":"sub35", "task":"Waterium Z", "tooltip":"Brooklet Hill, Defeat Lana's Trial"}
-		]
-	},
-	{"id":"task24",
-		"task":"Collect All Mega-Evolution Stones",
-		"category":"megastones",
-		"tooltip": "Most Mega Stones cost 64 points at the Battle Tree",
-		"subtasks":[
-			{"id":"sub1","task":"Abomasite", "tooltip":"Battle Tree"},
-			{"id":"sub2","task":"Absolite", "tooltip":"Battle Tree"},
-			{"id":"sub3","task":"Aerodactylite", "tooltip":"Battle Tree"},
-			{"id":"sub4","task":"Aggronite", "tooltip":"Battle Tree"},
-			{"id":"sub5","task":"Alakazite", "tooltip":"Comes with Key Stone, Battle Tree"},
-			{"id":"sub6","task":"Altarianite", "tooltip":"Battle Tree"},
-			{"id":"sub7","task":"Ampharosite", "tooltip":"Battle Tree"},
-			{"id":"sub8", "task":"Audinite", "tooltip":"Battle Tree"},
-			{"id":"sub9","task":"Banettite", "tooltip":"Battle Tree"},
-			{"id":"sub10","task":"Beedrillite", "tooltip":"Battle Tree"},
-			{"id":"sub11","task":"Blastoisinite", "tooltip":"Defeat Red/Blue in the Battle Tree"},
-			{"id":"sub12","task":"Blazikenite", "tooltip":"Battle Tree"},
-			{"id":"sub13","task":"Cameruptite", "tooltip":"Battle Tree"},
-			{"id":"sub14","task":"Charizardite X", "tooltip":"Defeat Red/Blue in the Battle Tree"},
-			{"id":"sub15","task":"Charizardite Y", "tooltip":"Defeat Red/Blue in the Battle Tree"},
-			{"id":"sub16","task":"Diancite", "tooltip":"Konikoni City, show Diancie to the collector in the jewelry shop"},
-			{"id":"sub17","task":"Galladite", "tooltip":"Battle Tree"},
-			{"id":"sub18","task":"Garchompite", "tooltip":"Battle Tree"},
-			{"id":"sub19","task":"Gardevoirite", "tooltip":"Battle Tree"},
-			{"id":"sub20","task":"Gengarite", "tooltip":"Battle Tree"},
-			{"id":"sub21","task":"Glalitite", "tooltip":"Battle Tree"},
-			{"id":"sub22","task":"Gyaradosite", "tooltip":"Battle Tree"},
-			{"id":"sub23","task":"Heracronite", "tooltip":"Battle Tree"},
-			{"id":"sub24","task":"Houndoominite", "tooltip":"Battle Tree"},
-			{"id":"sub25","task":"Kangaskhanite", "tooltip":"Battle Tree"},
-			{"id":"sub26","task":"Latiasite", "tooltip":"Battle Tree"},
-			{"id":"sub27","task":"Latiosite", "tooltip":"Battle Tree"},
-			{"id":"sub28","task":"Lopunnite", "tooltip":"Battle Tree"},
-			{"id":"sub29","task":"Lucarionite", "tooltip":"Battle Tree"},
-			{"id":"sub30","task":"Manectite", "tooltip":"Battle Tree"},
-			{"id":"sub31","task":"Mawilite", "tooltip":"Battle Tree"},
-			{"id":"sub32","task":"Medichamite", "tooltip":"Battle Tree"},
-			{"id":"sub33","task":"Metagrossite", "tooltip":"Battle Tree"},
-			{"id":"sub34","task":"Mewtwoite X", "tooltip":"Battle Tree"},
-			{"id":"sub35","task":"Mewtwoite Y", "tooltip":"Battle Tree"},
-			{"id":"sub36","task":"Pidgeotite", "tooltip":"Battle Tree"},
-			{"id":"sub37","task":"Pinsirite", "tooltip":"Battle Tree"},
-			{"id":"sub38","task":"Sablenite", "tooltip":"Battle Tree"},
-			{"id":"sub39","task":"Salamencite", "tooltip":"Battle Tree"},
-			{"id":"sub40","task":"Sceptilite", "tooltip":"Battle Tree"},
-			{"id":"sub41","task":"Scizorite", "tooltip":"Battle Tree"},
-			{"id":"sub42","task":"Sharpedonite", "tooltip":"Battle Tree"},
-			{"id":"sub43","task":"Slowbronite", "tooltip":"Battle Tree"},
-			{"id":"sub44","task":"Steelixite", "tooltip":"Battle Tree"},
-			{"id":"sub45","task":"Swampertite", "tooltip":"Battle Tree"},
-			{"id":"sub46","task":"Tyranitarite", "tooltip":"Battle Tree"},
-			{"id":"sub47","task":"Venusaurite", "tooltip":"Defeat Red/Blue in the Battle Tree"},
-			{"id":"sub48", "task":"Red Orb", "tooltip":"Buy at the Antiquities of the Ages Shop"},
-			{"id":"sub49", "task":"Blue Orb", "tooltip":"Buy at the Antiquities of the Ages Shop"}
-		]
-	},
-	{"id":"task25",
-		"task":"Battle Tree Standard Challenges",
-		"category":"battle",
-		"subtasks":[
-			{"id":"sub1", "task":"Single"},
-			{"id":"sub2", "task":"Double"},
-			{"id":"sub3", "task":"Multi"}
-		]
-	},
-	{"id":"task26",
-		"task":"Battle Tree Super Challenges",
-		"category":"battle",
-		"subtasks":[
-			{"id":"sub1", "task":"Single"},
-			{"id":"sub2", "task":"Double"},
-			{"id":"sub3", "task":"Multi"}
-		]
-	},
-	{"id":"task19",
-		"task":"Reach Master Rank in Battle Royal",
-		"category":"battle",
-		"subtasks":[
-			{"id":"sub1", "task":"Reach Super Rank"},
-			{"id":"sub2", "task":"Reach Hyper Rank"},
-			{"id":"sub3", "task":"Reach Master Rank"}
-		]
-	},
-	{"id":"task27",
-		"task":"Unlock all Battle Styles",
-		"category":"battle",
-		"subtasks":[
-			{"id":"sub1", "task":"Normal Style"},
-			{"id":"sub2", "task":"Elegant Style", "tooltip": "Straight away in Malie City Outer Cape"},
-			{"id":"sub3", "task":"Girlish Style", "tooltip": "Defeat Lana in battle in Konikoni City"},
-			{"id":"sub4", "task":"Reverent Style", "tooltip": "Defeat Kiawe in Paniola Town (Ultra Sun) or Mallow in Hau'oli City (Ultra Moon)"},
-			{"id":"sub5", "task":"Smug Style", "tooltip": "Defeat Gladion before the Elite Four"},
-			{"id":"sub6", "task":"Left-Handed Style", "tooltip": "Defeat Ilima in battle in Hau'oli City after defeating Hala"},
-			{"id":"sub7", "task":"Passionate Style", "tooltip": "Get a Battle Tree Streak of 50 or higher"},
-			{"id":"sub8", "task":"Idol Style", "tooltip": "Defeat Master Rank in the Battle Royal"},
-			{"id":"sub9", "task":"Nihilist Style", "tooltip":"Defeat Giovanni"}
-		]
-	},
-	{"id":"task28",
-		"task":"Upgrade Battle Agency to level 50",
-		"category":"battle",
-		"subtasks":[
-			{"id":"sub10","task":"Reach Level 10"},
-			{"id":"sub20","task":"Reach Level 20"},
-			{"id":"sub30","task":"Reach Level 30"},
-			{"id":"sub40","task":"Reach Level 40"},
-			{"id":"sub50","task":"Reach Level 50"}
-		]
-	},
-	{"id":"task29",
-		"task":"Complete the Team Rainbow Rocket Epilogue",
-		"category":"epilogue",
-		"subtasks":[
-			{"id":"sub1", "task":"1. Festival Plaza hacked!"},
-			{"id":"sub2", "task":"2. Defeat Faba at the Aether Foundation"},
-			{"id":"sub3", "task":"3. Defeat the two grunts inside Team Rocket's Castle"},
-			{"id":"sub4", "task":"4. Catch an Electrode while working your way through the puzzle rooms"},
-			{"id":"sub5", "task":"5. Defeat Archie of Team Aqua"},
-			{"id":"sub6", "task":"6. Defeat Maxite of Team Magma"},
-			{"id":"sub7", "task":"7. Defeat Cyrus of Team Galactic"},
-			{"id":"sub8", "task":"8. Defeat Lysandre of Team Flare"},
-			{"id":"sub9", "task":"9. Defeat Ghetsis of Team Plasma"},
-			{"id":"sub10", "task":"10. Defeat Giovanni of Team Rocket"}
-		]
-	},
-	{"id":"task30",
-		"task":"Completely Develop the Poke Pelago Islands",
-		"category":"upgrades",
-		"subtasks":[
-			{"id":"sub1","task":"Isle Abeens - Level 1"},
-			{"id":"sub2","task":"Isle Abeens - Level 2"},
-			{"id":"sub3","task":"Isle Abeens - Level 3"},
-			{"id":"sub4","task":"Isle Aplenny - Level 1"},
-			{"id":"sub5","task":"Isle Aplenny - Level 2"},
-			{"id":"sub6","task":"Isle Aplenny - Level 3"},
-			{"id":"sub7","task":"Isle Aphun - Level 1"},
-			{"id":"sub8","task":"Isle Aphun - Level 2"},
-			{"id":"sub9","task":"Isle Aphun - Level 3"},
-			{"id":"sub10","task":"Isle Evelup - Level 1"},
-			{"id":"sub11","task":"Isle Evelup - Level 2"},
-			{"id":"sub12","task":"Isle Evelup - Level 3"},
-			{"id":"sub13","task":"Isle Avue - Level 1"},
-			{"id":"sub14","task":"Isle Avue - Level 2"},
-			{"id":"sub15","task":"Isle Avue - Level 3"}
-		]
-	},
-	{"id":"task31",
-		"task":"Upgrade Festival Plaza to Level 100",
-		"category":"upgrades",
-		"subtasks":[
-			{"id":"sub1", "task":"Reach Level 10"},
-			{"id":"sub2", "task":"Reach Level 20"},
-			{"id":"sub3", "task":"Reach Level 30"},
-			{"id":"sub4", "task":"Reach Level 40"},
-			{"id":"sub5", "task":"Reach Level 50"},
-			{"id":"sub6", "task":"Reach Level 60"},
-			{"id":"sub7", "task":"Reach Level 70"},
-			{"id":"sub8", "task":"Reach Level 80"},
-			{"id":"sub9", "task":"Reach Level 90"},
-			{"id":"sub10", "task":"Reach Level 100"}
-		]
-	},
-	{"id":"task32",
-		"task":"Defend Your Title as Champion",
-		"category":"battle",
-		"subtasks":[
-			{"id":"sub1", "task":"Defeat Challenger - Gladion", "tooltip":"Appears on rare occasions a month after you first defeat Necrozma"},
-			{"id":"sub2", "task":"Defeat Challenger - Guzma"},
-			{"id":"sub3", "task":"Defeat Challenger - Hapu"},
-			{"id":"sub4", "task":"Defeat Challenger - Hau"},
-			{"id":"sub5", "task":"Defeat Challenger - Kukui"},
-			{"id":"sub6", "task":"Defeat Challenger - Lusamine", "tooltip":"Appears on the first of each month"},
-			{"id":"sub7", "task":"Defeat Challenger - Plumeria"},
-			{"id":"sub8", "task":"Defeat Challenger - Ryuki"},
-			{"id":"sub9", "task":"Defeat Challenger - Sophocles"},
-			{"id":"sub10", "task":"Defeat Challenger - Tristan"}
-		]
-	},
-
-	{"id":"task39",
-		"task":"Collect all the different Outfits",
-		"category":"fashion",
-		"subtasks":[
-			{"id":"sub1", "task":"Active Outfit (Tank, Shorts, Hat, Socks(M), Shoes, Bag)", "tooltip":"Available from the beginning as the default outfit"},
-			{"id":"sub2", "task":"Kommo-o (M) or Luran (F) Outfit (Breastplate/Tank, Tassets/Shorts, Greaves(M), Sollerets/Shoes, Helm/Headband)", "tooltip":"Available at Hau'oli City Mall Gracidea"},
-			{"id":"sub3", "task":"Sludge Outfit (Tank, Shorts, Cap)", "tooltip":"Available at Heahea City Apparel Shop"},
-			{"id":"sub4", "task":"Athletic Outfit (Tank, Shorts, Cap)", "tooltip":"Available at Konikoni City Apparel Shop"},
-			{"id":"sub5", "task":"Legendary Outfit (Tank, Shorts, Cap)", "tooltip":"Available at Konikoni City Apparel Shop"},
-			{"id":"sub6", "task":"Seed Outfit (Tank, Shorts, Cap)", "tooltip":"Available at Konikoni City Apparel Shop"},
-			{"id":"sub7", "task":"Poison Bee Outfit (Tank, Shorts, Cap)", "tooltip":"Available at Konikoni City Apparel Shop"},
-			{"id":"sub8", "task":"Fruit Outfit (Tank, Shorts, Cap)", "tooltip":"Available at Malie City Apparel Shop"},
-			{"id":"sub9", "task":"Sea Cucumber Outfit (Tank, Shorts, Cap)", "tooltip":"Available at Malie City Apparel Shop"},
-			{"id":"sub10", "task":"Jellyfish Outfit (Tank, Shorts, Cap)", "tooltip":"Available at Malie City Apparel Shop"},
-			{"id":"sub11", "task":"Woolly Crab Outfit (Tank, Shorts, Cap)", "tooltip":"Available at Malie City Apparel Shop"},
-			{"id":"sub12", "task":"Skull Outfit (Tank, Shorts, Cap)", "tooltip":"Available at Po Town"},
-			{"id":"sub13", "task":"Trial Guide Outfit (Tee, Cap)", "tooltip":"Available by completing Ilima's Post-Game Request"},
-			{"id":"sub14", "task":"Pikachu Outfit (Shirt, Cap)", "tooltip":"Available by getting a perfect score on the Pikachu Quiz"},
-			{"id":"sub15", "task":"Karate (M) or Nurse (F) Outfit (Jacket/Top, Pants/Skirt, Cap(F))", "tooltip":"Receive from director at GAME FREAK after completing the Alolan Pokedex"}
-		]
-	},
-
-
-	{"id":"task40",
-		"task":"Complete the Melemele Island Post Game Activities",
-		"category":"activities",
-		"subtasks":[
-			{"id":"sub1", "task":"Help your mothers Meowth battle Madame Meowth's Alolan Mewoth"},
-			{"id":"sub2", "task":"Defeat Kahuna Hala to receive the starter Pokemon exclusive Z-Crystals"},
-			{"id":"sub3", "task":"Visit Pokemon Research Lab for TM90", "tooltip": "And Peek at Lillie's Diary"},
-			{"id":"sub4", "task":"After catching 50+ unique pokemon, visit Pokemon Research Lab for Lucky Egg", "tooltip": "Based on Pokedex caught count"},
-			{"id":"sub5", "task":"Battle Trainer School Principal for King's Rock"},
-			{"id":"sub6", "task":"Hyper Train your Pokemon in Hau'oli City Shopping Mall"},
-			{"id":"sub7", "task":"Complete Captain Ilima's Request"},
-			{"id":"sub8", "task":"Find Electric Seed near newly repaired Bridge"},
-			{"id":"sub9", "task":"Explore Seaward Cave, Kala'e Bay, Melemele Sea, and Ten Carat Hill"},
-			{"id":"sub10", "task":"Master the Battle Buffet and meet the buffet queen", "tooltip":"In Hau'oli City Shopping Mall"},
-			{"id":"sub11", "task":"Go to Hau'oli Cemetary at night and approach the Machamp to get TM56"}
-		]
-	},
-	{"id":"task41",
-		"task":"Complete the Akala Island Post Game Activities",
-		"category":"activities",
-		"subtasks":[
-			{"id":"sub1", "task":"Visit Kiawe's home for a Protector from his dad", "tooltip": "Paniola Town"},
-			{"id":"sub2", "task":"Battle Morimoto at Game Freak's Office for an Oval Charm", "tooltip": "Heahea City, he has level 62 pokemon"},
-			{"id":"sub3", "task":"Complete the Alola Pokedex and get the Shiny Charm", "tooltip": "From the Game Director at Game Freaks Office"},
-			{"id":"sub4", "task":"Meet Elite Four Kahili and receive TM92", "tooltip": "Hano Grand Hotel"},
-			{"id":"sub5", "task":"Meet Colress on Route 8 to receive drives for Genesect"},
-			{"id":"sub6", "task":"Visit Mallow's restaurant for several gifts", "tooltip": "Konikoni City"},
-			{"id":"sub7", "task":"Master Battle Royal's at the Battle Royal Dome on Royal Avenue"},
-			{"id":"sub8", "task":"Defeat Lana and her sisters to earn a Deep Sea Scale and Tooth", "tooltip":"Konikoni City"},
-			{"id":"sub9", "task":"Show a Pokemon from Johto to get Apricorn Balls", "tooltip":"Show a Pokemon from Silver/Gold Virtual Console to the Director at Game Freaks Office"}
-		]
-	},
-	{"id":"task42",
-		"task":"Complete the Ula'ula Island Post Game Activities",
-		"category":"activities",
-		"subtasks":[
-			{"id":"sub1", "task":"Purchase a Skull Tank in the Po Town Pokemon Center"},
-			{"id":"sub2", "task":"Assemble Zygarde at the Aether Base on Route 16"},
-			{"id":"sub3", "task":"Get a Porygon and an Up-Grade at the Aether House on Route 15"},
-			{"id":"sub4", "task":"Explore Haina Desert, show the old man Solrock or Lunatone for a reward", "tooltip":"Solrock in Ultra Sun, Lunatone in Ultra Moon"},
-			{"id":"sub5", "task":"Speak to the woman outside the Thrifty Megamarat with Tapu Bulu on your team to receive a Grassy Seed"},
-			{"id":"sub6", "task":"Defeat Veteran Aristo on Mount Lanakila to receive a Life Orb"}
-		]
-	},
-	{"id":"task43",
-		"task":"Complete the Poni Island Post Game Activities",
-		"category":"activities",
-		"subtasks":[
-			{"id":"sub1", "task":"Meet Dexio and Sina to learn about Mega Evolutions", "tooltip": "On Ancient Poni Path"},
-			{"id":"sub2", "task":"Receive the Key Stone and Alakazite from Dexio", "tooltip": "On Ancient Poni Path"},
-			{"id":"sub3", "task":"Defeat Swimmer Girls in a Double Battle to get TM94 and TM98", "tooltip": "On Poni Breaker Coast"},
-			{"id":"sub4", "task":"Explore entire east half of Poni Island, which was not accessible before"},
-			{"id":"sub5", "task":"Hatch 20 Eggs and get Judge Function from Ace Trainer at Battle Tree", "tooltip": "Judge Function is an upgrade to the PC Boxes"},
-			{"id":"sub6", "task":"Bring Solgaleo or Lunala to the Altar of the Sunne/Moone to swap day for night"},
-			{"id":"sub7", "task":"Defeat the Sightseer in Seafolk Village Pokemon Center to receive 6 Nuggets"},
-			{"id":"sub8", "task":"Get Type:Null and memory drives from Wicke", "tooltip": "On Ancient Poni Path"}
-		]
-	},
-	{"id":"task44",
-		"task":"Complete the Aether Paradise Post Game Activities",
-		"category":"activities",
-		"subtasks":[
-			{"id":"sub1", "task":"Talk to the Janitor outside Aether Paradise after completing Episode Rainbow Rocket"},
-			{"id":"sub2", "task":"Defeat Faba to get a Dubious Disc", "tooltip": "1F Entrance"},
-			{"id":"sub3", "task":"Receive two Big Malasadas from Wicke"},
-			{"id":"sub4", "task":"Receive DNA Splicers, Prison Bottle, and Soul Dew from Aether Foundation Employee", "tooltip": "B2F Lab Area"}
-		]
-	},
-	{"id":"task50",
-		"task":"Complete all Sub-events",
+  {
+    "id": "task1",
+    "task": "Complete the Alola Pokédex",
+    "category": "catchemall",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "(150) Melemele Pokédex"
+      },
+      {
+        "id": "sub2",
+        "task": "(160) Akala Pokdex"
+      },
+      {
+        "id": "sub3",
+        "task": "(160) Ula'ula Pokédex"
+      },
+      {
+        "id": "sub4",
+        "task": "(130) Poni Pokédex"
+      }
+    ]
+  },
+  {
+    "id": "task2",
+    "task": "Catch all Different Oricorio",
+    "category": "catchemall",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Baille Style",
+        "tooltip": "Ula'ula Island"
+      },
+      {
+        "id": "sub2",
+        "task": "Pom-Pom Style",
+        "tooltip": "Melemele Island"
+      },
+      {
+        "id": "sub3",
+        "task": "P'au Style",
+        "tooltip": "Akala Island"
+      },
+      {
+        "id": "sub4",
+        "task": "Sensu Style",
+        "tooltip": "Poni Island"
+      }
+    ]
+  },
+  {
+    "id": "task3",
+    "task": "Collect all different colors of Minior",
+    "category": "catchemall",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Red"
+      },
+      {
+        "id": "sub2",
+        "task": "Orange"
+      },
+      {
+        "id": "sub3",
+        "task": "Yellow"
+      },
+      {
+        "id": "sub4",
+        "task": "Green"
+      },
+      {
+        "id": "sub5",
+        "task": "Blue"
+      },
+      {
+        "id": "sub6",
+        "task": "Indigo"
+      },
+      {
+        "id": "sub7",
+        "task": "Violet"
+      },
+      {
+        "id": "sub8",
+        "task": "Black (Shiny)"
+      }
+    ]
+  },
+  {
+    "id": "task4",
+    "task": "Obtain In-Game Gift Pokémon",
+    "category": "catchemall",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Dusk Form Lycanroc",
+        "tooltip": "Get the special Rockruff via Mystery Gift Nov 17 2017 - Jan 10 2018"
+      },
+      {
+        "id": "sub2",
+        "task": "Ash Hat Pikachu",
+        "tooltip": "Scan the special event QR Code to receive Ash Hat Pikachu"
+      },
+      {
+        "id": "sub3",
+        "task": "Eevee",
+        "tooltip": "Paniola Ranch - Egg from Nursery"
+      },
+      {
+        "id": "sub4",
+        "task": "Porygon",
+        "tooltip": "Aether House - Visit after defeating Elite Four"
+      },
+      {
+        "id": "sub5",
+        "task": "Aerodactyl",
+        "tooltip": "Seafolk Village - Ace Trainer in the Huntail boat"
+      },
+      {
+        "id": "sub6",
+        "task": "Pikachu",
+        "tooltip": "Heahea City - Get High Scores on all Mantine Surf courses"
+      },
+      {
+        "id": "sub7",
+        "task": "Type: Null",
+        "tooltip": "Ancient Poni Path- Post Game, speak to Wicke"
+      },
+      {
+        "id": "sub8",
+        "task": "Zygarde",
+        "tooltip": "Route 16 - Defeat Elite Four and Capture wild Zygarde in Resolution Cave, Defeat Dexio in battle"
+      },
+      {
+        "id": "sub9",
+        "task": "Gumshoos / Raticate (Totem Sized)",
+        "tooltip": "Heahea Beach - Collect 20 totem stickers, speak to Samson Oak"
+      },
+      {
+        "id": "sub10",
+        "task": "Marowak / Araquanid (Totem Sized)",
+        "tooltip": "Heahea Beach - Collect 40 totem stickers, speak to Samson Oak"
+      },
+      {
+        "id": "sub11",
+        "task": "Lurantis / Salazzle (Totem Sized)",
+        "tooltip": "Heahea Beach - Collect 50 totem stickers, speak to Samson Oak"
+      },
+      {
+        "id": "sub12",
+        "task": "Vikvavolt / Togedemaru (Totem Sized)",
+        "tooltip": "Heahea Beach - Collect 70 totem stickers, speak to Samson Oak"
+      },
+      {
+        "id": "sub13",
+        "task": "Mimikyu (Totem Sized)",
+        "tooltip": "Heahea Beach - Collect 80 totem stickers, speak to Samson Oak"
+      },
+      {
+        "id": "sub14",
+        "task": "Ribombee / Kommo-o (Totem Sized)",
+        "tooltip": "Heahea Beach - Collect 100 totem stickers, speak to Samson Oak"
+      },
+      {
+        "id": "sub15",
+        "task": "Magearna",
+        "tooltip": "Scan the special event QR Code to receive Magearna"
+      }
+    ]
+  },
+  {
+    "id": "task5",
+    "task": "Complete all In-Game Pokémon Trades",
+    "category": "catchemall",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Trade Spearow for Hawlucha",
+        "tooltip": "Route 2 Pokemon Center"
+      },
+      {
+        "id": "sub2",
+        "task": "Trade Lillipup for Noibat",
+        "tooltip": "Route 5 Pokemon Center"
+      },
+      {
+        "id": "sub3",
+        "task": "Trade Tentacool for Barboach",
+        "tooltip": "Royal Avenue Pokemon Center"
+      },
+      {
+        "id": "sub4",
+        "task": "Trade Trumbeak for Arbok ",
+        "tooltip": "Route 8 Pokemon Center"
+      },
+      {
+        "id": "sub5",
+        "task": "Trade Phantump for Trevenant",
+        "tooltip": "Tapu Village Pokemon Center"
+      },
+      {
+        "id": "sub6",
+        "task": "Trade Granbull for West Sea Shellos",
+        "tooltip": "Seafolk Village (This is the only way to get West Sea Shellos in the game)"
+      },
+      {
+        "id": "sub7",
+        "task": "Trade Bewear for Tauros",
+        "tooltip": "Poni Gauntlet"
+      }
+    ]
+  },
+  {
+    "id": "task6",
+    "task": "Capture Additional In-Game Legendaries",
+    "category": "legendary",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Capture Tapu Koko"
+      },
+      {
+        "id": "sub2",
+        "task": "Capture Tapu Lele"
+      },
+      {
+        "id": "sub3",
+        "task": "Capture Tapu Bulu"
+      },
+      {
+        "id": "sub4",
+        "task": "Capture Tapu Fini"
+      },
+      {
+        "id": "sub5",
+        "task": "Capture Lunala / Solgaleo",
+        "tooltip": "Go to Mahalo Trail after Minas Trial to capture Solgaleo or Lunala if you can"
+      },
+      {
+        "id": "sub6",
+        "task": "Obtain Cosmog"
+      },
+      {
+        "id": "sub7",
+        "task": "Collect Zygarde Complete Form"
+      },
+      {
+        "id": "sub8",
+        "task": "Capture Necrozma"
+      },
+      {
+        "id": "sub9",
+        "task": "Obtain Dusk Mane Necrozma"
+      },
+      {
+        "id": "sub10",
+        "task": "Obtain Dawn Wings Necrozma"
+      },
+      {
+        "id": "sub11",
+        "task": "Capture Articuno",
+        "tooltip": "Wormhole Color - Red"
+      },
+      {
+        "id": "sub12",
+        "task": "Capture Zapdos",
+        "tooltip": "Wormhole Color - Red"
+      },
+      {
+        "id": "sub13",
+        "task": "Capture Moltres",
+        "tooltip": "Wormhole Color - Red"
+      },
+      {
+        "id": "sub14",
+        "task": "Capture Mewtwo",
+        "tooltip": "Wormhole Color - Green"
+      },
+      {
+        "id": "sub15",
+        "task": "Capture/Trade for Raikou",
+        "tooltip": "Ultra Sun, Wormhole Color - Green"
+      },
+      {
+        "id": "sub16",
+        "task": "Capture/Trade for Entei",
+        "tooltip": "Ultra Moon, Wormhole Color - Green"
+      },
+      {
+        "id": "sub17",
+        "task": "Capture Suicune",
+        "tooltip": "Requires Raikou and Entei in your team, Wormhole Color - Blue"
+      },
+      {
+        "id": "sub18",
+        "task": "Capture/Trade for Lugia",
+        "tooltip": "Ultra Moon, Wormhole Color - Blue"
+      },
+      {
+        "id": "sub19",
+        "task": "Capture/Trade for Ho-Oh",
+        "tooltip": "Ultra Sun, Wormhole Color - Red"
+      },
+      {
+        "id": "sub20",
+        "task": "Capture Regirock",
+        "tooltip": "Wormhole Color - Yellow"
+      },
+      {
+        "id": "sub21",
+        "task": "Capture Regice",
+        "tooltip": "Wormhole Color - Yellow"
+      },
+      {
+        "id": "sub22",
+        "task": "Capture Registeel",
+        "tooltip": "Wormhole Color - Yellow"
+      },
+      {
+        "id": "sub23",
+        "task": "Capture/Trade for Regigigas",
+        "tooltip": "Ultra Moon - Wormhole Color - Yellow"
+      },
+      {
+        "id": "sub24",
+        "task": "Capture/Trade for Latias",
+        "tooltip": "Ultra Moon, Wormhole Color - Blue"
+      },
+      {
+        "id": "sub25",
+        "task": "Capture/Trade for Latios",
+        "tooltip": "Ultra Sun, Wormhole Color - Blue"
+      },
+      {
+        "id": "sub26",
+        "task": "Capture/Trade for Kyogre",
+        "tooltip": "Ultra Moon, Wormhole Color - Blue"
+      },
+      {
+        "id": "sub27",
+        "task": "Capture/Trade for Groudon",
+        "tooltip": "Ultra Sun, Wormhole Color - Yellow"
+      },
+      {
+        "id": "sub28",
+        "task": "Capture Rayquaza",
+        "tooltip": "Requires Kyogre and Groudon in your team, Wormhole Color - Red"
+      },
+      {
+        "id": "sub29",
+        "task": "Capture Uxie",
+        "tooltip": "Wormhole Color - Blue"
+      },
+      {
+        "id": "sub30",
+        "task": "Capture Mesprit",
+        "tooltip": "Wormhole Color - Blue"
+      },
+      {
+        "id": "sub31",
+        "task": "Capture Azelf",
+        "tooltip": "Wormhole Color - Blue"
+      },
+      {
+        "id": "sub32",
+        "task": "Capture/Trade for Dialga",
+        "tooltip": "Ultra Sun, Wormhole Color - Green"
+      },
+      {
+        "id": "sub33",
+        "task": "Capture/Trade for Palkia",
+        "tooltip": "Ultra Moon, Wormhole Color - Blue"
+      },
+      {
+        "id": "sub34",
+        "task": "Capture Giratina",
+        "tooltip": "Requires Dialga and Palkia on your team, Wormhole Color - Yellow"
+      },
+      {
+        "id": "sub35",
+        "task": "Capture/Trade for Heatran",
+        "tooltip": "Ultra Sun - Wormhole Color - Yellow"
+      },
+      {
+        "id": "sub36",
+        "task": "Capture Cresselia",
+        "tooltip": "Wormhole Color - Red"
+      },
+      {
+        "id": "sub37",
+        "task": "Capture Cobalion",
+        "tooltip": "Wormhole Color - Green"
+      },
+      {
+        "id": "sub38",
+        "task": "Capture Terrakion",
+        "tooltip": "Wormhole Color - Green"
+      },
+      {
+        "id": "sub39",
+        "task": "Capture Virizion",
+        "tooltip": "Wormhole Color - Green"
+      },
+      {
+        "id": "sub40",
+        "task": "Capture/Trade for Tornadus",
+        "tooltip": "Ultra Sun, Wormhole Color - Red"
+      },
+      {
+        "id": "sub41",
+        "task": "Capture/Trade for Thundurus",
+        "tooltip": "Ultra Moon, Wormhole Color - Red"
+      },
+      {
+        "id": "sub42",
+        "task": "Capture Landorus",
+        "tooltip": "Requires Tornadus and Thundurus on your team, Wormhole Color - Red"
+      },
+      {
+        "id": "sub43",
+        "task": "Capture/Trade for Reshiram",
+        "tooltip": "Ultra Sun, Wormhole Color - Green"
+      },
+      {
+        "id": "sub44",
+        "task": "Capture/Trade for Zekrom",
+        "tooltip": "Ultra Moon, Wormhole Color - Green"
+      },
+      {
+        "id": "sub45",
+        "task": "Capture Kyurem",
+        "tooltip": "Requires Reshiram and Zekrom on your team, Wormhole Color - Blue"
+      },
+      {
+        "id": "sub46",
+        "task": "Capture/Trade for Xerneas",
+        "tooltip": "Ultra Sun, Wormhole Color - Green"
+      },
+      {
+        "id": "sub47",
+        "task": "Capture/Trade for Yveltal",
+        "tooltip": "Ultra Moon, Wormhole Color - Red"
+      }
+    ]
+  },
+  {
+    "id": "task7",
+    "task": "Trade for Alt Version Legendary (Lunala / Solgaleo)",
+    "category": "legendary"
+  },
+  {
+    "id": "task8",
+    "task": "Obtain all the Ultra Beasts",
+    "category": "legendary",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Obtain UB Poipole"
+      },
+      {
+        "id": "sub2",
+        "task": "Obtain UB Naganadel",
+        "tooltip": "Evolve UB Poipole"
+      },
+      {
+        "id": "sub3",
+        "task": "Capture UB-01 - Nihilego"
+      },
+      {
+        "id": "sub4",
+        "task": "Capture/Trade for UB-02 - Buzzwole",
+        "tooltip": "Only available in Pokémon Ultra Sun (Ultra Jungle)"
+      },
+      {
+        "id": "sub5",
+        "task": "Capture/Trade for UB-02 - Pheromosa",
+        "tooltip": "Only available in Pokémon Ultra Moon (Ultra Desert"
+      },
+      {
+        "id": "sub6",
+        "task": "Capture UB-03 - Xurkitree",
+        "tooltip": "Found in Ultra Plant"
+      },
+      {
+        "id": "sub7",
+        "task": "Capture/Trade for UB-04 - Kartana",
+        "tooltip": "Only available in Pokémon Ultra Sun (Ultra Crater)"
+      },
+      {
+        "id": "sub8",
+        "task": "Capture/Trade for UB-04 - Celesteela",
+        "tooltip": "Only available in Pokémon Ultra Moon (Ultra Forest)"
+      },
+      {
+        "id": "sub9",
+        "task": "Capture UB-05 - Guzzlord",
+        "tooltip": "Found in Ultra Ruin"
+      },
+      {
+        "id": "sub10",
+        "task": "Capture/Trade for UB Stakataka",
+        "tooltip": "Only available in Pokémon Ultra Moon (Poni Grove)"
+      },
+      {
+        "id": "sub11",
+        "task": "Capture/Trade for UB Blacephalon",
+        "tooltip": "Only available in Pokémon Ultra Sun (Poni Grove)"
+      }
+    ]
+  },
+  {
+    "id": "task6a",
+    "task": "Capture all standard pokemon available in wormholes",
+    "category": "pokemon",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Barbaracle",
+        "tooltip": "Available in Blue Wormhole"
+      },
+      {
+        "id": "sub2",
+        "task": "Floatzel",
+        "tooltip": "Available in Blue Wormhole"
+      },
+      {
+        "id": "sub3",
+        "task": "Lombre",
+        "tooltip": "Available in Blue Wormhole"
+      },
+      {
+        "id": "sub4",
+        "task": "Quagsire",
+        "tooltip": "Available in Blue Wormhole"
+      },
+      {
+        "id": "sub5",
+        "task": "Stunfisk",
+        "tooltip": "Available in Blue Wormhole"
+      },
+      {
+        "id": "sub10",
+        "task": "Audino",
+        "tooltip": "Available in Green Wormhole"
+      },
+      {
+        "id": "sub11",
+        "task": "Drapion",
+        "tooltip": "Available in Green Wormhole"
+      },
+      {
+        "id": "sub12",
+        "task": "Grumpig",
+        "tooltip": "Available in Green Wormhole"
+      },
+      {
+        "id": "sub13",
+        "task": "Heliolisk",
+        "tooltip": "Available in Green Wormhole"
+      },
+      {
+        "id": "sub14",
+        "task": "Nuzleaf",
+        "tooltip": "Available in Green Wormhole"
+      },
+      {
+        "id": "sub20",
+        "task": "Altaria",
+        "tooltip": "Available in Red Wormhole"
+      },
+      {
+        "id": "sub21",
+        "task": "Sigilyph",
+        "tooltip": "Available in Red Wormhole"
+      },
+      {
+        "id": "sub22",
+        "task": "Swanna",
+        "tooltip": "Available in Red Wormhole"
+      },
+      {
+        "id": "sub23",
+        "task": "Swellow",
+        "tooltip": "Available in Red Wormhole"
+      },
+      {
+        "id": "sub24",
+        "task": "Yanmega",
+        "tooltip": "Available in Red Wormhole"
+      },
+      {
+        "id": "sub30",
+        "task": "Abomasnow",
+        "tooltip": "Available in Yellow Wormhole"
+      },
+      {
+        "id": "sub31",
+        "task": "Crustle",
+        "tooltip": "Available in Yellow Wormhole"
+      },
+      {
+        "id": "sub32",
+        "task": "Hippowdon",
+        "tooltip": "Available in Yellow Wormhole"
+      },
+      {
+        "id": "sub33",
+        "task": "Magcargo",
+        "tooltip": "Available in Yellow Wormhole"
+      },
+      {
+        "id": "sub34",
+        "task": "Medicham",
+        "tooltip": "Available in Yellow Wormhole"
+      }
+    ]
+  },
+  {
+    "id": "task9",
+    "task": "Complete all Pokédex side quests",
+    "category": "quests",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Show Abra to the woman at the Hau'oli Pokemon Center"
+      },
+      {
+        "id": "sub2",
+        "task": "Show Crabrawler to the woman at the Route 2 Pokemon Center"
+      },
+      {
+        "id": "sub3",
+        "task": "Show Sableye to the man in yellow on Route 3"
+      },
+      {
+        "id": "sub4",
+        "task": "Show Salazzle to the woman at the Heahea City Apparel Shop"
+      },
+      {
+        "id": "sub5",
+        "task": "Show Corsola to the man at the Route 5 Pokemon Center"
+      },
+      {
+        "id": "sub6",
+        "task": "Show Goomy to the Aether employee at the Route 8 Aether Trailer"
+      },
+      {
+        "id": "sub7",
+        "task": "Show Natu (Sun) or Hoothoot (Moon) to the Aether employee at the Konikoni City Pokemon"
+      },
+      {
+        "id": "sub8",
+        "task": "Show Minior to the collector at the Malie City Apparel Shop"
+      },
+      {
+        "id": "sub9",
+        "task": "Show Alolan Persian to Samson Oak at the Malie City Library"
+      },
+      {
+        "id": "sub10",
+        "task": "Show Garchomp to the Aether employee at the Route 16 Pokemon Center"
+      }
+    ]
+  },
+  {
+    "id": "task10",
+    "task": "Collect all stamps in your Trainer Passport",
+    "category": "quests",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Become an Official Pokemon Trainer"
+      },
+      {
+        "id": "sub2",
+        "task": "Melemele Trial Completion"
+      },
+      {
+        "id": "sub3",
+        "task": "Akala Trial Completion"
+      },
+      {
+        "id": "sub4",
+        "task": "Ula'ula Trial Completion"
+      },
+      {
+        "id": "sub5",
+        "task": "Poni Trial Completion"
+      },
+      {
+        "id": "sub6",
+        "task": "Island Challenge Completion"
+      },
+      {
+        "id": "sub7",
+        "task": "Melemele Pokedex Completion",
+        "tooltip": "Talk to Game Freak Game Director"
+      },
+      {
+        "id": "sub8",
+        "task": "Akala Pokedex Completion",
+        "tooltip": "Talk to Game Freak Game Director"
+      },
+      {
+        "id": "sub9",
+        "task": "Ula'ula Pokedex Completion",
+        "tooltip": "Talk to Game Freak Game Director"
+      },
+      {
+        "id": "sub10",
+        "task": "Poni Pokedex Completion",
+        "tooltip": "Talk to Game Freak Game Director"
+      },
+      {
+        "id": "sub11",
+        "task": "Alola Pokedex Completion",
+        "tooltip": "Talk to Game Freak Game Director"
+      },
+      {
+        "id": "sub12",
+        "task": "50 Consecutive Single Battle Wins",
+        "tooltip": "Single Battles at the Battle Tree"
+      },
+      {
+        "id": "sub13",
+        "task": "50 Consecutive Double Battle Wins",
+        "tooltip": "Double Battles at the Battle Tree"
+      },
+      {
+        "id": "sub14",
+        "task": "50 Consecutive Multi Battle Wins",
+        "tooltip": "Multi Battles at the Battle Tree"
+      },
+      {
+        "id": "sub15",
+        "task": "Obtain the Poke Finder Pro",
+        "tooltip": "Obtain final version of the Poke Finder"
+      }
+    ]
+  },
+  {
+    "id": "task11",
+    "task": "Get the high score on all Mantine Surf Locations",
+    "category": "quests",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Get the High Score at Big Wave Beach"
+      },
+      {
+        "id": "sub2",
+        "task": "Get the High Score at Heahea Beach"
+      },
+      {
+        "id": "sub3",
+        "task": "Get the High Score at Ula'ula Beach"
+      },
+      {
+        "id": "sub4",
+        "task": "Get the High Score at Poni Beach"
+      },
+      {
+        "id": "sub5",
+        "task": "Visit the Surf Association after getting the high score on all 4 courses",
+        "tooltip": "Get a surfing pikachu from the Boss"
+      }
+    ]
+  },
+  {
+    "id": "task20",
+    "task": "Obtain all Poké Finder Upgrades",
+    "category": "upgrades",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Version 1 - Normal Pokedex Camera",
+        "tooltip": "Reach Hau'oli City Shopping District"
+      },
+      {
+        "id": "sub2",
+        "task": "Version 2 - Enhanced Zoom",
+        "tooltip": "Reach 1,500 cumulative likes"
+      },
+      {
+        "id": "sub3",
+        "task": "Version 3 - More Zoom",
+        "tooltip": "Reach 10,000 cumulative likes"
+      },
+      {
+        "id": "sub4",
+        "task": "Version 4 - Even More Zoom",
+        "tooltip": "Reach 100,000 cumulative likes"
+      },
+      {
+        "id": "sub5",
+        "task": "Version 5 - Pokemon calling button that draws pokemon's attention to you",
+        "tooltip": "Reach 1.5 million cumulative likes"
+      }
+    ]
+  },
+  {
+    "id": "task21",
+    "task": "Use Poké Finder at all Locations",
+    "category": "upgrades",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Hau'oli Cemetary",
+        "tooltip": "Furfrou (Day), Gastly (Night), Pikipek (Day),Zubat (Night)"
+      },
+      {
+        "id": "sub2",
+        "task": "Hau'oli City - Beachfront",
+        "tooltip": " Drifloon (Day-Rare), Murkrow (Night), Pelipper, Wingull"
+      },
+      {
+        "id": "sub3",
+        "task": "Hau'oli City - Shopping District",
+        "tooltip": "Dunsparce, Growlithe, Alolan Meowth (Night), Pikachu, Rockruff (Day)"
+      },
+      {
+        "id": "sub4",
+        "task": "Melemele Meadow",
+        "tooltip": "Cutiefly (Day), Oricorio, Flabebe, Floette"
+      },
+      {
+        "id": "sub5",
+        "task": "Kala'e Bay",
+        "tooltip": "Corsola, Alolan Dugtrio, Slowpoke, Smoochum"
+      },
+      {
+        "id": "sub6",
+        "task": "Brooklet Hill",
+        "tooltip": "Psyduck, Poliwag, Politoed, Dewpider (Day), Surskit (Night)"
+      },
+      {
+        "id": "sub7",
+        "task": "Lush Jungle",
+        "tooltip": "Bounsweet (Day), Comfey, Fomantis (Night), Goodra (Rare), Kecleon, Morelull (Night), Paras (Day)"
+      },
+      {
+        "id": "sub8",
+        "task": "Paniola Ranch",
+        "tooltip": "Eevee, Lillipup, Mareep, Espeon (Day), Umbreon (Night)"
+      },
+      {
+        "id": "sub9",
+        "task": "Pikachu Valley",
+        "tooltip": "Pikachu"
+      },
+      {
+        "id": "sub10",
+        "task": "Route 8",
+        "tooltip": "Bewear, Yungoos (Day), Alolan Rattata (Night), Crabrawler"
+      },
+      {
+        "id": "sub11",
+        "task": "Royal Avenue",
+        "tooltip": "Jigglypuff, Butterfree (Day), Oricorio (Night)"
+      },
+      {
+        "id": "sub12",
+        "task": "Wela Volcano Park",
+        "tooltip": "Fletchling (Day), Cubone, Magby, Salandit, Talonflame (Rare - Day)"
+      },
+      {
+        "id": "sub20",
+        "task": "Blush Mountain",
+        "tooltip": "Dedenne, Elekid, Togedemaru, Magneton, Porygon-Z(Rare)"
+      },
+      {
+        "id": "sub21",
+        "task": "Mount Hokulani",
+        "tooltip": "Beldum, Clefairy (Night), Clefable (Night), Elgyem, Magnezone (Rare-Night), Metang"
+      },
+      {
+        "id": "sub22",
+        "task": "Mount Lanakila",
+        "tooltip": "Vanillish, Vanillite, Glalie (Day), Absol (Day), Sneasel (Night), Froslass (Rare-Night)"
+      },
+      {
+        "id": "sub23",
+        "task": "Route 13",
+        "tooltip": "Sandile, Gible, Trapinch, Flygon (Rare)"
+      },
+      {
+        "id": "sub24",
+        "task": "Thrifty Megamart Abandoned Site",
+        "tooltip": "Gastly, Haunter, Gengar, Mimikyu, Shuppet"
+      },
+      {
+        "id": "sub25",
+        "task": "Ula'ula Meadow",
+        "tooltip": "Ledian (Day), Ariados (Night), Floette, Florges Oricorio"
+      },
+      {
+        "id": "sub30",
+        "task": "Poni Coast",
+        "tooltip": "Bewear, Fearow, Lickitung"
+      },
+      {
+        "id": "sub31",
+        "task": "Poni Meadow",
+        "tooltip": "Oricorio, Ribombee (Day), Dragonite (Rare), Mismagius (Night)"
+      },
+      {
+        "id": "sub32",
+        "task": "Vast Poni Canyon",
+        "tooltip": "Mienshao, Gigalith, Jangmo-o, Hakamo-o, Lucario (Rare)"
+      }
+    ]
+  },
+  {
+    "id": "task22",
+    "task": "Obtain Eevium Z",
+    "category": "zcrystals",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Speak with the Veteran Cashier at Thrifty Megamart on Royal Avenue"
+      },
+      {
+        "id": "sub2",
+        "task": "Defeat Vaporeon User",
+        "tooltip": "Trainers school 3F"
+      },
+      {
+        "id": "sub3",
+        "task": "Defeat Flareon User",
+        "tooltip": "Tide Song Hotel"
+      },
+      {
+        "id": "sub4",
+        "task": "Defeat Jolteon User",
+        "tooltip": "Malie Community Center"
+      },
+      {
+        "id": "sub5",
+        "task": "Defeat Espeon User",
+        "tooltip": "Geothermal Plant"
+      },
+      {
+        "id": "sub6",
+        "task": "Defeat Umbreon User",
+        "tooltip": "Hau'oli Cemetary"
+      },
+      {
+        "id": "sub7",
+        "task": "Defeat Glaceon User",
+        "tooltip": "Southwest house in Iki Town"
+      },
+      {
+        "id": "sub8",
+        "task": "Defeat Leafeon User",
+        "tooltip": "Hano Beach"
+      },
+      {
+        "id": "sub9",
+        "task": "Defeat Sylveon User",
+        "tooltip": "Northeast house of Seafolk Village"
+      },
+      {
+        "id": "sub10",
+        "task": "Defeat Kagetora and claim the Eevium Z"
+      }
+    ]
+  },
+  {
+    "id": "task23",
+    "task": "Collect All Z-Move Crystals",
+    "category": "zcrystals",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Aloraichium Z",
+        "tooltip": "Talk to woman in Seafolk Village (Steelix sub) and have Alola Raichu in your party"
+      },
+      {
+        "id": "sub2",
+        "task": "Buginium Z",
+        "tooltip": "Shady House"
+      },
+      {
+        "id": "sub3",
+        "task": "Darkinium Z",
+        "tooltip": "Malie City, Defeat Kahuna Nanu"
+      },
+      {
+        "id": "sub4",
+        "task": "Decidium Z",
+        "tooltip": "If Rowlet is starter - Gifted by Kukui after defeating Guzma first time, Defeat Kahuna Hala after becoming Champion"
+      },
+      {
+        "id": "sub5",
+        "task": "Dragonium Z",
+        "tooltip": "Vast Poni Canyon, Complete Seventh Trial"
+      },
+      {
+        "id": "sub6",
+        "task": "Eevium Z",
+        "tooltip": "See task 'Obtain Eevium Z' elsewhere in list"
+      },
+      {
+        "id": "sub7",
+        "task": "Electrium Z",
+        "tooltip": "Hokulani Observatory, Defeat Sophocles Trial"
+      },
+      {
+        "id": "sub8",
+        "task": "Fairium Z",
+        "tooltip": "Complete Mina's Trial"
+      },
+      {
+        "id": "sub9",
+        "task": "Fightinium Z",
+        "tooltip": "Iki Town, Defeat Hala"
+      },
+      {
+        "id": "sub10",
+        "task": "Firium Z",
+        "tooltip": "Wela Volcano Park, Defeat Kiawe's Trial"
+      },
+      {
+        "id": "sub11",
+        "task": "Flyininum Z",
+        "tooltip": "Ten Carat Hill, Requires Tauros and Machamp"
+      },
+      {
+        "id": "sub12",
+        "task": "Ghostium Z",
+        "tooltip": "Route 14, Defeat Acerola's Trial"
+      },
+      {
+        "id": "sub13",
+        "task": "Grassium Z",
+        "tooltip": "Lush Jungle, Defeat Mallow's Trial"
+      },
+      {
+        "id": "sub14",
+        "task": "Groundium Z",
+        "tooltip": "Exeggutor Island, Defeat Kahuna Hapu"
+      },
+      {
+        "id": "sub15",
+        "task": "Icium Z",
+        "tooltip": "Mount Lanakila"
+      },
+      {
+        "id": "sub16",
+        "task": "Incinium Z",
+        "tooltip": "If Litten is starter - Gifted by Kukui after defeating Guzma first time, Defeat Kahuna Hala after becoming Champion"
+      },
+      {
+        "id": "sub17",
+        "task": "Kommonium Z",
+        "tooltip": "Plains Grotto on Poni Island"
+      },
+      {
+        "id": "sub18",
+        "task": "Lunalium Z",
+        "tooltip": "Receive from Lillie after catching Lunala or Receive after finding Cosmog in Reverse World"
+      },
+      {
+        "id": "sub19",
+        "task": "Lycanium Z",
+        "tooltip": "Defeat Hau at Malie City"
+      },
+      {
+        "id": "sub20",
+        "task": "Marshadium Z",
+        "tooltip": "Show Marshadow to man on 3F of Tide Song Hotel"
+      },
+      {
+        "id": "sub21",
+        "task": "Mewnium Z",
+        "tooltip": "Show Mew to man on 3F of Tide Song Hotel"
+      },
+      {
+        "id": "sub22",
+        "task": "Mimikium Z",
+        "tooltip": "Follow Mimikyu through the shop at night at the Thrifty Megamart"
+      },
+      {
+        "id": "sub23",
+        "task": "Normalium Z",
+        "tooltip": "Verdant Cavern, Defeat Ilima's Trial"
+      },
+      {
+        "id": "sub24",
+        "task": "Pikanium Z",
+        "tooltip": "Help out the Pikachu at Hano Grand Resort"
+      },
+      {
+        "id": "sub25",
+        "task": "Pikashunium Z",
+        "tooltip": "Speak with Pikachu in Pikachu Valley after obtaining a Pikachu with a cap"
+      },
+      {
+        "id": "sub26",
+        "task": "Poisonium Z",
+        "tooltip": "From Plumeria on Poni Island"
+      },
+      {
+        "id": "sub27",
+        "task": "Primarium Z",
+        "tooltip": "If Popplio is starter - Gifted by Kukui after defeating Guzma first time, Defeat Kahuna Hala after becoming Champion"
+      },
+      {
+        "id": "sub28",
+        "task": "Psychium Z",
+        "tooltip": "Haina Desert"
+      },
+      {
+        "id": "sub29",
+        "task": "Rockium Z",
+        "tooltip": "Ruins of Life, Defeat Kahuna Olivia"
+      },
+      {
+        "id": "sub30",
+        "task": "Snorlium Z",
+        "tooltip": "Show Snorlax to man on 3F of Tide Song Hotel"
+      },
+      {
+        "id": "sub31",
+        "task": "Solganium Z",
+        "tooltip": "Receive from Lillie after catching Solgaleo or Receive after finding Cosmog in Reverse World"
+      },
+      {
+        "id": "sub32",
+        "task": "Steelium Z",
+        "tooltip": "Mount Hokulani, Defeat Molayne's Trial"
+      },
+      {
+        "id": "sub33",
+        "task": "Tapunium Z",
+        "tooltip": "After becoming champion and catching/defeating Tapu Koko (Needs to know Natures Madness)"
+      },
+      {
+        "id": "sub34",
+        "task": "Ultranecrozium Z",
+        "tooltip": "Mount Lanakila"
+      },
+      {
+        "id": "sub35",
+        "task": "Waterium Z",
+        "tooltip": "Brooklet Hill, Defeat Lana's Trial"
+      }
+    ]
+  },
+  {
+    "id": "task24",
+    "task": "Collect All Mega-Evolution Stones",
+    "category": "megastones",
+    "tooltip": "Most Mega Stones cost 64 points at the Battle Tree",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Abomasite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub2",
+        "task": "Absolite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub3",
+        "task": "Aerodactylite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub4",
+        "task": "Aggronite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub5",
+        "task": "Alakazite",
+        "tooltip": "Comes with Key Stone, Battle Tree"
+      },
+      {
+        "id": "sub6",
+        "task": "Altarianite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub7",
+        "task": "Ampharosite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub8",
+        "task": "Audinite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub9",
+        "task": "Banettite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub10",
+        "task": "Beedrillite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub11",
+        "task": "Blastoisinite",
+        "tooltip": "Defeat Red/Blue in the Battle Tree"
+      },
+      {
+        "id": "sub12",
+        "task": "Blazikenite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub13",
+        "task": "Cameruptite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub14",
+        "task": "Charizardite X",
+        "tooltip": "Defeat Red/Blue in the Battle Tree"
+      },
+      {
+        "id": "sub15",
+        "task": "Charizardite Y",
+        "tooltip": "Defeat Red/Blue in the Battle Tree"
+      },
+      {
+        "id": "sub16",
+        "task": "Diancite",
+        "tooltip": "Konikoni City, show Diancie to the collector in the jewelry shop"
+      },
+      {
+        "id": "sub17",
+        "task": "Galladite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub18",
+        "task": "Garchompite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub19",
+        "task": "Gardevoirite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub20",
+        "task": "Gengarite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub21",
+        "task": "Glalitite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub22",
+        "task": "Gyaradosite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub23",
+        "task": "Heracronite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub24",
+        "task": "Houndoominite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub25",
+        "task": "Kangaskhanite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub26",
+        "task": "Latiasite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub27",
+        "task": "Latiosite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub28",
+        "task": "Lopunnite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub29",
+        "task": "Lucarionite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub30",
+        "task": "Manectite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub31",
+        "task": "Mawilite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub32",
+        "task": "Medichamite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub33",
+        "task": "Metagrossite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub34",
+        "task": "Mewtwoite X",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub35",
+        "task": "Mewtwoite Y",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub36",
+        "task": "Pidgeotite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub37",
+        "task": "Pinsirite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub38",
+        "task": "Sablenite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub39",
+        "task": "Salamencite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub40",
+        "task": "Sceptilite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub41",
+        "task": "Scizorite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub42",
+        "task": "Sharpedonite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub43",
+        "task": "Slowbronite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub44",
+        "task": "Steelixite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub45",
+        "task": "Swampertite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub46",
+        "task": "Tyranitarite",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub47",
+        "task": "Venusaurite",
+        "tooltip": "Defeat Red/Blue in the Battle Tree"
+      },
+      {
+        "id": "sub48",
+        "task": "Red Orb",
+        "tooltip": "Buy at the Antiquities of the Ages Shop"
+      },
+      {
+        "id": "sub49",
+        "task": "Blue Orb",
+        "tooltip": "Buy at the Antiquities of the Ages Shop"
+      }
+    ]
+  },
+  {
+    "id": "task25",
+    "task": "Battle Tree Standard Challenges",
+    "category": "battle",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Single"
+      },
+      {
+        "id": "sub2",
+        "task": "Double"
+      },
+      {
+        "id": "sub3",
+        "task": "Multi"
+      }
+    ]
+  },
+  {
+    "id": "task26",
+    "task": "Battle Tree Super Challenges",
+    "category": "battle",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Single"
+      },
+      {
+        "id": "sub2",
+        "task": "Double"
+      },
+      {
+        "id": "sub3",
+        "task": "Multi"
+      }
+    ]
+  },
+  {
+    "id": "task19",
+    "task": "Reach Master Rank in Battle Royal",
+    "category": "battle",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Reach Super Rank"
+      },
+      {
+        "id": "sub2",
+        "task": "Reach Hyper Rank"
+      },
+      {
+        "id": "sub3",
+        "task": "Reach Master Rank"
+      }
+    ]
+  },
+  {
+    "id": "task27",
+    "task": "Unlock all Battle Styles",
+    "category": "battle",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Normal Style"
+      },
+      {
+        "id": "sub2",
+        "task": "Elegant Style",
+        "tooltip": "Straight away in Malie City Outer Cape"
+      },
+      {
+        "id": "sub3",
+        "task": "Girlish Style",
+        "tooltip": "Defeat Lana in battle in Konikoni City"
+      },
+      {
+        "id": "sub4",
+        "task": "Reverent Style",
+        "tooltip": "Defeat Kiawe in Paniola Town (Ultra Sun) or Mallow in Hau'oli City (Ultra Moon)"
+      },
+      {
+        "id": "sub5",
+        "task": "Smug Style",
+        "tooltip": "Defeat Gladion before the Elite Four"
+      },
+      {
+        "id": "sub6",
+        "task": "Left-Handed Style",
+        "tooltip": "Defeat Ilima in battle in Hau'oli City after defeating Hala"
+      },
+      {
+        "id": "sub7",
+        "task": "Passionate Style",
+        "tooltip": "Get a Battle Tree Streak of 50 or higher"
+      },
+      {
+        "id": "sub8",
+        "task": "Idol Style",
+        "tooltip": "Defeat Master Rank in the Battle Royal"
+      },
+      {
+        "id": "sub9",
+        "task": "Nihilist Style",
+        "tooltip": "Defeat Giovanni"
+      }
+    ]
+  },
+  {
+    "id": "task28",
+    "task": "Upgrade Battle Agency to level 50",
+    "category": "battle",
+    "subtasks": [
+      {
+        "id": "sub10",
+        "task": "Reach Level 10"
+      },
+      {
+        "id": "sub20",
+        "task": "Reach Level 20"
+      },
+      {
+        "id": "sub30",
+        "task": "Reach Level 30"
+      },
+      {
+        "id": "sub40",
+        "task": "Reach Level 40"
+      },
+      {
+        "id": "sub50",
+        "task": "Reach Level 50"
+      }
+    ]
+  },
+  {
+    "id": "task29",
+    "task": "Complete the Team Rainbow Rocket Epilogue",
+    "category": "epilogue",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "1. Festival Plaza hacked!"
+      },
+      {
+        "id": "sub2",
+        "task": "2. Defeat Faba at the Aether Foundation"
+      },
+      {
+        "id": "sub3",
+        "task": "3. Defeat the two grunts inside Team Rocket's Castle"
+      },
+      {
+        "id": "sub4",
+        "task": "4. Catch an Electrode while working your way through the puzzle rooms"
+      },
+      {
+        "id": "sub5",
+        "task": "5. Defeat Archie of Team Aqua"
+      },
+      {
+        "id": "sub6",
+        "task": "6. Defeat Maxite of Team Magma"
+      },
+      {
+        "id": "sub7",
+        "task": "7. Defeat Cyrus of Team Galactic"
+      },
+      {
+        "id": "sub8",
+        "task": "8. Defeat Lysandre of Team Flare"
+      },
+      {
+        "id": "sub9",
+        "task": "9. Defeat Ghetsis of Team Plasma"
+      },
+      {
+        "id": "sub10",
+        "task": "10. Defeat Giovanni of Team Rocket"
+      }
+    ]
+  },
+  {
+    "id": "task30",
+    "task": "Completely Develop the Poke Pelago Islands",
+    "category": "upgrades",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Isle Abeens - Level 1"
+      },
+      {
+        "id": "sub2",
+        "task": "Isle Abeens - Level 2"
+      },
+      {
+        "id": "sub3",
+        "task": "Isle Abeens - Level 3"
+      },
+      {
+        "id": "sub4",
+        "task": "Isle Aplenny - Level 1"
+      },
+      {
+        "id": "sub5",
+        "task": "Isle Aplenny - Level 2"
+      },
+      {
+        "id": "sub6",
+        "task": "Isle Aplenny - Level 3"
+      },
+      {
+        "id": "sub7",
+        "task": "Isle Aphun - Level 1"
+      },
+      {
+        "id": "sub8",
+        "task": "Isle Aphun - Level 2"
+      },
+      {
+        "id": "sub9",
+        "task": "Isle Aphun - Level 3"
+      },
+      {
+        "id": "sub10",
+        "task": "Isle Evelup - Level 1"
+      },
+      {
+        "id": "sub11",
+        "task": "Isle Evelup - Level 2"
+      },
+      {
+        "id": "sub12",
+        "task": "Isle Evelup - Level 3"
+      },
+      {
+        "id": "sub13",
+        "task": "Isle Avue - Level 1"
+      },
+      {
+        "id": "sub14",
+        "task": "Isle Avue - Level 2"
+      },
+      {
+        "id": "sub15",
+        "task": "Isle Avue - Level 3"
+      }
+    ]
+  },
+  {
+    "id": "task31",
+    "task": "Upgrade Festival Plaza to Level 100",
+    "category": "upgrades",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Reach Level 10"
+      },
+      {
+        "id": "sub2",
+        "task": "Reach Level 20"
+      },
+      {
+        "id": "sub3",
+        "task": "Reach Level 30"
+      },
+      {
+        "id": "sub4",
+        "task": "Reach Level 40"
+      },
+      {
+        "id": "sub5",
+        "task": "Reach Level 50"
+      },
+      {
+        "id": "sub6",
+        "task": "Reach Level 60"
+      },
+      {
+        "id": "sub7",
+        "task": "Reach Level 70"
+      },
+      {
+        "id": "sub8",
+        "task": "Reach Level 80"
+      },
+      {
+        "id": "sub9",
+        "task": "Reach Level 90"
+      },
+      {
+        "id": "sub10",
+        "task": "Reach Level 100"
+      }
+    ]
+  },
+  {
+    "id": "task32",
+    "task": "Defend Your Title as Champion",
+    "category": "battle",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Defeat Challenger - Gladion",
+        "tooltip": "Appears on rare occasions a month after you first defeat Necrozma"
+      },
+      {
+        "id": "sub2",
+        "task": "Defeat Challenger - Guzma"
+      },
+      {
+        "id": "sub3",
+        "task": "Defeat Challenger - Hapu"
+      },
+      {
+        "id": "sub4",
+        "task": "Defeat Challenger - Hau"
+      },
+      {
+        "id": "sub5",
+        "task": "Defeat Challenger - Kukui"
+      },
+      {
+        "id": "sub6",
+        "task": "Defeat Challenger - Lusamine",
+        "tooltip": "Appears on the first of each month"
+      },
+      {
+        "id": "sub7",
+        "task": "Defeat Challenger - Plumeria"
+      },
+      {
+        "id": "sub8",
+        "task": "Defeat Challenger - Ryuki"
+      },
+      {
+        "id": "sub9",
+        "task": "Defeat Challenger - Sophocles"
+      },
+      {
+        "id": "sub10",
+        "task": "Defeat Challenger - Tristan"
+      }
+    ]
+  },
+  {
+    "id": "task39",
+    "task": "Collect all the different Outfits",
+    "category": "fashion",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Active Outfit (Tank, Shorts, Hat, Socks(M), Shoes, Bag)",
+        "tooltip": "Available from the beginning as the default outfit"
+      },
+      {
+        "id": "sub2",
+        "task": "Kommo-o (M) or Luran (F) Outfit (Breastplate/Tank, Tassets/Shorts, Greaves(M), Sollerets/Shoes, Helm/Headband)",
+        "tooltip": "Available at Hau'oli City Mall Gracidea"
+      },
+      {
+        "id": "sub3",
+        "task": "Sludge Outfit (Tank, Shorts, Cap)",
+        "tooltip": "Available at Heahea City Apparel Shop"
+      },
+      {
+        "id": "sub4",
+        "task": "Athletic Outfit (Tank, Shorts, Cap)",
+        "tooltip": "Available at Konikoni City Apparel Shop"
+      },
+      {
+        "id": "sub5",
+        "task": "Legendary Outfit (Tank, Shorts, Cap)",
+        "tooltip": "Available at Konikoni City Apparel Shop"
+      },
+      {
+        "id": "sub6",
+        "task": "Seed Outfit (Tank, Shorts, Cap)",
+        "tooltip": "Available at Konikoni City Apparel Shop"
+      },
+      {
+        "id": "sub7",
+        "task": "Poison Bee Outfit (Tank, Shorts, Cap)",
+        "tooltip": "Available at Konikoni City Apparel Shop"
+      },
+      {
+        "id": "sub8",
+        "task": "Fruit Outfit (Tank, Shorts, Cap)",
+        "tooltip": "Available at Malie City Apparel Shop"
+      },
+      {
+        "id": "sub9",
+        "task": "Sea Cucumber Outfit (Tank, Shorts, Cap)",
+        "tooltip": "Available at Malie City Apparel Shop"
+      },
+      {
+        "id": "sub10",
+        "task": "Jellyfish Outfit (Tank, Shorts, Cap)",
+        "tooltip": "Available at Malie City Apparel Shop"
+      },
+      {
+        "id": "sub11",
+        "task": "Woolly Crab Outfit (Tank, Shorts, Cap)",
+        "tooltip": "Available at Malie City Apparel Shop"
+      },
+      {
+        "id": "sub12",
+        "task": "Skull Outfit (Tank, Shorts, Cap)",
+        "tooltip": "Available at Po Town"
+      },
+      {
+        "id": "sub13",
+        "task": "Trial Guide Outfit (Tee, Cap)",
+        "tooltip": "Available by completing Ilima's Post-Game Request"
+      },
+      {
+        "id": "sub14",
+        "task": "Pikachu Outfit (Shirt, Cap)",
+        "tooltip": "Available by getting a perfect score on the Pikachu Quiz"
+      },
+      {
+        "id": "sub15",
+        "task": "Karate (M) or Nurse (F) Outfit (Jacket/Top, Pants/Skirt, Cap(F))",
+        "tooltip": "Receive from director at GAME FREAK after completing the Alolan Pokedex"
+      }
+    ]
+  },
+  {
+    "id": "task40",
+    "task": "Complete the Melemele Island Post Game Activities",
     "category": "activities",
-		"subtasks":[
-			{"id":"sub1", "task":"Get a Poke Ball, a Heal Ball, or a Great Ball from your mom (Daily)", "tooltip":"Go home to rest your team when their HP is less than full"},
-			{"id":"sub2", "task":"Get an Awakening at home from Meowth (Daily)", "tooltip":"Go home and lay down in your bed for a nap"},
-			{"id":"sub3", "task":"Get a Quick Claw in the Trainer's School", "tooltiip":"Talk to the beauty in the Trainers School"},
-			{"id":"sub4", "task":"Get a Potion in the Trainer's School", "tooltip":"Talk to the boy in the classroom at the Trainers School"},
-			{"id":"sub5", "task":"Get a Potion at the Beachfront", "tooltip":"Speak with the woman on the sidewalk"},
-			{"id":"sub6", "task":"Earn 10 Ultra Balls at the tourist bureau", "tooltip":"Help out the scientist"},
-			{"id":"sub7", "task":"Get a Silk Scarf near the apparel shop", "tooltip":"Speak with the Madame outside the shop"},
-			{"id":"sub8", "task":"Get a heal ball outside the Hau'oli City Pokemon Center", "tooltip":"Speak with the Sightseer outside the Center"},
-			{"id":"sub10", "task":"Get a Lumiose Galette at Ilima's House", "tooltip":"Speak with Ilima's mom"},
-			{"id":"sub11", "task":"Get a Revive in Hau'oli City Hall", "tooltip":"Speak with the woman sitting inside"},
-			{"id":"sub12", "task":"Get an X Attack and X Defense on the pier in Hau'oli City", "tooltip":"Speak with the couple on the pier"},
-			{"id":"sub13", "task":"Get two Nest Balls in the Melemele Motel", "tooltip":"Speak with the man in one of the guest rooms"},
-			{"id":"sub14", "task":"Find the lost Meowth on Route 2", "tooltip":"Help the man next to the little house, it likes shady places"},
-			{"id":"sub15", "task":"Get Berries for your Pokemon to hold", "tooltip":"Talk to the berry farmer"},
-			{"id":"sub16", "task":"Get a Berry delicious gift", "tooltip":"Speak with the Delibird in the Berry farmer's house"},
-			{"id":"sub19", "task":"Help Actress Meredith refine her acting around Alola", "tooltip":"Find and defeat Actress Meredith in Melemele Meadow, Royal Avenue, Ula'ula Meadow, & Poni Meadow (after becoming league champion) to earn TM75"},
-			{"id":"sub20", "task":"Defeat Makana on Route 3 for TM19", "tooltip":"Defeat all the trainers on Route 3 to challenge this Ace Trainer"},
-			{"id":"sub21", "task":"Get a Soothe Bell on Route 3", "tooltip":"Speak to the breeder on Route 3"},
-			{"id":"sub23", "task":"Resolve the family dispute in Hau'oli City Hall", "tooltip":"Defeat Gentleman Reginald to calm him down"},
-			{"id":"sub24", "task":"Get the Gracidea flower at the Gracidea shop", "tooltip":"Speak with the woman to the cashier's right"},
-			{"id":"sub25", "task":"Watch a show to get five Great Balls (Day)", "tooltip":"Speak to the woman next to the stage in the Hau'oli City mall"},
-			{"id":"sub26", "task":"Cleanup six trashy areas in the mall (Night)", "tooltip":"Approach the Grimer near the stage in the Hau'oli City mall"},
-			{"id":"sub28", "task":"Receive a spare shell Bell", "tooltip":"Speak to the Madame at the front desk of City Hall"},
-			{"id":"sub29", "task":"Fix the Hau'oli City Vending Machine with Rotoms help"},
-			{"id":"sub31", "task":"Help out a Trial Guide on Route 3 (Daily)", "tooltip":"Take over for a Trial Guide and open the barricade at the right times"},
-			{"id":"sub32", "task":"Solve the seven mysteries at the Trainer School at night", "tooltip":"Speak with the little boy on Big Wave Beach"},
-			{"id":"sub33", "task":"Deliver the Kala'e Bay Beach Bottle", "tooltip":"Take the letter to an old woman in Iki Town"},
-			{"id":"sub34", "task":"Deliver the Heahea Beach Bottle", "tooltip":"Take the letter to the dancer in the Tide Song Hotel"},
-			{"id":"sub35", "task":"Get a history lesson and a Premier Ball too!", "tooltip":"Speak with the old man in the ferry terminal"},
-			{"id":"sub36", "task":"Say hi to the lady by the ocean", "tooltip":"Speak with the lady by the ocean near the apparel shop"},
-			{"id":"sub38", "task":"Help out a Bellhop at the Tide Song Hotel", "tooltip":"Speak with the Bellhop beside the main entrance"},
-			{"id":"sub40", "task":"Experience the thrill of the chase!", "tooltip":"Enter the first room east of the elevator in the Tide Song Hotel"},
-			{"id":"sub41", "task":"Find the Tide Song hotel elderly mans friends", "tooltip":"Speak with the old man in the second room east of the elevator"},
-			{"id":"sub42", "task":"Get a special Pikachu Frame for photos", "tooltip":"Visit Pikachu Valley"},
-			{"id":"sub43", "task":"Complete the Pikachu Quiz in Pikachu Valley"},
-			{"id":"sub45", "task":"Rescue the Vulpix from Team Skull in Paniola Town"},
-			{"id":"sub46", "task":"Meet the $5,000 man in Paniola Town (Daily)", "tooltip":"In front of the Pokemon Center in Paniola Town is a man that will buy a specific item for $5,000"},
-			{"id":"sub47", "task":"Get a Quick Ball from Magmar", "tooltip":"Explore Kiawe's House across from the Pokemon Center in Paniola Town"},
-			{"id":"sub48", "task":"Speak with the Miltank Breeder (Daily)", "tooltip":"Speak with the miltank breeder to get a moomoo milk every day"},
-			{"id":"sub49", "task":"Get the details on SOS battles", "tooltip":"Speak with the woman near the Moomoo Paddock"},
-			{"id":"sub50", "task":"Battle Tauros for a Scope Lens", "tooltip":"Defeat the fiesty Tauros at Moomoo Paddock"},
-			{"id":"sub51", "task":"Receive the first Pokemon Egg from the Pokemon Nursery", "tooltip":"Speak to a Breeder inside the Pokemon Nursery"},
-			{"id":"sub52", "task":"Receive TM10 from a Breeder", "tooltip":"Speak to a Breeder in the Pokemon Nursery"},
-			{"id":"sub53", "task":"Hatch the Egg from the Nursery and let them know", "tooltip":"Speak to the second Breeder behind the counter of the Pokemon Nursery with Eevee in your party"},
-			{"id":"sub56", "task":"The one that got away on Route 5", "tooltip":"Speak with the fisherman in the Pokemon Center on Route 5"},
-			{"id":"sub57", "task":"Defeat Trial Guide Bronson on Route 5", "tooltip":"Defeat all the trainers on Route 5 to challenge this Trial Guide"},
-			{"id":"sub58", "task":"Make small talk by the water cooler", "tooltip":"Speak with the lady in the back of GAME FREAK's office"},
-			{"id":"sub59", "task":"Help the Pokemon without a Trainer", "tooltip":"Get the abandoned Pokemon at Aether Foundation and take it to a small girl at the library in Malie City"},
-			{"id":"sub60", "task":"Help the Corsola on Hau'oli City Beach"},
-			{"id":"sub62", "task":"Inspire the youngster on Royal Avenue", "tooltip":"Keep telling the youngster about your adventures and eventually he'll challenge you, defeat him for a Dawn Stone"},
-			{"id":"sub63", "task":"Honesty is the best policy with Janitors", "tooltip":"Obtain a protein and check the pond in front of the Royal Ave Malasada shop, a janitor will pick it up and give it back, be honest and you'll get an Iron too!"},
-			{"id":"sub64", "task":"Meet the Clerk and Pyukumuku that long to be Malasada Mascots", "tooltip":"Give the Clerk in the malasada shop a drink and she'll reward you"},
-			{"id":"sub65", "task":"Meet the Pokemon Fan Club President", "tooltip":"Show the Pokemon Fan Club President a Pokemon that's as affectionate as it can be toward you to earn the Lovey-Dovey Heart background for photos"},
-			{"id":"sub66", "task":"Get an Effort Ribbon at the Battle Dome (Repeatable)", "tooltip":"Speak to a lady at the Battle Dome with a Pokemon with Maxed Base Stats in the lead of your party"},
-			{"id":"sub67", "task":"Free Samples at Thrifty Megamart! (Daily)", "tooltip":"Speak to the clerk once a day to get a free sample berry"},
-			{"id":"sub68", "task":"Be generous to the Hypno", "tooltip":"Be generous to the Hypno to get TM44"},
-			{"id":"sub69", "task":"Get a Lemonade from the Drifloon you rescued", "tooltip":"Speak to the Drifloon at the Thrifty Megamart to get a Lemonade"},
-
-			{"id":"sub70", "task":"Best of show on Route 8", "tooltip":"Near the entrance to route 8 is a father and son that want to see Passimian (Sun) or Oranguru (Moon)"},
-			{"id":"sub72", "task":"Defeat Ace Trainer Eileen on Route 8", "tooltip":"Defeat all the trainers on Route 8 to challenge this Ace Trainer"},
-			{"id":"sub74", "task":"Battle a Preschooler for a Lum Berry", "tooltip":"Outside the Pokemon Center on Route 8"},
-			{"id":"sub75", "task":"Battle Research at the Pokemon Lab", "tooltip":"Use the Battle Boxes in the PC and a scientist at the lab will give you a zoom lens"},
-			{"id":"sub76", "task":"Investigate the Ditto Five on Route 9 and Konikoni City", "tooltip":"Speak to the office at the front desk at the Police Station, Catch each Ditto as they each have 2 high IV values and earn money for each ditto you catch!"},
-			{"id":"sub77", "task":"Inspire Office Worker Dugal in battle near the waterfront", "tooltip":"Use a Z-Move in battle with Office Worker Dugal in Konikoni City"},
-			{"id":"sub78", "task":"Help out with a hairy situation near the lighthouse", "tooltip":"Show the hair stylist an Alolan Dugtrio and then later dye your hair honey blonde and show her again"},
-
-			{"id":"sub81", "task":"Watch Pikachu's wedding", "tooltip":"Speak to the little boy by one of the ponds of the Hano Grand Resort"},
-			{"id":"sub82", "task":"Intervene on Chuusters behalf at the Hano Grand Resort", "tooltip":"Battle the Reporter hounding Chuuster outside the Hano Grand Resort for Pikanium Z"},
-			{"id":"sub83", "task":"Pop down to the beach and speak to the swimmer", "tooltip":"Speak to the swimmer on the Hano Grand Resort Beach to get a Soda Pop"},
-			{"id":"sub84", "task":"Chuck some Pyukumuku for $20,000 (Daily)", "tooltip":"Speak to the bellhop near the lifeguard tower on Hano Grand Resort Beach"},
-			{"id":"sub85", "task":"Reunite the Pyukumuku In Love", "tooltip":"Speak with the woman on the beach near the waters edge and a forlorn Pyukumuku"},
-			{"id":"sub86", "task":"Get a Footprint ribbon for leveling up a pokemon", "tooltip":"Speak with the Pokemon Breeder to the left of the entrance inside the Hano Grand Resort"},
-			{"id":"sub87", "task":"Rescue Machamp from overbearing golfers", "tooltip":"Near the fountain on the left of Hano Grand Resort"},
-			{"id":"sub88", "task":"Battle a songwriter to get Metronome", "tooltip":"Battle the songwriter near the elevators at the back of the Hano Grand Resort lobby"},
-			{"id":"sub89", "task":"Inspire a Crabrawler by battling it's trainer", "tooltip":"Use a Z-Move against Dancer Ronda in the lobby of Hano Grand Resort for 5 full heals"},
-
-			{"id":"sub90", "task":"Dinner for two, enjoy a Z-set meal in Konikoni City", "tooltip":"After defeating Olivia have a Z-set meal with Olivia at the restaurant in Konikoni City"},
-			{"id":"sub91", "task":"Visit Professor Burnet at the Dimensional Research Lab", "tooltip":"Speaking with Professor Burnet will earn you a Reveal Glass"},
-			{"id":"sub92", "task":"Power up Incineroar near the Battle Dome", "tooltip":"Once you've got TM62 help the Incineroar near the Battle Dome learn Acrobatics in exchange for a Power Belt"},
-			{"id":"sub93", "task":"Give Machamp a Coba Berry near the Battle Dome", "tooltip":"Where once there was an Incineroar there's now a hungry Machamp that needs a Coba Berry for TM08"},
-			{"id":"sub94", "task":"Help Ilima solve a crime at the Hau'oli City Police Station", "tooltip":"Head to Hau'oli City to help Ilima solve the case"},
-			{"id":"sub95", "task":"Rescue the crowd watching the Bewear Costume Show", "tooltip":"Head to the Hau'oli City Shopping Mall near the stage to defeat/catch a confused Bewear"},
-			{"id":"sub96", "task":"Get a Stick on Aether Paradise 1F", "tooltip":"Talk to an Aether Foundation Employee on Aether Paradise 1F"},
-			{"id":"sub97", "task":"Entertain an old man in the ferry terminal", "tooltip":"Take the time to speak with an old man in the ferry terminal to earn a Nugget"},
-			{"id":"sub98", "task":"Have a drink at the Cafe in Malie City's Pokemon Center", "tooltip":"Have a drink here and the woman who works the healing counter will join you and share some poke beans"},
-			{"id":"sub100", "task":"Conquer the Kantonian Gym", "tooltip":"Beat all the trainers inside the Kantonian Gym for a Surge Badge, Soda Pop, and Poke Beans"},
-			{"id":"sub101", "task":"Defeat Trainer Ryuki at the Kantonian Gym", "tooltip":"After earning the Surge Badge, visit the gym later and defeat this trainer for a Dragon Scale"},
-			{"id":"sub102", "task":"Follow in the old mans footsteps near Malie Community Center", "tooltip":"Speak to an old man near in front of the Community Center"},
-			{"id":"sub103", "task":"Get a strange souvenir", "tooltip":"Speak with a gentleman relaxing in the Community Center"},
-			{"id":"sub104", "task":"Get a Ribbon for your Pokemon (Daily)", "tooltip":"If your lead Pokemon is as affectionate as can be speak with the little girl at the community center near the Spinda"},
-			{"id":"sub105", "task":"Weather on the rocks behind door number one", "tooltip":"Enter the first door down the hall of the community center to take the weather quiz"},
-			{"id":"sub106", "task":"Learn to fly at the library", "tooltip":"Speak with a Sightseer inside the library to get TM76"},
-			{"id":"sub107", "task":"Get a rare Poke Ball from Samson Oak at the library", "tooltip":"Show Samson Oak an Alolan Persian to get a Love Ball"},
-			{"id":"sub108", "task":"Find a photo at the library and uncover a mystery", "tooltip":"Examine the green book on the shelf closest to the librarians desk and return the photo to Hapu for a Heart Scale"},
-			{"id":"sub109", "task":"Help a family decide their future", "tooltip":"Get close to a janitor and son near the recyling plant, battle them both to earn a Twisted Spoon"},
-			{"id":"sub110", "task":"Learn to Battle with style!", "tooltip":"Meet Gester at the Recycling plant to learn about battle styles"},
-			{"id":"sub111", "task":"Get a rare Poke Ball from Samson Oak at the Recycling Plant", "tooltip":"Speak with Samson Oak near the waters edge by the recycling plant to get a Friend Ball"},
-			{"id":"sub112", "task":"Find the 8 Stufful on Route 10", "tooltip":"Help the old woman at the entrance to route 10 find her 8 stuffl"},
-			{"id":"sub113", "task":"Get a rare Poke Ball from Samson Oak on Mt Hokulani", "tooltip":"Speak with Samson Oak behind the Pokemon Center on Mount Hokulani to get a Moon Ball"},
-			{"id":"sub114", "task":"Defeat Veteran Akira on Mount Hokulani", "tooltip":"Defeat all the trainers on Mount Hokulani to challenge Veteran Akira, beat him to earn TM95"},
-			{"id":"sub115", "task":"Get a Comet Shard at the Observatory", "tooltip":"Speak with the man at the reception desk to get a valuable souvenir"},
-			{"id":"sub116", "task":"Surprise a Scientist for some Stardust", "tooltip":"Interupt a scientist to get some high value stardust"},
-			{"id":"sub117", "task":"Return to Malie Garden's Nugget Bridge for a fight", "tooltip":"Battle the five trainers on Nugget Bridge to earn a Big Bugget prize"},
-			{"id":"sub118", "task":"Inspire a Lass's love of her pokemon", "tooltip":"Battle Lass Lisa in the southeast part of Malie Garden to earn 5 Net Balls"},
-			{"id":"sub119", "task":"Solve additional roller puzzles at the observatory", "tooltip":"Speak to a scientist in the Observatory near the room Sophocles trial was in to solve more puzzles and earn a PP Max"},
-			{"id":"sub120", "task":"Defeat Collector Andrew on Route 12", "tooltip":"Defeat all the trainers on Route 12 to challenge Collector Andrew, beat him to earn TM82"},
-			{"id":"sub121", "task":"Find a message in a bottle on Ula'ula Beach", "tooltip":"After reading the message, battle Rising Star Nainoa on the beach to earn a Pearl String"},
-			{"id":"sub122", "task":"Get a rare Poke Ball from Samson Oak at the Geothermal Plant", "tooltip":"Speak with Samson Oak in the Geothermal plant to get a Lure Ball"},
-			{"id":"sub123", "task":"Get into a spot with a Scientist and his Magnemite", "tooltip":"Speak to a Scientist during the day at the Geothermal plant to get TM63"},
-			{"id":"sub124", "task":"Put up with a bit of taunting in a trailer", "tooltip":"Speak to a Punk Guy in one of the trailers to get TM12."},
-			{"id":"sub125", "task":"Defeat Veteran Angus outside the Poke Center in Tapu Village", "tooltip":"After you've battled 100 times you'll be able to challenge Angus, Defeat him to win some Choice Specs"},
-			{"id":"sub127", "task":"Rescue a flailing swimmer on Route 14", "tooltip":"Rescue the swimmer on Route 14 near the ruins of an old building to get a Destiny Knot"},
-			{"id":"sub128", "task":"Help the Sandygast on Route 14 (Sun)", "tooltip":"Speak to a little girl at the far end of Route 14's black sand beach"},
-			{"id":"sub129", "task":"Get a Razor Claw for your TM collection", "tooltip":"Speak with the scientist before Route 15 once you've collected at least 50 TMs"},
-			{"id":"sub130", "task":"Go Explore the Haina Desert", "tooltip":"Speak to the Trial Guide on Route 13 to open the barricade, get a Fresh Water, and an Adrenaline Orb"},
-			{"id":"sub131", "task":"Help Stuffl's Lost Trainer in the Haina Desert", "tooltip":""},
-			{"id":"sub132", "task":"Send Starmie packing with a good Tickle", "tooltiip":"Speak to the fisherman at the north end of Route 15, bring a pokemon that knows tickle to help him out and earn a Comet Shard"},
-			{"id":"sub133", "task":"Scare off a suspicious sand castle (Moon)", "tooltiip":"Speak to the youngster at the north end of Route 15 to battle a Sandygast and earn a Stardust"},
-			{"id":"sub134", "task":"Keep Team Skull from causing trouble on Route 16", "tooltiip":"Interact with a Team Skull Grunt in the Pokemon Center on Route 16"},
-			{"id":"sub136", "task":"Get a free lemonade for being a loyal shopper", "tooltiip":"Buy at least 5 drinks from the Poke Center Cafes and then get a free Lemonade from the woman sitting at the Cafe on Route 16"},
-			{"id":"sub137", "task":"Defeat Golfer Dean near Ula'ula Meadow", "tooltiip":"Defeat all the trainers in Ula'ula Meadow to challenge this Golfer, beat him to earn a Flame Orb"},
-			{"id":"sub138", "task":"Help a Grunt find his groove", "tooltiip":"Speak to a grunt near the empty pool near the Shady House"},
-			{"id":"sub139", "task":"Defeat Office Worker Royce on the west side of Po Town", "tooltiip":"Defeat Office Worker Royce on the west side of Po Town and you can buy a Big Nugget from him for $5,000 and then sell it for $20,000 at a Poke Mart"},
-
-			{"id":"sub140", "task":"Stop in the Malie City Pokemon Center", "tooltip":"Speak to a preschooler who's standing with her Mimikyu to get a Reaper Cloth"},
-			{"id":"sub141", "task":"Dine at the Sushi High Roller in Malie City", "tooltip":"If Nanu shows up to dine with you he'll pay for the meal and give you 8 heart scales"},
-			{"id":"sub142", "task":"Take two TMs to go at the malasada shop (Night)", "tooltip":"Visit the Malasada shop at night and speak to an Oranguru"},
-			{"id":"sub143", "task":"Take a quiz in Malie Garden (Day)", "tooltip":"Visit Malie Garden during the day and speak to the lass on one of the small islands, answer her question successfully to get an Air Balloon"},
-			{"id":"sub144", "task":"Get goggled up in Haina Desert (Night)", "tooltip":"Speak to the Hiker at night in Area 4 and tell him your Pokemons eyes are bleary to get Safety Goggles"},
-			{"id":"sub145", "task":"Show Mimikyu some friendship at the abandoned Thrifty Megamart", "tooltip":"Revisit the abandoned Thrifty Megamart at night, follow mimikyu and show it some love to get Mimikium Z"},
-			{"id":"sub146", "task":"Complete your Plate Collections on Melemele Island", "tooltip":"Find the hidden plates in the Hau'oli Outskirts, Trainers School yard, Hau'oli City, and Hau'oli Cemetary"},
-			{"id":"sub147", "task":"Find some forgotten Pokemon for prizes", "tooltip":"Speak with a woman outside the houseboat in Seafolk Village and show her the pokemon she describes"},
-			{"id":"sub148", "task":"Get a few rare prizes for free", "tooltip":"Speak to the shopkeeper inside the houseboat in Seafolk Village to get Magmarizer and Electrizer"},
-			{"id":"sub149", "task":"Get a rare Fossil Pokemon", "tooltip":"Speak to the girl in the houseboat and she'll give you an Aerodactyl"},
-
-			{"id":"sub150", "task":"Get a little bit of luck on your side", "tooltip":"Visit the steelix house and speak to the Rising Star inside for a Lucky Punch"},
-			{"id":"sub151", "task":"Show the Veteran in the Steelix housee Alolan Raichu", "tooltip":"The Veteran will give you an Aloraichium Z"},
-			{"id":"sub153", "task":"Defeat Dancer Julia in the Poni wilds", "tooltip":"Defeat all the trainers in the Poni Wilds to challenge this Dancer, beat her to get a Focus Sash"},
-			{"id":"sub154", "task":"Sleep in Hapu's bed on Poni Island", "tooltip":"Lay down for a nap in Hapu's bed to be awoken by her familys Alolan Meowth and get an Awakening"},
-			{"id":"sub155", "task":"Get a Legendary Ally on your side", "tooltip":"Go to Mahalo Trail after Minas Trial and capture Solgaleo or Lunala if you can"},
-			{"id":"sub156", "task":"Help cleanup at the Aether House", "tooltip":"Visit Aether House before undertaking the final grand trial against Hapu, help cleanup to earn a PP Up"},
-			{"id":"sub157", "task":"Dine at the floating restaurant in Seafolk Village", "tooltip":"If Hapu joins you she'll pay for your meal and give you 2 Heart Scales"},
-			{"id":"sub158", "task":"Get another TM for your team", "tooltip":"Before taking on the league, fly back to Guzma's parents home on melemele islands route 2 and enter his childhood bedroom to get TM87"}
-		]
-	},
-	{"id":"task60",
-		"task":"Collect all 100 Totem Stickers",
-		"category": "collectibles",
-		"subtasks":[
-			{"id":"sub1", "task":"Hau’oli City (Shopping) -  Beside the Salon"},
-			{"id":"sub2", "task":"Hau’oli City (Shopping) - Outside Malasada Shop"},
-			{"id":"sub3", "task":"Hau’oli City (Shopping) - Pokemon Center (Outside)"},
-			{"id":"sub4", "task":"Hau’oli City (Shopping) -  Ilima’s House (2F; Room)"},
-			{"id":"sub5", "task":"Hau’oli City (Shopping) -  Ilima’s House Pool"},
-			{"id":"sub6", "task":"Hau’oli City (Shopping) -  Ilima’s House (Outside)"},
-			{"id":"sub7", "task":"Hau’oli City (Shopping) -  City Hall (Outside)"},
-			{"id":"sub8", "task":"Hau’oli City (Shopping) -  City Hall"},
-			{"id":"sub9", "task":"Hau’oli City (Shopping) -  Northwest of Police Station"},
-			{"id":"sub10", "task":"Hau’oli City (Marina) -  Ferry Terminal (Outside)"},
-			{"id":"sub11", "task":"Hau’oli City (Marina) -  Pier"},
-			{"id":"sub12", "task":"Iki Town -  Southwest (Requires Tauros)"},
-			{"id":"sub13", "task":"Route 2 - Southeast House (Outside)"},
-			{"id":"sub14", "task":"Route 2 - Southeast House"},
-			{"id":"sub15", "task":"Route 2 - Berry Fields House (Outside)"},
-			{"id":"sub16", "task":"Route 2 - Berry Fields House"},
-			{"id":"sub17", "task":"Route 2 - Pokemon Center (Outside)"},
-			{"id":"sub18", "task":"Heahea City - West Pier"},
-			{"id":"sub19", "task":"Heahea City - Hotel West (Outside)"},
-			{"id":"sub20", "task":"Heahea City - Hotel East (Outside)"},
-			{"id":"sub21", "task":"Heahea City - Hotel (1F)"},
-			{"id":"sub22", "task":"Heahea City - Hotel (3F)"},
-			{"id":"sub23", "task":"Heahea City - Surfboard (Outside)"},
-			{"id":"sub24", "task":"Heahea City - Game Freak"},
-			{"id":"sub25", "task":"Heahea City - Game Freak Building (3F)"},
-			{"id":"sub26", "task":"Heahea City - Research Lab South (Outside)"},
-			{"id":"sub27", "task":"Heahea City - Research Lab East (Outside)"},
-			{"id":"sub28", "task":"Heahea City - Research Lab (behind Burnet’s desk)"},
-			{"id":"sub29", "task":"Paniola Town - West"},
-			{"id":"sub30", "task":"Paniola Town - Kiawe’s House"},
-			{"id":"sub31", "task":"Paniola Town - Kiawe’s House (2F)"},
-			{"id":"sub32", "task":"Paniola Ranch - Southeast"},
-			{"id":"sub33", "task":"Paniola Ranch - Northwest"},
-			{"id":"sub34", "task":"Route 5 - South of Pokemon Center"},
-			{"id":"sub35", "task":"Route 8 - Aether Base (Outside)"},
-			{"id":"sub36", "task":"Route 8 - Fossil Restoration Center (Outside)"},
-			{"id":"sub37", "task":"Wela Volcano Park - Rocks Behind Sign"},
-			{"id":"sub38", "task":"Royal Avenue - South"},
-			{"id":"sub39", "task":"Royal Avenue - Northeast"},
-			{"id":"sub40", "task":"Battle Royal Dome - 1F"},
-			{"id":"sub41", "task":"Battle Royal Dome - 2F"},
-			{"id":"sub42", "task":"Konikoni City - West"},
-			{"id":"sub43", "task":"Konikoni City - Restaurant (1F)"},
-			{"id":"sub44", "task":"Konikoni City - Olivia’s Jewelry Shop (2F)"},
-			{"id":"sub45", "task":"Konikoni City Lighthouse - Through Diglett’s Tunnel"},
-			{"id":"sub46", "task":"Hano Beach - Center Outer Wall"},
-			{"id":"sub47", "task":"Hano Beach - Below Sandygast"},
-			{"id":"sub48", "task":"Hano Resort - South"},
-			{"id":"sub49", "task":"Hano Resort - North Lobby"},
-			{"id":"sub50", "task":"Hano Resort Lobby - Southwest Water"},
-			{"id":"sub51", "task":"Malie City - Ferry Terminal (Outside)"},
-			{"id":"sub52", "task":"Malie City - Apparel Shop (Outside)"},
-			{"id":"sub53", "task":"Malie City - Kantonian Gym (Outside)"},
-			{"id":"sub54", "task":"Malie City - Community Center"},
-			{"id":"sub55", "task":"Malie City - Library (1F)"},
-			{"id":"sub56", "task":"Malie City - Library (2F)"},
-			{"id":"sub57", "task":"Malie City (Outer Cape) - Recycling Plant (Outside)"},
-			{"id":"sub58", "task":"Malie Garden - Northeast"},
-			{"id":"sub59", "task":"Mount Hokulani -  On the way"},
-			{"id":"sub60", "task":"Hokulani Observatory - Outside"},
-			{"id":"sub61", "task":"Hokulani Observatory - Reception"},
-			{"id":"sub62", "task":"Hokulani Observatory - Dead End"},
-			{"id":"sub63", "task":"Hokulani Observatory - Sophocles Room"},
-			{"id":"sub64", "task":"Route 13 - Motel (Outside)"},
-			{"id":"sub65", "task":"Route 13 -  On a trailer"},
-			{"id":"sub66", "task":"Blush Mountain - Power Plant (Outside)"},
-			{"id":"sub67", "task":"Blush Mountain - Power Plant"},
-			{"id":"sub68", "task":"Route 14 - North"},
-			{"id":"sub69", "task":"Route 14 - Front of Abandoned Megamart"},
-			{"id":"sub70", "task":"Route 15 - Islet Surfboard (Outside)"},
-			{"id":"sub71", "task":"Route 16 - Aether Base (Outside)"},
-			{"id":"sub72", "task":"Ula’ula Meadow - Fish from wood path"},
-			{"id":"sub73", "task":"Route 17 - Police Station (Outside)"},
-			{"id":"sub74", "task":"Route 17 - Police Station"},
-			{"id":"sub75", "task":"Route 17 - South of Po Town"},
-			{"id":"sub76", "task":"Po Town - Southwest"},
-			{"id":"sub77", "task":"Po Town - Pokemon Center (Outside)"},
-			{"id":"sub78", "task":"Po Town - Pokemon Center"},
-			{"id":"sub79", "task":"Po Town - Shady House East (Outside)"},
-			{"id":"sub80", "task":"Po Town - Shady House (1F)"},
-			{"id":"sub81", "task":"Po Town - Shady House 2F (Outside)"},
-			{"id":"sub82", "task":"Po Town - Shady House West Rocks (Outside) 1"},
-			{"id":"sub83", "task":"Po Town - Shady House West Rocks (Outside) 2"},
-			{"id":"sub84", "task":"Po Town - Shady House West Rocks (Outside) 3"},
-			{"id":"sub85", "task":"Seafolk Village - Southeast Whiscash (Mina’s Ship; Outside)"},
-			{"id":"sub86", "task":"Seafolk Village - Southeast Whiscash (Mina’s Ship)"},
-			{"id":"sub87", "task":"Seafolk Village - East Steelix (inside)"},
-			{"id":"sub88", "task":"Seafolk Village - Northeast Dock"},
-			{"id":"sub89", "task":"Seafolk Village - West Wailord (Restaurant)"},
-			{"id":"sub90", "task":"Seafolk Village - Southwest Huntail"},
-			{"id":"sub91", "task":"Seafolk Village - Southwest Huntail (Outside)"},
-			{"id":"sub92", "task":"Exeggutor Island - Under Rock"},
-			{"id":"sub93", "task":"Poni Wilds - Southeast"},
-			{"id":"sub94", "task":"Ancient Poni Path - Southwest"},
-			{"id":"sub95", "task":"Ancient Poni Path - Hapu’s House (Courtyard)"},
-			{"id":"sub96", "task":"Ancient Poni Path - Hapu’s House (Kitchen)"},
-			{"id":"sub97", "task":"Ancient Poni Path - Hapu’s House (Bedroom)"},
-			{"id":"sub98", "task":"Ancient Poni Path - Northeast"},
-			{"id":"sub99", "task":"Ancient Poni Path - Hapu’s House (Outside behind well)"},
-			{"id":"sub100", "task":"Battle Tree - Entrance"}
-		]
-	},
-	{"id":"task61",
-		"task":"Collect all Alola Photo Club Backgrounds",
-		"category": "collectibles",
-		"subtasks":[
-			{"id":"sub1", "task":"Route 1 A", "tooltip":"Visit Area"},
-			{"id":"sub2", "task":"Route 1 B", "tooltip":"Visit Area"},
-			{"id":"sub3", "task":"Route 1 C", "tooltip":"Visit Area"},
-			{"id":"sub4", "task":"Iki Town", "tooltip":"Visit Area"},
-			{"id":"sub5", "task":"Trainers' School", "tooltip":"Visit Area"},
-			{"id":"sub6", "task":"Classroom", "tooltip":"Visit Area"},
-			{"id":"sub7", "task":"Hau'oli City Beach", "tooltip":"Visit Area"},
-			{"id":"sub8", "task":"Hau'oli City", "tooltip":"Visit Area"},
-			{"id":"sub9", "task":"Hau'oli Cemetery", "tooltip":"Visit Area"},
-			{"id":"sub10", "task":"Verdant Cavern", "tooltip":"Visit Area"},
-			{"id":"sub11", "task":"Route 3", "tooltip":"Visit Area"},
-			{"id":"sub12", "task":"Melemele Meadow", "tooltip":"Visit Area"},
-			{"id":"sub13", "task":"Seaward Cave", "tooltip":"Visit Area"},
-			{"id":"sub14", "task":"Kala'e Bay", "tooltip":"Visit Area"},
-			{"id":"sub15", "task":"Ten Carat Hill", "tooltip":"Visit Area"},
-			{"id":"sub16", "task":"Mahalo Trail", "tooltip":"Visit Area"},
-			{"id":"sub17", "task":"Ruins of Conflict", "tooltip":"Visit Area"},
-			{"id":"sub18", "task":"Paniola Town", "tooltip":"Visit Area"},
-			{"id":"sub19", "task":"Paniola Ranch A", "tooltip":"Visit Area"},
-			{"id":"sub20", "task":"Paniola Ranch B", "tooltip":"Visit Area"},
-			{"id":"sub21", "task":"Brooklett Hill A", "tooltip":"Visit Area"},
-			{"id":"sub22", "task":"Brooklett Hill B", "tooltip":"Visit Area"},
-			{"id":"sub23", "task":"Wela Volcano Park", "tooltip":"Visit Area"},
-			{"id":"sub24", "task":"Route 8", "tooltip":"Visit Area"},
-			{"id":"sub25", "task":"Fossil Restoration Center", "tooltip":"Visit Area"},
-			{"id":"sub26", "task":"Lush Jungle", "tooltip":"Visit Area"},
-			{"id":"sub27", "task":"Konikoni City", "tooltip":"Visit Area"},
-			{"id":"sub28", "task":"Aether Paradise A", "tooltip":"Visit Area"},
-			{"id":"sub29", "task":"Aether Paradise C", "tooltip":"Visit Area"},
-			{"id":"sub30", "task":"Aether Paradise B", "tooltip":"Visit Area"},
-			{"id":"sub31", "task":"Malie Garden", "tooltip":"Visit Area"},
-			{"id":"sub32", "task":"Route 14", "tooltip":"Visit Area"},
-			{"id":"sub33", "task":"Abandoned Thrifty Megamart", "tooltip":"Visit Area"},
-			{"id":"sub34", "task":"Haina Desert", "tooltip":"Visit Area"},
-			{"id":"sub35", "task":"Route 15", "tooltip":"Visit Area"},
-			{"id":"sub36", "task":"Ula'ula Meadow", "tooltip":"Visit Area"},
-			{"id":"sub37", "task":"Po Town", "tooltip":"Visit Area"},
-			{"id":"sub38", "task":"Shady House", "tooltip":"Visit Area"},
-			{"id":"sub39", "task":"Ancient Temple", "tooltip":"Visit Area"},
-			{"id":"sub40", "task":"Mount Lanakila", "tooltip":"Visit Area"},
-			{"id":"sub41", "task":"Icy Cave", "tooltip":"Visit Area"},
-			{"id":"sub42", "task":"Seafolk Village", "tooltip":"Visit Area"},
-			{"id":"sub43", "task":"Poni Breaker Coast", "tooltip":"Visit Area"},
-			{"id":"sub44", "task":"Vast Poni Canyon", "tooltip":"Visit Area"},
-			{"id":"sub45", "task":"Altar of the Sunne", "tooltip":"Visit Area"},
-			{"id":"sub46", "task":"Altar of the Moone", "tooltip":"Visit Area"},
-			{"id":"sub47", "task":"Poni Meadow", "tooltip":"Visit Area"},
-			{"id":"sub48", "task":"Elite Four Chamber A", "tooltip":"Visit Area"},
-			{"id":"sub49", "task":"Elite Four Chamber B", "tooltip":"Visit Area"},
-			{"id":"sub50", "task":"Elite Four Chamber C", "tooltip":"Visit Area"},
-			{"id":"sub51", "task":"Elite Four Chamber D", "tooltip":"Visit Area"},
-			{"id":"sub52", "task":"Champion's Chamber", "tooltip":"Visit Area"},
-			{"id":"sub53", "task":"Battle Royal", "tooltip":"Visit Area"},
-			{"id":"sub54", "task":"Battle Tree", "tooltip":"Visit Area"},
-			{"id":"sub55", "task":"Battle Agency", "tooltip":"Visit Area"},
-			{"id":"sub56", "task":"Indigo Plateau", "tooltip":"Use a Pokémon from Kanto (Red, Blue, Yellow, FireRed, LeafGreen)"},
-			{"id":"sub57", "task":"Bell Tower", "tooltip":"Use a Pokémon from Johto (Gold, Silver, HeartGold, SoulSilver)"},
-			{"id":"sub58", "task":"Seafloor Cavern", "tooltip":"Use a Pokémon from Hoenn (Ruby, Sapphire, Emerald, Omega Ruby, Alpha Sapphire)"},
-			{"id":"sub59", "task":"Spear Pillar", "tooltip":"Use a Pokémon from Sinnoh (Diamond, Pearl, Platinum)"},
-			{"id":"sub60", "task":"Skyarrow Bridge", "tooltip":"Use a Pokémon from Unova (Black, White, Black 2, White 2)"},
-			{"id":"sub61", "task":"Lumiose City", "tooltip":"Use a Pokémon from Kalos (X, Y)"},
-			{"id":"sub62", "task":"Lovey-Dovey Heart", "tooltip":"Show Pokémon Fan Club President a Pokémon with Max Affection"},
-			{"id":"sub63", "task":"Faraway Space"},
-			{"id":"sub64", "task":"Celebration Cake"},
-			{"id":"sub65", "task":"Zenith Stage"},
-			{"id":"sub66", "task":"Commemorative Photo"}
-		]
-	},
-	{"id":"task62",
-		"task":"Collect All 100 Technical Machines (TMs)",
-		"category": "tm",
-		"subtasks":[
-			{"id":"sub1", "task":"Work Up", "tooltip":"Changed from Hone Claws"},
-			{"id":"sub2", "task":"Dragon Claw"},
-			{"id":"sub3", "task":"Psyshock"},
-			{"id":"sub4", "task":"Calm Mind"},
-			{"id":"sub5", "task":"Roar"},
-			{"id":"sub6", "task":"Toxic"},
-			{"id":"sub7", "task":"Hail"},
-			{"id":"sub8", "task":"Bulk up"},
-			{"id":"sub9", "task":"Venoshock"},
-			{"id":"sub10", "task":"Hidden Power"},
-			{"id":"sub11", "task":"Sunny Day"},
-			{"id":"sub12", "task":"Taunt"},
-			{"id":"sub13", "task":"Ice Beam"},
-			{"id":"sub14", "task":"Blizzard"},
-			{"id":"sub15", "task":"Hyper Beam"},
-			{"id":"sub16", "task":"Light Screen"},
-			{"id":"sub17", "task":"Protect"},
-			{"id":"sub18", "task":"Rain Dance"},
-			{"id":"sub19", "task":"Roost"},
-			{"id":"sub20", "task":"Safeguard"},
-			{"id":"sub21", "task":"Frustration"},
-			{"id":"sub22", "task":"Solar Beam"},
-			{"id":"sub23", "task":"Smack Down"},
-			{"id":"sub24", "task":"Thunderbolt"},
-			{"id":"sub25", "task":"Thunder"},
-			{"id":"sub26", "task":"Earthquake"},
-			{"id":"sub27", "task":"Return"},
-			{"id":"sub28", "task":"Leech Life"},
-			{"id":"sub29", "task":"Psychic"},
-			{"id":"sub30", "task":"Shadow Ball"},
-			{"id":"sub31", "task":"Brick Break"},
-			{"id":"sub32", "task":"Double Team"},
-			{"id":"sub33", "task":"Reflect"},
-			{"id":"sub34", "task":"Sludge Wave"},
-			{"id":"sub35", "task":"Flamethrower"},
-			{"id":"sub36", "task":"Sludge Bomb"},
-			{"id":"sub37", "task":"Sandstorm"},
-			{"id":"sub38", "task":"Fire Blast"},
-			{"id":"sub39", "task":"Rock Tomb"},
-			{"id":"sub40", "task":"Aerial Ace"},
-			{"id":"sub41", "task":"Torment"},
-			{"id":"sub42", "task":"Facade"},
-			{"id":"sub43", "task":"Flame Charge"},
-			{"id":"sub44", "task":"Rest"},
-			{"id":"sub45", "task":"Attract"},
-			{"id":"sub46", "task":"Thief"},
-			{"id":"sub47", "task":"Low Sweep"},
-			{"id":"sub48", "task":"Round"},
-			{"id":"sub49", "task":"Echoed Voice"},
-			{"id":"sub50", "task":"Overheat"},
-			{"id":"sub51", "task":"Steel Wing"},
-			{"id":"sub52", "task":"Focus Blast"},
-			{"id":"sub53", "task":"Energy Ball"},
-			{"id":"sub54", "task":"False Swipe"},
-			{"id":"sub55", "task":"Scald"},
-			{"id":"sub56", "task":"Fling"},
-			{"id":"sub57", "task":"Charge Beam"},
-			{"id":"sub58", "task":"Sky Drop"},
-			{"id":"sub59", "task":"Brutal Swing"},
-			{"id":"sub60", "task":"Quash"},
-			{"id":"sub61", "task":"Will-o-wisp"},
-			{"id":"sub62", "task":"Acrobatics"},
-			{"id":"sub63", "task":"Embargo"},
-			{"id":"sub64", "task":"Explosion"},
-			{"id":"sub65", "task":"Shadow Claw"},
-			{"id":"sub66", "task":"Payback"},
-			{"id":"sub67", "task":"Smart Strike"},
-			{"id":"sub68", "task":"Giga Impact"},
-			{"id":"sub69", "task":"Rock Polish"},
-			{"id":"sub70", "task":"Aurora Veil"},
-			{"id":"sub71", "task":"Stone Edge"},
-			{"id":"sub72", "task":"Volt Switch"},
-			{"id":"sub73", "task":"Thunder Wave"},
-			{"id":"sub74", "task":"Gyro Ball"},
-			{"id":"sub75", "task":"Swords Dance"},
-			{"id":"sub76", "task":"Fly"},
-			{"id":"sub77", "task":"Psych up"},
-			{"id":"sub78", "task":"Bulldoze"},
-			{"id":"sub79", "task":"Frost Breath"},
-			{"id":"sub80", "task":"Rock Slide"},
-			{"id":"sub81", "task":"X-Scissor"},
-			{"id":"sub82", "task":"Dragon Tail"},
-			{"id":"sub83", "task":"Infestation"},
-			{"id":"sub84", "task":"Poison Jab"},
-			{"id":"sub85", "task":"Dream Eater"},
-			{"id":"sub86", "task":"Grass Knot"},
-			{"id":"sub87", "task":"Swagger"},
-			{"id":"sub88", "task":"Sleep Talk"},
-			{"id":"sub89", "task":"U-Turn"},
-			{"id":"sub90", "task":"Substitute"},
-			{"id":"sub91", "task":"Flash Cannon"},
-			{"id":"sub92", "task":"Trick Room"},
-			{"id":"sub93", "task":"Wild Charge"},
-			{"id":"sub94", "task":"Surf"},
-			{"id":"sub95", "task":"Snarl"},
-			{"id":"sub96", "task":"Nature Power"},
-			{"id":"sub97", "task":"Dark Pulse"},
-			{"id":"sub98", "task":"Waterfall"},
-			{"id":"sub99", "task":"Dazzling Gleam"},
-			{"id":"sub100", "task":"Confide"}
-		]
-	},
-	{"id":"task63",
-		"task":"Berry Checklist",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Help your mothers Meowth battle Madame Meowth's Alolan Mewoth"
+      },
+      {
+        "id": "sub2",
+        "task": "Defeat Kahuna Hala to receive the starter Pokemon exclusive Z-Crystals"
+      },
+      {
+        "id": "sub3",
+        "task": "Visit Pokemon Research Lab for TM90",
+        "tooltip": "And Peek at Lillie's Diary"
+      },
+      {
+        "id": "sub4",
+        "task": "After catching 50+ unique pokemon, visit Pokemon Research Lab for Lucky Egg",
+        "tooltip": "Based on Pokedex caught count"
+      },
+      {
+        "id": "sub5",
+        "task": "Battle Trainer School Principal for King's Rock"
+      },
+      {
+        "id": "sub6",
+        "task": "Hyper Train your Pokemon in Hau'oli City Shopping Mall"
+      },
+      {
+        "id": "sub7",
+        "task": "Complete Captain Ilima's Request"
+      },
+      {
+        "id": "sub8",
+        "task": "Find Electric Seed near newly repaired Bridge"
+      },
+      {
+        "id": "sub9",
+        "task": "Explore Seaward Cave, Kala'e Bay, Melemele Sea, and Ten Carat Hill"
+      },
+      {
+        "id": "sub10",
+        "task": "Master the Battle Buffet and meet the buffet queen",
+        "tooltip": "In Hau'oli City Shopping Mall"
+      },
+      {
+        "id": "sub11",
+        "task": "Go to Hau'oli Cemetary at night and approach the Machamp to get TM56"
+      }
+    ]
+  },
+  {
+    "id": "task41",
+    "task": "Complete the Akala Island Post Game Activities",
+    "category": "activities",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Visit Kiawe's home for a Protector from his dad",
+        "tooltip": "Paniola Town"
+      },
+      {
+        "id": "sub2",
+        "task": "Battle Morimoto at Game Freak's Office for an Oval Charm",
+        "tooltip": "Heahea City, he has level 62 pokemon"
+      },
+      {
+        "id": "sub3",
+        "task": "Complete the Alola Pokedex and get the Shiny Charm",
+        "tooltip": "From the Game Director at Game Freaks Office"
+      },
+      {
+        "id": "sub4",
+        "task": "Meet Elite Four Kahili and receive TM92",
+        "tooltip": "Hano Grand Hotel"
+      },
+      {
+        "id": "sub5",
+        "task": "Meet Colress on Route 8 to receive drives for Genesect"
+      },
+      {
+        "id": "sub6",
+        "task": "Visit Mallow's restaurant for several gifts",
+        "tooltip": "Konikoni City"
+      },
+      {
+        "id": "sub7",
+        "task": "Master Battle Royal's at the Battle Royal Dome on Royal Avenue"
+      },
+      {
+        "id": "sub8",
+        "task": "Defeat Lana and her sisters to earn a Deep Sea Scale and Tooth",
+        "tooltip": "Konikoni City"
+      },
+      {
+        "id": "sub9",
+        "task": "Show a Pokemon from Johto to get Apricorn Balls",
+        "tooltip": "Show a Pokemon from Silver/Gold Virtual Console to the Director at Game Freaks Office"
+      }
+    ]
+  },
+  {
+    "id": "task42",
+    "task": "Complete the Ula'ula Island Post Game Activities",
+    "category": "activities",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Purchase a Skull Tank in the Po Town Pokemon Center"
+      },
+      {
+        "id": "sub2",
+        "task": "Assemble Zygarde at the Aether Base on Route 16"
+      },
+      {
+        "id": "sub3",
+        "task": "Get a Porygon and an Up-Grade at the Aether House on Route 15"
+      },
+      {
+        "id": "sub4",
+        "task": "Explore Haina Desert, show the old man Solrock or Lunatone for a reward",
+        "tooltip": "Solrock in Ultra Sun, Lunatone in Ultra Moon"
+      },
+      {
+        "id": "sub5",
+        "task": "Speak to the woman outside the Thrifty Megamarat with Tapu Bulu on your team to receive a Grassy Seed"
+      },
+      {
+        "id": "sub6",
+        "task": "Defeat Veteran Aristo on Mount Lanakila to receive a Life Orb"
+      }
+    ]
+  },
+  {
+    "id": "task43",
+    "task": "Complete the Poni Island Post Game Activities",
+    "category": "activities",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Meet Dexio and Sina to learn about Mega Evolutions",
+        "tooltip": "On Ancient Poni Path"
+      },
+      {
+        "id": "sub2",
+        "task": "Receive the Key Stone and Alakazite from Dexio",
+        "tooltip": "On Ancient Poni Path"
+      },
+      {
+        "id": "sub3",
+        "task": "Defeat Swimmer Girls in a Double Battle to get TM94 and TM98",
+        "tooltip": "On Poni Breaker Coast"
+      },
+      {
+        "id": "sub4",
+        "task": "Explore entire east half of Poni Island, which was not accessible before"
+      },
+      {
+        "id": "sub5",
+        "task": "Hatch 20 Eggs and get Judge Function from Ace Trainer at Battle Tree",
+        "tooltip": "Judge Function is an upgrade to the PC Boxes"
+      },
+      {
+        "id": "sub6",
+        "task": "Bring Solgaleo or Lunala to the Altar of the Sunne/Moone to swap day for night"
+      },
+      {
+        "id": "sub7",
+        "task": "Defeat the Sightseer in Seafolk Village Pokemon Center to receive 6 Nuggets"
+      },
+      {
+        "id": "sub8",
+        "task": "Get Type:Null and memory drives from Wicke",
+        "tooltip": "On Ancient Poni Path"
+      }
+    ]
+  },
+  {
+    "id": "task44",
+    "task": "Complete the Aether Paradise Post Game Activities",
+    "category": "activities",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Talk to the Janitor outside Aether Paradise after completing Episode Rainbow Rocket"
+      },
+      {
+        "id": "sub2",
+        "task": "Defeat Faba to get a Dubious Disc",
+        "tooltip": "1F Entrance"
+      },
+      {
+        "id": "sub3",
+        "task": "Receive two Big Malasadas from Wicke"
+      },
+      {
+        "id": "sub4",
+        "task": "Receive DNA Splicers, Prison Bottle, and Soul Dew from Aether Foundation Employee",
+        "tooltip": "B2F Lab Area"
+      }
+    ]
+  },
+  {
+    "id": "task50",
+    "task": "Complete all Sub-events",
+    "category": "activities",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Get a Poke Ball, a Heal Ball, or a Great Ball from your mom (Daily)",
+        "tooltip": "Go home to rest your team when their HP is less than full"
+      },
+      {
+        "id": "sub2",
+        "task": "Get an Awakening at home from Meowth (Daily)",
+        "tooltip": "Go home and lay down in your bed for a nap"
+      },
+      {
+        "id": "sub3",
+        "task": "Get a Quick Claw in the Trainer's School",
+        "tooltiip": "Talk to the beauty in the Trainers School"
+      },
+      {
+        "id": "sub4",
+        "task": "Get a Potion in the Trainer's School",
+        "tooltip": "Talk to the boy in the classroom at the Trainers School"
+      },
+      {
+        "id": "sub5",
+        "task": "Get a Potion at the Beachfront",
+        "tooltip": "Speak with the woman on the sidewalk"
+      },
+      {
+        "id": "sub6",
+        "task": "Earn 10 Ultra Balls at the tourist bureau",
+        "tooltip": "Help out the scientist"
+      },
+      {
+        "id": "sub7",
+        "task": "Get a Silk Scarf near the apparel shop",
+        "tooltip": "Speak with the Madame outside the shop"
+      },
+      {
+        "id": "sub8",
+        "task": "Get a heal ball outside the Hau'oli City Pokemon Center",
+        "tooltip": "Speak with the Sightseer outside the Center"
+      },
+      {
+        "id": "sub10",
+        "task": "Get a Lumiose Galette at Ilima's House",
+        "tooltip": "Speak with Ilima's mom"
+      },
+      {
+        "id": "sub11",
+        "task": "Get a Revive in Hau'oli City Hall",
+        "tooltip": "Speak with the woman sitting inside"
+      },
+      {
+        "id": "sub12",
+        "task": "Get an X Attack and X Defense on the pier in Hau'oli City",
+        "tooltip": "Speak with the couple on the pier"
+      },
+      {
+        "id": "sub13",
+        "task": "Get two Nest Balls in the Melemele Motel",
+        "tooltip": "Speak with the man in one of the guest rooms"
+      },
+      {
+        "id": "sub14",
+        "task": "Find the lost Meowth on Route 2",
+        "tooltip": "Help the man next to the little house, it likes shady places"
+      },
+      {
+        "id": "sub15",
+        "task": "Get Berries for your Pokemon to hold",
+        "tooltip": "Talk to the berry farmer"
+      },
+      {
+        "id": "sub16",
+        "task": "Get a Berry delicious gift",
+        "tooltip": "Speak with the Delibird in the Berry farmer's house"
+      },
+      {
+        "id": "sub19",
+        "task": "Help Actress Meredith refine her acting around Alola",
+        "tooltip": "Find and defeat Actress Meredith in Melemele Meadow, Royal Avenue, Ula'ula Meadow, & Poni Meadow (after becoming league champion) to earn TM75"
+      },
+      {
+        "id": "sub20",
+        "task": "Defeat Makana on Route 3 for TM19",
+        "tooltip": "Defeat all the trainers on Route 3 to challenge this Ace Trainer"
+      },
+      {
+        "id": "sub21",
+        "task": "Get a Soothe Bell on Route 3",
+        "tooltip": "Speak to the breeder on Route 3"
+      },
+      {
+        "id": "sub23",
+        "task": "Resolve the family dispute in Hau'oli City Hall",
+        "tooltip": "Defeat Gentleman Reginald to calm him down"
+      },
+      {
+        "id": "sub24",
+        "task": "Get the Gracidea flower at the Gracidea shop",
+        "tooltip": "Speak with the woman to the cashier's right"
+      },
+      {
+        "id": "sub25",
+        "task": "Watch a show to get five Great Balls (Day)",
+        "tooltip": "Speak to the woman next to the stage in the Hau'oli City mall"
+      },
+      {
+        "id": "sub26",
+        "task": "Cleanup six trashy areas in the mall (Night)",
+        "tooltip": "Approach the Grimer near the stage in the Hau'oli City mall"
+      },
+      {
+        "id": "sub28",
+        "task": "Receive a spare shell Bell",
+        "tooltip": "Speak to the Madame at the front desk of City Hall"
+      },
+      {
+        "id": "sub29",
+        "task": "Fix the Hau'oli City Vending Machine with Rotoms help"
+      },
+      {
+        "id": "sub31",
+        "task": "Help out a Trial Guide on Route 3 (Daily)",
+        "tooltip": "Take over for a Trial Guide and open the barricade at the right times"
+      },
+      {
+        "id": "sub32",
+        "task": "Solve the seven mysteries at the Trainer School at night",
+        "tooltip": "Speak with the little boy on Big Wave Beach"
+      },
+      {
+        "id": "sub33",
+        "task": "Deliver the Kala'e Bay Beach Bottle",
+        "tooltip": "Take the letter to an old woman in Iki Town"
+      },
+      {
+        "id": "sub34",
+        "task": "Deliver the Heahea Beach Bottle",
+        "tooltip": "Take the letter to the dancer in the Tide Song Hotel"
+      },
+      {
+        "id": "sub35",
+        "task": "Get a history lesson and a Premier Ball too!",
+        "tooltip": "Speak with the old man in the ferry terminal"
+      },
+      {
+        "id": "sub36",
+        "task": "Say hi to the lady by the ocean",
+        "tooltip": "Speak with the lady by the ocean near the apparel shop"
+      },
+      {
+        "id": "sub38",
+        "task": "Help out a Bellhop at the Tide Song Hotel",
+        "tooltip": "Speak with the Bellhop beside the main entrance"
+      },
+      {
+        "id": "sub40",
+        "task": "Experience the thrill of the chase!",
+        "tooltip": "Enter the first room east of the elevator in the Tide Song Hotel"
+      },
+      {
+        "id": "sub41",
+        "task": "Find the Tide Song hotel elderly mans friends",
+        "tooltip": "Speak with the old man in the second room east of the elevator"
+      },
+      {
+        "id": "sub42",
+        "task": "Get a special Pikachu Frame for photos",
+        "tooltip": "Visit Pikachu Valley"
+      },
+      {
+        "id": "sub43",
+        "task": "Complete the Pikachu Quiz in Pikachu Valley"
+      },
+      {
+        "id": "sub45",
+        "task": "Rescue the Vulpix from Team Skull in Paniola Town"
+      },
+      {
+        "id": "sub46",
+        "task": "Meet the $5,000 man in Paniola Town (Daily)",
+        "tooltip": "In front of the Pokemon Center in Paniola Town is a man that will buy a specific item for $5,000"
+      },
+      {
+        "id": "sub47",
+        "task": "Get a Quick Ball from Magmar",
+        "tooltip": "Explore Kiawe's House across from the Pokemon Center in Paniola Town"
+      },
+      {
+        "id": "sub48",
+        "task": "Speak with the Miltank Breeder (Daily)",
+        "tooltip": "Speak with the miltank breeder to get a moomoo milk every day"
+      },
+      {
+        "id": "sub49",
+        "task": "Get the details on SOS battles",
+        "tooltip": "Speak with the woman near the Moomoo Paddock"
+      },
+      {
+        "id": "sub50",
+        "task": "Battle Tauros for a Scope Lens",
+        "tooltip": "Defeat the fiesty Tauros at Moomoo Paddock"
+      },
+      {
+        "id": "sub51",
+        "task": "Receive the first Pokemon Egg from the Pokemon Nursery",
+        "tooltip": "Speak to a Breeder inside the Pokemon Nursery"
+      },
+      {
+        "id": "sub52",
+        "task": "Receive TM10 from a Breeder",
+        "tooltip": "Speak to a Breeder in the Pokemon Nursery"
+      },
+      {
+        "id": "sub53",
+        "task": "Hatch the Egg from the Nursery and let them know",
+        "tooltip": "Speak to the second Breeder behind the counter of the Pokemon Nursery with Eevee in your party"
+      },
+      {
+        "id": "sub56",
+        "task": "The one that got away on Route 5",
+        "tooltip": "Speak with the fisherman in the Pokemon Center on Route 5"
+      },
+      {
+        "id": "sub57",
+        "task": "Defeat Trial Guide Bronson on Route 5",
+        "tooltip": "Defeat all the trainers on Route 5 to challenge this Trial Guide"
+      },
+      {
+        "id": "sub58",
+        "task": "Make small talk by the water cooler",
+        "tooltip": "Speak with the lady in the back of GAME FREAK's office"
+      },
+      {
+        "id": "sub59",
+        "task": "Help the Pokemon without a Trainer",
+        "tooltip": "Get the abandoned Pokemon at Aether Foundation and take it to a small girl at the library in Malie City"
+      },
+      {
+        "id": "sub60",
+        "task": "Help the Corsola on Hau'oli City Beach"
+      },
+      {
+        "id": "sub62",
+        "task": "Inspire the youngster on Royal Avenue",
+        "tooltip": "Keep telling the youngster about your adventures and eventually he'll challenge you, defeat him for a Dawn Stone"
+      },
+      {
+        "id": "sub63",
+        "task": "Honesty is the best policy with Janitors",
+        "tooltip": "Obtain a protein and check the pond in front of the Royal Ave Malasada shop, a janitor will pick it up and give it back, be honest and you'll get an Iron too!"
+      },
+      {
+        "id": "sub64",
+        "task": "Meet the Clerk and Pyukumuku that long to be Malasada Mascots",
+        "tooltip": "Give the Clerk in the malasada shop a drink and she'll reward you"
+      },
+      {
+        "id": "sub65",
+        "task": "Meet the Pokemon Fan Club President",
+        "tooltip": "Show the Pokemon Fan Club President a Pokemon that's as affectionate as it can be toward you to earn the Lovey-Dovey Heart background for photos"
+      },
+      {
+        "id": "sub66",
+        "task": "Get an Effort Ribbon at the Battle Dome (Repeatable)",
+        "tooltip": "Speak to a lady at the Battle Dome with a Pokemon with Maxed Base Stats in the lead of your party"
+      },
+      {
+        "id": "sub67",
+        "task": "Free Samples at Thrifty Megamart! (Daily)",
+        "tooltip": "Speak to the clerk once a day to get a free sample berry"
+      },
+      {
+        "id": "sub68",
+        "task": "Be generous to the Hypno",
+        "tooltip": "Be generous to the Hypno to get TM44"
+      },
+      {
+        "id": "sub69",
+        "task": "Get a Lemonade from the Drifloon you rescued",
+        "tooltip": "Speak to the Drifloon at the Thrifty Megamart to get a Lemonade"
+      },
+      {
+        "id": "sub70",
+        "task": "Best of show on Route 8",
+        "tooltip": "Near the entrance to route 8 is a father and son that want to see Passimian (Sun) or Oranguru (Moon)"
+      },
+      {
+        "id": "sub72",
+        "task": "Defeat Ace Trainer Eileen on Route 8",
+        "tooltip": "Defeat all the trainers on Route 8 to challenge this Ace Trainer"
+      },
+      {
+        "id": "sub74",
+        "task": "Battle a Preschooler for a Lum Berry",
+        "tooltip": "Outside the Pokemon Center on Route 8"
+      },
+      {
+        "id": "sub75",
+        "task": "Battle Research at the Pokemon Lab",
+        "tooltip": "Use the Battle Boxes in the PC and a scientist at the lab will give you a zoom lens"
+      },
+      {
+        "id": "sub76",
+        "task": "Investigate the Ditto Five on Route 9 and Konikoni City",
+        "tooltip": "Speak to the office at the front desk at the Police Station, Catch each Ditto as they each have 2 high IV values and earn money for each ditto you catch!"
+      },
+      {
+        "id": "sub77",
+        "task": "Inspire Office Worker Dugal in battle near the waterfront",
+        "tooltip": "Use a Z-Move in battle with Office Worker Dugal in Konikoni City"
+      },
+      {
+        "id": "sub78",
+        "task": "Help out with a hairy situation near the lighthouse",
+        "tooltip": "Show the hair stylist an Alolan Dugtrio and then later dye your hair honey blonde and show her again"
+      },
+      {
+        "id": "sub81",
+        "task": "Watch Pikachu's wedding",
+        "tooltip": "Speak to the little boy by one of the ponds of the Hano Grand Resort"
+      },
+      {
+        "id": "sub82",
+        "task": "Intervene on Chuusters behalf at the Hano Grand Resort",
+        "tooltip": "Battle the Reporter hounding Chuuster outside the Hano Grand Resort for Pikanium Z"
+      },
+      {
+        "id": "sub83",
+        "task": "Pop down to the beach and speak to the swimmer",
+        "tooltip": "Speak to the swimmer on the Hano Grand Resort Beach to get a Soda Pop"
+      },
+      {
+        "id": "sub84",
+        "task": "Chuck some Pyukumuku for $20,000 (Daily)",
+        "tooltip": "Speak to the bellhop near the lifeguard tower on Hano Grand Resort Beach"
+      },
+      {
+        "id": "sub85",
+        "task": "Reunite the Pyukumuku In Love",
+        "tooltip": "Speak with the woman on the beach near the waters edge and a forlorn Pyukumuku"
+      },
+      {
+        "id": "sub86",
+        "task": "Get a Footprint ribbon for leveling up a pokemon",
+        "tooltip": "Speak with the Pokemon Breeder to the left of the entrance inside the Hano Grand Resort"
+      },
+      {
+        "id": "sub87",
+        "task": "Rescue Machamp from overbearing golfers",
+        "tooltip": "Near the fountain on the left of Hano Grand Resort"
+      },
+      {
+        "id": "sub88",
+        "task": "Battle a songwriter to get Metronome",
+        "tooltip": "Battle the songwriter near the elevators at the back of the Hano Grand Resort lobby"
+      },
+      {
+        "id": "sub89",
+        "task": "Inspire a Crabrawler by battling it's trainer",
+        "tooltip": "Use a Z-Move against Dancer Ronda in the lobby of Hano Grand Resort for 5 full heals"
+      },
+      {
+        "id": "sub90",
+        "task": "Dinner for two, enjoy a Z-set meal in Konikoni City",
+        "tooltip": "After defeating Olivia have a Z-set meal with Olivia at the restaurant in Konikoni City"
+      },
+      {
+        "id": "sub91",
+        "task": "Visit Professor Burnet at the Dimensional Research Lab",
+        "tooltip": "Speaking with Professor Burnet will earn you a Reveal Glass"
+      },
+      {
+        "id": "sub92",
+        "task": "Power up Incineroar near the Battle Dome",
+        "tooltip": "Once you've got TM62 help the Incineroar near the Battle Dome learn Acrobatics in exchange for a Power Belt"
+      },
+      {
+        "id": "sub93",
+        "task": "Give Machamp a Coba Berry near the Battle Dome",
+        "tooltip": "Where once there was an Incineroar there's now a hungry Machamp that needs a Coba Berry for TM08"
+      },
+      {
+        "id": "sub94",
+        "task": "Help Ilima solve a crime at the Hau'oli City Police Station",
+        "tooltip": "Head to Hau'oli City to help Ilima solve the case"
+      },
+      {
+        "id": "sub95",
+        "task": "Rescue the crowd watching the Bewear Costume Show",
+        "tooltip": "Head to the Hau'oli City Shopping Mall near the stage to defeat/catch a confused Bewear"
+      },
+      {
+        "id": "sub96",
+        "task": "Get a Stick on Aether Paradise 1F",
+        "tooltip": "Talk to an Aether Foundation Employee on Aether Paradise 1F"
+      },
+      {
+        "id": "sub97",
+        "task": "Entertain an old man in the ferry terminal",
+        "tooltip": "Take the time to speak with an old man in the ferry terminal to earn a Nugget"
+      },
+      {
+        "id": "sub98",
+        "task": "Have a drink at the Cafe in Malie City's Pokemon Center",
+        "tooltip": "Have a drink here and the woman who works the healing counter will join you and share some poke beans"
+      },
+      {
+        "id": "sub100",
+        "task": "Conquer the Kantonian Gym",
+        "tooltip": "Beat all the trainers inside the Kantonian Gym for a Surge Badge, Soda Pop, and Poke Beans"
+      },
+      {
+        "id": "sub101",
+        "task": "Defeat Trainer Ryuki at the Kantonian Gym",
+        "tooltip": "After earning the Surge Badge, visit the gym later and defeat this trainer for a Dragon Scale"
+      },
+      {
+        "id": "sub102",
+        "task": "Follow in the old mans footsteps near Malie Community Center",
+        "tooltip": "Speak to an old man near in front of the Community Center"
+      },
+      {
+        "id": "sub103",
+        "task": "Get a strange souvenir",
+        "tooltip": "Speak with a gentleman relaxing in the Community Center"
+      },
+      {
+        "id": "sub104",
+        "task": "Get a Ribbon for your Pokemon (Daily)",
+        "tooltip": "If your lead Pokemon is as affectionate as can be speak with the little girl at the community center near the Spinda"
+      },
+      {
+        "id": "sub105",
+        "task": "Weather on the rocks behind door number one",
+        "tooltip": "Enter the first door down the hall of the community center to take the weather quiz"
+      },
+      {
+        "id": "sub106",
+        "task": "Learn to fly at the library",
+        "tooltip": "Speak with a Sightseer inside the library to get TM76"
+      },
+      {
+        "id": "sub107",
+        "task": "Get a rare Poke Ball from Samson Oak at the library",
+        "tooltip": "Show Samson Oak an Alolan Persian to get a Love Ball"
+      },
+      {
+        "id": "sub108",
+        "task": "Find a photo at the library and uncover a mystery",
+        "tooltip": "Examine the green book on the shelf closest to the librarians desk and return the photo to Hapu for a Heart Scale"
+      },
+      {
+        "id": "sub109",
+        "task": "Help a family decide their future",
+        "tooltip": "Get close to a janitor and son near the recyling plant, battle them both to earn a Twisted Spoon"
+      },
+      {
+        "id": "sub110",
+        "task": "Learn to Battle with style!",
+        "tooltip": "Meet Gester at the Recycling plant to learn about battle styles"
+      },
+      {
+        "id": "sub111",
+        "task": "Get a rare Poke Ball from Samson Oak at the Recycling Plant",
+        "tooltip": "Speak with Samson Oak near the waters edge by the recycling plant to get a Friend Ball"
+      },
+      {
+        "id": "sub112",
+        "task": "Find the 8 Stufful on Route 10",
+        "tooltip": "Help the old woman at the entrance to route 10 find her 8 stuffl"
+      },
+      {
+        "id": "sub113",
+        "task": "Get a rare Poke Ball from Samson Oak on Mt Hokulani",
+        "tooltip": "Speak with Samson Oak behind the Pokemon Center on Mount Hokulani to get a Moon Ball"
+      },
+      {
+        "id": "sub114",
+        "task": "Defeat Veteran Akira on Mount Hokulani",
+        "tooltip": "Defeat all the trainers on Mount Hokulani to challenge Veteran Akira, beat him to earn TM95"
+      },
+      {
+        "id": "sub115",
+        "task": "Get a Comet Shard at the Observatory",
+        "tooltip": "Speak with the man at the reception desk to get a valuable souvenir"
+      },
+      {
+        "id": "sub116",
+        "task": "Surprise a Scientist for some Stardust",
+        "tooltip": "Interupt a scientist to get some high value stardust"
+      },
+      {
+        "id": "sub117",
+        "task": "Return to Malie Garden's Nugget Bridge for a fight",
+        "tooltip": "Battle the five trainers on Nugget Bridge to earn a Big Bugget prize"
+      },
+      {
+        "id": "sub118",
+        "task": "Inspire a Lass's love of her pokemon",
+        "tooltip": "Battle Lass Lisa in the southeast part of Malie Garden to earn 5 Net Balls"
+      },
+      {
+        "id": "sub119",
+        "task": "Solve additional roller puzzles at the observatory",
+        "tooltip": "Speak to a scientist in the Observatory near the room Sophocles trial was in to solve more puzzles and earn a PP Max"
+      },
+      {
+        "id": "sub120",
+        "task": "Defeat Collector Andrew on Route 12",
+        "tooltip": "Defeat all the trainers on Route 12 to challenge Collector Andrew, beat him to earn TM82"
+      },
+      {
+        "id": "sub121",
+        "task": "Find a message in a bottle on Ula'ula Beach",
+        "tooltip": "After reading the message, battle Rising Star Nainoa on the beach to earn a Pearl String"
+      },
+      {
+        "id": "sub122",
+        "task": "Get a rare Poke Ball from Samson Oak at the Geothermal Plant",
+        "tooltip": "Speak with Samson Oak in the Geothermal plant to get a Lure Ball"
+      },
+      {
+        "id": "sub123",
+        "task": "Get into a spot with a Scientist and his Magnemite",
+        "tooltip": "Speak to a Scientist during the day at the Geothermal plant to get TM63"
+      },
+      {
+        "id": "sub124",
+        "task": "Put up with a bit of taunting in a trailer",
+        "tooltip": "Speak to a Punk Guy in one of the trailers to get TM12."
+      },
+      {
+        "id": "sub125",
+        "task": "Defeat Veteran Angus outside the Poke Center in Tapu Village",
+        "tooltip": "After you've battled 100 times you'll be able to challenge Angus, Defeat him to win some Choice Specs"
+      },
+      {
+        "id": "sub127",
+        "task": "Rescue a flailing swimmer on Route 14",
+        "tooltip": "Rescue the swimmer on Route 14 near the ruins of an old building to get a Destiny Knot"
+      },
+      {
+        "id": "sub128",
+        "task": "Help the Sandygast on Route 14 (Sun)",
+        "tooltip": "Speak to a little girl at the far end of Route 14's black sand beach"
+      },
+      {
+        "id": "sub129",
+        "task": "Get a Razor Claw for your TM collection",
+        "tooltip": "Speak with the scientist before Route 15 once you've collected at least 50 TMs"
+      },
+      {
+        "id": "sub130",
+        "task": "Go Explore the Haina Desert",
+        "tooltip": "Speak to the Trial Guide on Route 13 to open the barricade, get a Fresh Water, and an Adrenaline Orb"
+      },
+      {
+        "id": "sub131",
+        "task": "Help Stuffl's Lost Trainer in the Haina Desert",
+        "tooltip": ""
+      },
+      {
+        "id": "sub132",
+        "task": "Send Starmie packing with a good Tickle",
+        "tooltiip": "Speak to the fisherman at the north end of Route 15, bring a pokemon that knows tickle to help him out and earn a Comet Shard"
+      },
+      {
+        "id": "sub133",
+        "task": "Scare off a suspicious sand castle (Moon)",
+        "tooltiip": "Speak to the youngster at the north end of Route 15 to battle a Sandygast and earn a Stardust"
+      },
+      {
+        "id": "sub134",
+        "task": "Keep Team Skull from causing trouble on Route 16",
+        "tooltiip": "Interact with a Team Skull Grunt in the Pokemon Center on Route 16"
+      },
+      {
+        "id": "sub136",
+        "task": "Get a free lemonade for being a loyal shopper",
+        "tooltiip": "Buy at least 5 drinks from the Poke Center Cafes and then get a free Lemonade from the woman sitting at the Cafe on Route 16"
+      },
+      {
+        "id": "sub137",
+        "task": "Defeat Golfer Dean near Ula'ula Meadow",
+        "tooltiip": "Defeat all the trainers in Ula'ula Meadow to challenge this Golfer, beat him to earn a Flame Orb"
+      },
+      {
+        "id": "sub138",
+        "task": "Help a Grunt find his groove",
+        "tooltiip": "Speak to a grunt near the empty pool near the Shady House"
+      },
+      {
+        "id": "sub139",
+        "task": "Defeat Office Worker Royce on the west side of Po Town",
+        "tooltiip": "Defeat Office Worker Royce on the west side of Po Town and you can buy a Big Nugget from him for $5,000 and then sell it for $20,000 at a Poke Mart"
+      },
+      {
+        "id": "sub140",
+        "task": "Stop in the Malie City Pokemon Center",
+        "tooltip": "Speak to a preschooler who's standing with her Mimikyu to get a Reaper Cloth"
+      },
+      {
+        "id": "sub141",
+        "task": "Dine at the Sushi High Roller in Malie City",
+        "tooltip": "If Nanu shows up to dine with you he'll pay for the meal and give you 8 heart scales"
+      },
+      {
+        "id": "sub142",
+        "task": "Take two TMs to go at the malasada shop (Night)",
+        "tooltip": "Visit the Malasada shop at night and speak to an Oranguru"
+      },
+      {
+        "id": "sub143",
+        "task": "Take a quiz in Malie Garden (Day)",
+        "tooltip": "Visit Malie Garden during the day and speak to the lass on one of the small islands, answer her question successfully to get an Air Balloon"
+      },
+      {
+        "id": "sub144",
+        "task": "Get goggled up in Haina Desert (Night)",
+        "tooltip": "Speak to the Hiker at night in Area 4 and tell him your Pokemons eyes are bleary to get Safety Goggles"
+      },
+      {
+        "id": "sub145",
+        "task": "Show Mimikyu some friendship at the abandoned Thrifty Megamart",
+        "tooltip": "Revisit the abandoned Thrifty Megamart at night, follow mimikyu and show it some love to get Mimikium Z"
+      },
+      {
+        "id": "sub146",
+        "task": "Complete your Plate Collections on Melemele Island",
+        "tooltip": "Find the hidden plates in the Hau'oli Outskirts, Trainers School yard, Hau'oli City, and Hau'oli Cemetary"
+      },
+      {
+        "id": "sub147",
+        "task": "Find some forgotten Pokemon for prizes",
+        "tooltip": "Speak with a woman outside the houseboat in Seafolk Village and show her the pokemon she describes"
+      },
+      {
+        "id": "sub148",
+        "task": "Get a few rare prizes for free",
+        "tooltip": "Speak to the shopkeeper inside the houseboat in Seafolk Village to get Magmarizer and Electrizer"
+      },
+      {
+        "id": "sub149",
+        "task": "Get a rare Fossil Pokemon",
+        "tooltip": "Speak to the girl in the houseboat and she'll give you an Aerodactyl"
+      },
+      {
+        "id": "sub150",
+        "task": "Get a little bit of luck on your side",
+        "tooltip": "Visit the steelix house and speak to the Rising Star inside for a Lucky Punch"
+      },
+      {
+        "id": "sub151",
+        "task": "Show the Veteran in the Steelix housee Alolan Raichu",
+        "tooltip": "The Veteran will give you an Aloraichium Z"
+      },
+      {
+        "id": "sub153",
+        "task": "Defeat Dancer Julia in the Poni wilds",
+        "tooltip": "Defeat all the trainers in the Poni Wilds to challenge this Dancer, beat her to get a Focus Sash"
+      },
+      {
+        "id": "sub154",
+        "task": "Sleep in Hapu's bed on Poni Island",
+        "tooltip": "Lay down for a nap in Hapu's bed to be awoken by her familys Alolan Meowth and get an Awakening"
+      },
+      {
+        "id": "sub155",
+        "task": "Get a Legendary Ally on your side",
+        "tooltip": "Go to Mahalo Trail after Minas Trial and capture Solgaleo or Lunala if you can"
+      },
+      {
+        "id": "sub156",
+        "task": "Help cleanup at the Aether House",
+        "tooltip": "Visit Aether House before undertaking the final grand trial against Hapu, help cleanup to earn a PP Up"
+      },
+      {
+        "id": "sub157",
+        "task": "Dine at the floating restaurant in Seafolk Village",
+        "tooltip": "If Hapu joins you she'll pay for your meal and give you 2 Heart Scales"
+      },
+      {
+        "id": "sub158",
+        "task": "Get another TM for your team",
+        "tooltip": "Before taking on the league, fly back to Guzma's parents home on melemele islands route 2 and enter his childhood bedroom to get TM87"
+      }
+    ]
+  },
+  {
+    "id": "task60",
+    "task": "Collect all 100 Totem Stickers",
+    "category": "collectibles",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Hau’oli City (Shopping) -  Beside the Salon"
+      },
+      {
+        "id": "sub2",
+        "task": "Hau’oli City (Shopping) - Outside Malasada Shop"
+      },
+      {
+        "id": "sub3",
+        "task": "Hau’oli City (Shopping) - Pokemon Center (Outside)"
+      },
+      {
+        "id": "sub4",
+        "task": "Hau’oli City (Shopping) -  Ilima’s House (2F; Room)"
+      },
+      {
+        "id": "sub5",
+        "task": "Hau’oli City (Shopping) -  Ilima’s House Pool"
+      },
+      {
+        "id": "sub6",
+        "task": "Hau’oli City (Shopping) -  Ilima’s House (Outside)"
+      },
+      {
+        "id": "sub7",
+        "task": "Hau’oli City (Shopping) -  City Hall (Outside)"
+      },
+      {
+        "id": "sub8",
+        "task": "Hau’oli City (Shopping) -  City Hall"
+      },
+      {
+        "id": "sub9",
+        "task": "Hau’oli City (Shopping) -  Northwest of Police Station"
+      },
+      {
+        "id": "sub10",
+        "task": "Hau’oli City (Marina) -  Ferry Terminal (Outside)"
+      },
+      {
+        "id": "sub11",
+        "task": "Hau’oli City (Marina) -  Pier"
+      },
+      {
+        "id": "sub12",
+        "task": "Iki Town -  Southwest (Requires Tauros)"
+      },
+      {
+        "id": "sub13",
+        "task": "Route 2 - Southeast House (Outside)"
+      },
+      {
+        "id": "sub14",
+        "task": "Route 2 - Southeast House"
+      },
+      {
+        "id": "sub15",
+        "task": "Route 2 - Berry Fields House (Outside)"
+      },
+      {
+        "id": "sub16",
+        "task": "Route 2 - Berry Fields House"
+      },
+      {
+        "id": "sub17",
+        "task": "Route 2 - Pokemon Center (Outside)"
+      },
+      {
+        "id": "sub18",
+        "task": "Heahea City - West Pier"
+      },
+      {
+        "id": "sub19",
+        "task": "Heahea City - Hotel West (Outside)"
+      },
+      {
+        "id": "sub20",
+        "task": "Heahea City - Hotel East (Outside)"
+      },
+      {
+        "id": "sub21",
+        "task": "Heahea City - Hotel (1F)"
+      },
+      {
+        "id": "sub22",
+        "task": "Heahea City - Hotel (3F)"
+      },
+      {
+        "id": "sub23",
+        "task": "Heahea City - Surfboard (Outside)"
+      },
+      {
+        "id": "sub24",
+        "task": "Heahea City - Game Freak"
+      },
+      {
+        "id": "sub25",
+        "task": "Heahea City - Game Freak Building (3F)"
+      },
+      {
+        "id": "sub26",
+        "task": "Heahea City - Research Lab South (Outside)"
+      },
+      {
+        "id": "sub27",
+        "task": "Heahea City - Research Lab East (Outside)"
+      },
+      {
+        "id": "sub28",
+        "task": "Heahea City - Research Lab (behind Burnet’s desk)"
+      },
+      {
+        "id": "sub29",
+        "task": "Paniola Town - West"
+      },
+      {
+        "id": "sub30",
+        "task": "Paniola Town - Kiawe’s House"
+      },
+      {
+        "id": "sub31",
+        "task": "Paniola Town - Kiawe’s House (2F)"
+      },
+      {
+        "id": "sub32",
+        "task": "Paniola Ranch - Southeast"
+      },
+      {
+        "id": "sub33",
+        "task": "Paniola Ranch - Northwest"
+      },
+      {
+        "id": "sub34",
+        "task": "Route 5 - South of Pokemon Center"
+      },
+      {
+        "id": "sub35",
+        "task": "Route 8 - Aether Base (Outside)"
+      },
+      {
+        "id": "sub36",
+        "task": "Route 8 - Fossil Restoration Center (Outside)"
+      },
+      {
+        "id": "sub37",
+        "task": "Wela Volcano Park - Rocks Behind Sign"
+      },
+      {
+        "id": "sub38",
+        "task": "Royal Avenue - South"
+      },
+      {
+        "id": "sub39",
+        "task": "Royal Avenue - Northeast"
+      },
+      {
+        "id": "sub40",
+        "task": "Battle Royal Dome - 1F"
+      },
+      {
+        "id": "sub41",
+        "task": "Battle Royal Dome - 2F"
+      },
+      {
+        "id": "sub42",
+        "task": "Konikoni City - West"
+      },
+      {
+        "id": "sub43",
+        "task": "Konikoni City - Restaurant (1F)"
+      },
+      {
+        "id": "sub44",
+        "task": "Konikoni City - Olivia’s Jewelry Shop (2F)"
+      },
+      {
+        "id": "sub45",
+        "task": "Konikoni City Lighthouse - Through Diglett’s Tunnel"
+      },
+      {
+        "id": "sub46",
+        "task": "Hano Beach - Center Outer Wall"
+      },
+      {
+        "id": "sub47",
+        "task": "Hano Beach - Below Sandygast"
+      },
+      {
+        "id": "sub48",
+        "task": "Hano Resort - South"
+      },
+      {
+        "id": "sub49",
+        "task": "Hano Resort - North Lobby"
+      },
+      {
+        "id": "sub50",
+        "task": "Hano Resort Lobby - Southwest Water"
+      },
+      {
+        "id": "sub51",
+        "task": "Malie City - Ferry Terminal (Outside)"
+      },
+      {
+        "id": "sub52",
+        "task": "Malie City - Apparel Shop (Outside)"
+      },
+      {
+        "id": "sub53",
+        "task": "Malie City - Kantonian Gym (Outside)"
+      },
+      {
+        "id": "sub54",
+        "task": "Malie City - Community Center"
+      },
+      {
+        "id": "sub55",
+        "task": "Malie City - Library (1F)"
+      },
+      {
+        "id": "sub56",
+        "task": "Malie City - Library (2F)"
+      },
+      {
+        "id": "sub57",
+        "task": "Malie City (Outer Cape) - Recycling Plant (Outside)"
+      },
+      {
+        "id": "sub58",
+        "task": "Malie Garden - Northeast"
+      },
+      {
+        "id": "sub59",
+        "task": "Mount Hokulani -  On the way"
+      },
+      {
+        "id": "sub60",
+        "task": "Hokulani Observatory - Outside"
+      },
+      {
+        "id": "sub61",
+        "task": "Hokulani Observatory - Reception"
+      },
+      {
+        "id": "sub62",
+        "task": "Hokulani Observatory - Dead End"
+      },
+      {
+        "id": "sub63",
+        "task": "Hokulani Observatory - Sophocles Room"
+      },
+      {
+        "id": "sub64",
+        "task": "Route 13 - Motel (Outside)"
+      },
+      {
+        "id": "sub65",
+        "task": "Route 13 -  On a trailer"
+      },
+      {
+        "id": "sub66",
+        "task": "Blush Mountain - Power Plant (Outside)"
+      },
+      {
+        "id": "sub67",
+        "task": "Blush Mountain - Power Plant"
+      },
+      {
+        "id": "sub68",
+        "task": "Route 14 - North"
+      },
+      {
+        "id": "sub69",
+        "task": "Route 14 - Front of Abandoned Megamart"
+      },
+      {
+        "id": "sub70",
+        "task": "Route 15 - Islet Surfboard (Outside)"
+      },
+      {
+        "id": "sub71",
+        "task": "Route 16 - Aether Base (Outside)"
+      },
+      {
+        "id": "sub72",
+        "task": "Ula’ula Meadow - Fish from wood path"
+      },
+      {
+        "id": "sub73",
+        "task": "Route 17 - Police Station (Outside)"
+      },
+      {
+        "id": "sub74",
+        "task": "Route 17 - Police Station"
+      },
+      {
+        "id": "sub75",
+        "task": "Route 17 - South of Po Town"
+      },
+      {
+        "id": "sub76",
+        "task": "Po Town - Southwest"
+      },
+      {
+        "id": "sub77",
+        "task": "Po Town - Pokemon Center (Outside)"
+      },
+      {
+        "id": "sub78",
+        "task": "Po Town - Pokemon Center"
+      },
+      {
+        "id": "sub79",
+        "task": "Po Town - Shady House East (Outside)"
+      },
+      {
+        "id": "sub80",
+        "task": "Po Town - Shady House (1F)"
+      },
+      {
+        "id": "sub81",
+        "task": "Po Town - Shady House 2F (Outside)"
+      },
+      {
+        "id": "sub82",
+        "task": "Po Town - Shady House West Rocks (Outside) 1"
+      },
+      {
+        "id": "sub83",
+        "task": "Po Town - Shady House West Rocks (Outside) 2"
+      },
+      {
+        "id": "sub84",
+        "task": "Po Town - Shady House West Rocks (Outside) 3"
+      },
+      {
+        "id": "sub85",
+        "task": "Seafolk Village - Southeast Whiscash (Mina’s Ship; Outside)"
+      },
+      {
+        "id": "sub86",
+        "task": "Seafolk Village - Southeast Whiscash (Mina’s Ship)"
+      },
+      {
+        "id": "sub87",
+        "task": "Seafolk Village - East Steelix (inside)"
+      },
+      {
+        "id": "sub88",
+        "task": "Seafolk Village - Northeast Dock"
+      },
+      {
+        "id": "sub89",
+        "task": "Seafolk Village - West Wailord (Restaurant)"
+      },
+      {
+        "id": "sub90",
+        "task": "Seafolk Village - Southwest Huntail"
+      },
+      {
+        "id": "sub91",
+        "task": "Seafolk Village - Southwest Huntail (Outside)"
+      },
+      {
+        "id": "sub92",
+        "task": "Exeggutor Island - Under Rock"
+      },
+      {
+        "id": "sub93",
+        "task": "Poni Wilds - Southeast"
+      },
+      {
+        "id": "sub94",
+        "task": "Ancient Poni Path - Southwest"
+      },
+      {
+        "id": "sub95",
+        "task": "Ancient Poni Path - Hapu’s House (Courtyard)"
+      },
+      {
+        "id": "sub96",
+        "task": "Ancient Poni Path - Hapu’s House (Kitchen)"
+      },
+      {
+        "id": "sub97",
+        "task": "Ancient Poni Path - Hapu’s House (Bedroom)"
+      },
+      {
+        "id": "sub98",
+        "task": "Ancient Poni Path - Northeast"
+      },
+      {
+        "id": "sub99",
+        "task": "Ancient Poni Path - Hapu’s House (Outside behind well)"
+      },
+      {
+        "id": "sub100",
+        "task": "Battle Tree - Entrance"
+      }
+    ]
+  },
+  {
+    "id": "task61",
+    "task": "Collect all Alola Photo Club Backgrounds",
+    "category": "collectibles",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Route 1 A",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub2",
+        "task": "Route 1 B",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub3",
+        "task": "Route 1 C",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub4",
+        "task": "Iki Town",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub5",
+        "task": "Trainers' School",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub6",
+        "task": "Classroom",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub7",
+        "task": "Hau'oli City Beach",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub8",
+        "task": "Hau'oli City",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub9",
+        "task": "Hau'oli Cemetery",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub10",
+        "task": "Verdant Cavern",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub11",
+        "task": "Route 3",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub12",
+        "task": "Melemele Meadow",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub13",
+        "task": "Seaward Cave",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub14",
+        "task": "Kala'e Bay",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub15",
+        "task": "Ten Carat Hill",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub16",
+        "task": "Mahalo Trail",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub17",
+        "task": "Ruins of Conflict",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub18",
+        "task": "Paniola Town",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub19",
+        "task": "Paniola Ranch A",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub20",
+        "task": "Paniola Ranch B",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub21",
+        "task": "Brooklett Hill A",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub22",
+        "task": "Brooklett Hill B",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub23",
+        "task": "Wela Volcano Park",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub24",
+        "task": "Route 8",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub25",
+        "task": "Fossil Restoration Center",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub26",
+        "task": "Lush Jungle",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub27",
+        "task": "Konikoni City",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub28",
+        "task": "Aether Paradise A",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub29",
+        "task": "Aether Paradise C",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub30",
+        "task": "Aether Paradise B",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub31",
+        "task": "Malie Garden",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub32",
+        "task": "Route 14",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub33",
+        "task": "Abandoned Thrifty Megamart",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub34",
+        "task": "Haina Desert",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub35",
+        "task": "Route 15",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub36",
+        "task": "Ula'ula Meadow",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub37",
+        "task": "Po Town",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub38",
+        "task": "Shady House",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub39",
+        "task": "Ancient Temple",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub40",
+        "task": "Mount Lanakila",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub41",
+        "task": "Icy Cave",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub42",
+        "task": "Seafolk Village",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub43",
+        "task": "Poni Breaker Coast",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub44",
+        "task": "Vast Poni Canyon",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub45",
+        "task": "Altar of the Sunne",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub46",
+        "task": "Altar of the Moone",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub47",
+        "task": "Poni Meadow",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub48",
+        "task": "Elite Four Chamber A",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub49",
+        "task": "Elite Four Chamber B",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub50",
+        "task": "Elite Four Chamber C",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub51",
+        "task": "Elite Four Chamber D",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub52",
+        "task": "Champion's Chamber",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub53",
+        "task": "Battle Royal",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub54",
+        "task": "Battle Tree",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub55",
+        "task": "Battle Agency",
+        "tooltip": "Visit Area"
+      },
+      {
+        "id": "sub56",
+        "task": "Indigo Plateau",
+        "tooltip": "Use a Pokémon from Kanto (Red, Blue, Yellow, FireRed, LeafGreen)"
+      },
+      {
+        "id": "sub57",
+        "task": "Bell Tower",
+        "tooltip": "Use a Pokémon from Johto (Gold, Silver, HeartGold, SoulSilver)"
+      },
+      {
+        "id": "sub58",
+        "task": "Seafloor Cavern",
+        "tooltip": "Use a Pokémon from Hoenn (Ruby, Sapphire, Emerald, Omega Ruby, Alpha Sapphire)"
+      },
+      {
+        "id": "sub59",
+        "task": "Spear Pillar",
+        "tooltip": "Use a Pokémon from Sinnoh (Diamond, Pearl, Platinum)"
+      },
+      {
+        "id": "sub60",
+        "task": "Skyarrow Bridge",
+        "tooltip": "Use a Pokémon from Unova (Black, White, Black 2, White 2)"
+      },
+      {
+        "id": "sub61",
+        "task": "Lumiose City",
+        "tooltip": "Use a Pokémon from Kalos (X, Y)"
+      },
+      {
+        "id": "sub62",
+        "task": "Lovey-Dovey Heart",
+        "tooltip": "Show Pokémon Fan Club President a Pokémon with Max Affection"
+      },
+      {
+        "id": "sub63",
+        "task": "Faraway Space"
+      },
+      {
+        "id": "sub64",
+        "task": "Celebration Cake"
+      },
+      {
+        "id": "sub65",
+        "task": "Zenith Stage"
+      },
+      {
+        "id": "sub66",
+        "task": "Commemorative Photo"
+      }
+    ]
+  },
+  {
+    "id": "task62",
+    "task": "Collect All 100 Technical Machines (TMs)",
+    "category": "tm",
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Work Up",
+        "tooltip": "Changed from Hone Claws"
+      },
+      {
+        "id": "sub2",
+        "task": "Dragon Claw"
+      },
+      {
+        "id": "sub3",
+        "task": "Psyshock"
+      },
+      {
+        "id": "sub4",
+        "task": "Calm Mind"
+      },
+      {
+        "id": "sub5",
+        "task": "Roar"
+      },
+      {
+        "id": "sub6",
+        "task": "Toxic"
+      },
+      {
+        "id": "sub7",
+        "task": "Hail"
+      },
+      {
+        "id": "sub8",
+        "task": "Bulk up"
+      },
+      {
+        "id": "sub9",
+        "task": "Venoshock"
+      },
+      {
+        "id": "sub10",
+        "task": "Hidden Power"
+      },
+      {
+        "id": "sub11",
+        "task": "Sunny Day"
+      },
+      {
+        "id": "sub12",
+        "task": "Taunt"
+      },
+      {
+        "id": "sub13",
+        "task": "Ice Beam"
+      },
+      {
+        "id": "sub14",
+        "task": "Blizzard"
+      },
+      {
+        "id": "sub15",
+        "task": "Hyper Beam"
+      },
+      {
+        "id": "sub16",
+        "task": "Light Screen"
+      },
+      {
+        "id": "sub17",
+        "task": "Protect"
+      },
+      {
+        "id": "sub18",
+        "task": "Rain Dance"
+      },
+      {
+        "id": "sub19",
+        "task": "Roost"
+      },
+      {
+        "id": "sub20",
+        "task": "Safeguard"
+      },
+      {
+        "id": "sub21",
+        "task": "Frustration"
+      },
+      {
+        "id": "sub22",
+        "task": "Solar Beam"
+      },
+      {
+        "id": "sub23",
+        "task": "Smack Down"
+      },
+      {
+        "id": "sub24",
+        "task": "Thunderbolt"
+      },
+      {
+        "id": "sub25",
+        "task": "Thunder"
+      },
+      {
+        "id": "sub26",
+        "task": "Earthquake"
+      },
+      {
+        "id": "sub27",
+        "task": "Return"
+      },
+      {
+        "id": "sub28",
+        "task": "Leech Life"
+      },
+      {
+        "id": "sub29",
+        "task": "Psychic"
+      },
+      {
+        "id": "sub30",
+        "task": "Shadow Ball"
+      },
+      {
+        "id": "sub31",
+        "task": "Brick Break"
+      },
+      {
+        "id": "sub32",
+        "task": "Double Team"
+      },
+      {
+        "id": "sub33",
+        "task": "Reflect"
+      },
+      {
+        "id": "sub34",
+        "task": "Sludge Wave"
+      },
+      {
+        "id": "sub35",
+        "task": "Flamethrower"
+      },
+      {
+        "id": "sub36",
+        "task": "Sludge Bomb"
+      },
+      {
+        "id": "sub37",
+        "task": "Sandstorm"
+      },
+      {
+        "id": "sub38",
+        "task": "Fire Blast"
+      },
+      {
+        "id": "sub39",
+        "task": "Rock Tomb"
+      },
+      {
+        "id": "sub40",
+        "task": "Aerial Ace"
+      },
+      {
+        "id": "sub41",
+        "task": "Torment"
+      },
+      {
+        "id": "sub42",
+        "task": "Facade"
+      },
+      {
+        "id": "sub43",
+        "task": "Flame Charge"
+      },
+      {
+        "id": "sub44",
+        "task": "Rest"
+      },
+      {
+        "id": "sub45",
+        "task": "Attract"
+      },
+      {
+        "id": "sub46",
+        "task": "Thief"
+      },
+      {
+        "id": "sub47",
+        "task": "Low Sweep"
+      },
+      {
+        "id": "sub48",
+        "task": "Round"
+      },
+      {
+        "id": "sub49",
+        "task": "Echoed Voice"
+      },
+      {
+        "id": "sub50",
+        "task": "Overheat"
+      },
+      {
+        "id": "sub51",
+        "task": "Steel Wing"
+      },
+      {
+        "id": "sub52",
+        "task": "Focus Blast"
+      },
+      {
+        "id": "sub53",
+        "task": "Energy Ball"
+      },
+      {
+        "id": "sub54",
+        "task": "False Swipe"
+      },
+      {
+        "id": "sub55",
+        "task": "Scald"
+      },
+      {
+        "id": "sub56",
+        "task": "Fling"
+      },
+      {
+        "id": "sub57",
+        "task": "Charge Beam"
+      },
+      {
+        "id": "sub58",
+        "task": "Sky Drop"
+      },
+      {
+        "id": "sub59",
+        "task": "Brutal Swing"
+      },
+      {
+        "id": "sub60",
+        "task": "Quash"
+      },
+      {
+        "id": "sub61",
+        "task": "Will-o-wisp"
+      },
+      {
+        "id": "sub62",
+        "task": "Acrobatics"
+      },
+      {
+        "id": "sub63",
+        "task": "Embargo"
+      },
+      {
+        "id": "sub64",
+        "task": "Explosion"
+      },
+      {
+        "id": "sub65",
+        "task": "Shadow Claw"
+      },
+      {
+        "id": "sub66",
+        "task": "Payback"
+      },
+      {
+        "id": "sub67",
+        "task": "Smart Strike"
+      },
+      {
+        "id": "sub68",
+        "task": "Giga Impact"
+      },
+      {
+        "id": "sub69",
+        "task": "Rock Polish"
+      },
+      {
+        "id": "sub70",
+        "task": "Aurora Veil"
+      },
+      {
+        "id": "sub71",
+        "task": "Stone Edge"
+      },
+      {
+        "id": "sub72",
+        "task": "Volt Switch"
+      },
+      {
+        "id": "sub73",
+        "task": "Thunder Wave"
+      },
+      {
+        "id": "sub74",
+        "task": "Gyro Ball"
+      },
+      {
+        "id": "sub75",
+        "task": "Swords Dance"
+      },
+      {
+        "id": "sub76",
+        "task": "Fly"
+      },
+      {
+        "id": "sub77",
+        "task": "Psych up"
+      },
+      {
+        "id": "sub78",
+        "task": "Bulldoze"
+      },
+      {
+        "id": "sub79",
+        "task": "Frost Breath"
+      },
+      {
+        "id": "sub80",
+        "task": "Rock Slide"
+      },
+      {
+        "id": "sub81",
+        "task": "X-Scissor"
+      },
+      {
+        "id": "sub82",
+        "task": "Dragon Tail"
+      },
+      {
+        "id": "sub83",
+        "task": "Infestation"
+      },
+      {
+        "id": "sub84",
+        "task": "Poison Jab"
+      },
+      {
+        "id": "sub85",
+        "task": "Dream Eater"
+      },
+      {
+        "id": "sub86",
+        "task": "Grass Knot"
+      },
+      {
+        "id": "sub87",
+        "task": "Swagger"
+      },
+      {
+        "id": "sub88",
+        "task": "Sleep Talk"
+      },
+      {
+        "id": "sub89",
+        "task": "U-Turn"
+      },
+      {
+        "id": "sub90",
+        "task": "Substitute"
+      },
+      {
+        "id": "sub91",
+        "task": "Flash Cannon"
+      },
+      {
+        "id": "sub92",
+        "task": "Trick Room"
+      },
+      {
+        "id": "sub93",
+        "task": "Wild Charge"
+      },
+      {
+        "id": "sub94",
+        "task": "Surf"
+      },
+      {
+        "id": "sub95",
+        "task": "Snarl"
+      },
+      {
+        "id": "sub96",
+        "task": "Nature Power"
+      },
+      {
+        "id": "sub97",
+        "task": "Dark Pulse"
+      },
+      {
+        "id": "sub98",
+        "task": "Waterfall"
+      },
+      {
+        "id": "sub99",
+        "task": "Dazzling Gleam"
+      },
+      {
+        "id": "sub100",
+        "task": "Confide"
+      }
+    ]
+  },
+  {
+    "id": "task63",
+    "task": "Berry Checklist",
     "category": "berry",
-		"subtasks":[
-			{"id":"sub1", "task":"Aguav", "tooltip":"Route 4"},
-			{"id":"sub2", "task":"Apicot", "tooltip":"Ula'ula Beach"},
-			{"id":"sub3", "task":"Aspear", "tooltip":"Route 16, Ula'ula Beach"},
-			{"id":"sub4", "task":"Babiri", "tooltip":"Poni Wilds"},
-			{"id":"sub6", "task":"Bluk", "tooltip":"Free Sample Daily at Thrifty Megamart"},
-			{"id":"sub7", "task":"Charti", "tooltip":"Poni Wilds"},
-			{"id":"sub8", "task":"Cheri", "tooltip":"Route 3, Route 5, Route 8, Ula'ula Beach"},
-			{"id":"sub9", "task":"Chesto", "tooltip":"Route 3, Route 8, Ula'ula Beach"},
-			{"id":"sub10", "task":"Chilan", "tooltip":"Poni Wilds"},
-			{"id":"sub11", "task":"Chople", "tooltip":"Poni Wilds"},
-			{"id":"sub12", "task":"Coba", "tooltip":"Poni Wilds"},
-			{"id":"sub13", "task":"Colbur", "tooltip":"Poni Wilds"},
-			{"id":"sub18", "task":"Figy", "tooltip":"Route 4"},
-			{"id":"sub19", "task":"Ganlon", "tooltip":"Route 17"},
-			{"id":"sub20", "task":"Grepa", "tooltip":"Route 10"},
-			{"id":"sub21", "task":"Haban", "tooltip":"Poni Wilds"},
-			{"id":"sub22", "task":"Hondew", "tooltip":"Route 10"},
-			{"id":"sub23", "task":"Iapapa", "tooltip":"Route 4"},
-			{"id":"sub25", "task":"Kasib", "tooltip":"Poni Wilds"},
-			{"id":"sub26", "task":"Kebia", "tooltip":"Poni Wilds"},
-			{"id":"sub27", "task":"Kee", "tooltip":"Route 10"},
-			{"id":"sub28", "task":"Kelpsy", "tooltip":"Route 10"},
-			{"id":"sub29", "task":"Lansat", "tooltip":"Battle Tree"},
-			{"id":"sub30", "task":"Leppa", "tooltip":"Route 3, Route 17, Ula'ula Beach"},
-			{"id":"sub31", "task":"Liechi", "tooltip":"Poni Wilds"},
-			{"id":"sub32", "task":"Lum", "tooltip":"Route 4, Route 5, Route 8, Route 16, Route 17"},
-			{"id":"sub33", "task":"Mago", "tooltip":"Route 4, Free Sample Daily at Thrifty Megamart"},
-			{"id":"sub35", "task":"Maranga", "tooltip":"Poni Plains"},
-			{"id":"sub39", "task":"Occa", "tooltip":"Poni Plains, Poni Wilds"},
-			{"id":"sub40", "task":"Oran", "tooltip":"Route 1, Route 8, Route 16, Berry Fields, Heahea City, Free Sample Daily at Thrifty Megamart"},
-			{"id":"sub42", "task":"Passho", "tooltip":"Poni Plains, Poni Wilds"},
-			{"id":"sub43", "task":"Payapa", "tooltip":"Poni Wilds"},
-			{"id":"sub44", "task":"Pecha", "tooltip":"Route 3, Route 4, Route 5, Route 8, Route 16, Route 17"},
-			{"id":"sub45", "task":"Persim", "tooltip":"Route 5, Route 8, Route 16, Berry Fields"},
-			{"id":"sub46", "task":"Petaya", "tooltip":"Poni Wilds"},
-			{"id":"sub47", "task":"Pinap", "tooltip":"Free Sample Daily at Thrifty Megamart"},
-			{"id":"sub48", "task":"Pomeg", "tooltip":"Route 10"},
-			{"id":"sub49", "task":"Qualot", "tooltip":"Route 10"},
-			{"id":"sub51", "task":"Rawst", "tooltip":"Route 5, Route 17, Free Sample Daily at Thrifty Megamart"},
-			{"id":"sub53", "task":"Rindo", "tooltip":"Poni Plains, Poni Wilds"},
-			{"id":"sub54", "task":"Roseli", "tooltip":"Poni Wilds"},
-			{"id":"sub56", "task":"Salac", "tooltip":"Poni Wilds"},
-			{"id":"sub57", "task":"Shuca", "tooltip":"Poni Plains, Poni Wilds"},
-			{"id":"sub58", "task":"Sitrus", "tooltip":"Route 3, Route 8, Route 16, Route 17, Berry Fields, Free Sample Daily at Thrifty Megamart"},
-			{"id":"sub60", "task":"Starf", "tooltip":"Battle Tree"},
-			{"id":"sub61", "task":"Tamato", "tooltip":"Route 10, Free Sample Daily at Thrifty Megamart"},
-			{"id":"sub62", "task":"Tanga", "tooltip":"Poni Wilds"},
-			{"id":"sub63", "task":"Wacan", "tooltip":"Poni Plains, Poni Wilds"},
-			{"id":"sub66", "task":"Wiki", "tooltip":"Route 4"},
-			{"id":"sub67", "task":"Yache", "tooltip":"Poni Plains, Poni Wilds"}
-		]
-	}
+    "subtasks": [
+      {
+        "id": "sub1",
+        "task": "Aguav",
+        "tooltip": "Route 4"
+      },
+      {
+        "id": "sub2",
+        "task": "Apicot",
+        "tooltip": "Ula'ula Beach"
+      },
+      {
+        "id": "sub3",
+        "task": "Aspear",
+        "tooltip": "Route 16, Ula'ula Beach"
+      },
+      {
+        "id": "sub4",
+        "task": "Babiri",
+        "tooltip": "Poni Wilds"
+      },
+      {
+        "id": "sub6",
+        "task": "Bluk",
+        "tooltip": "Free Sample Daily at Thrifty Megamart"
+      },
+      {
+        "id": "sub7",
+        "task": "Charti",
+        "tooltip": "Poni Wilds"
+      },
+      {
+        "id": "sub8",
+        "task": "Cheri",
+        "tooltip": "Route 3, Route 5, Route 8, Ula'ula Beach"
+      },
+      {
+        "id": "sub9",
+        "task": "Chesto",
+        "tooltip": "Route 3, Route 8, Ula'ula Beach"
+      },
+      {
+        "id": "sub10",
+        "task": "Chilan",
+        "tooltip": "Poni Wilds"
+      },
+      {
+        "id": "sub11",
+        "task": "Chople",
+        "tooltip": "Poni Wilds"
+      },
+      {
+        "id": "sub12",
+        "task": "Coba",
+        "tooltip": "Poni Wilds"
+      },
+      {
+        "id": "sub13",
+        "task": "Colbur",
+        "tooltip": "Poni Wilds"
+      },
+      {
+        "id": "sub18",
+        "task": "Figy",
+        "tooltip": "Route 4"
+      },
+      {
+        "id": "sub19",
+        "task": "Ganlon",
+        "tooltip": "Route 17"
+      },
+      {
+        "id": "sub20",
+        "task": "Grepa",
+        "tooltip": "Route 10"
+      },
+      {
+        "id": "sub21",
+        "task": "Haban",
+        "tooltip": "Poni Wilds"
+      },
+      {
+        "id": "sub22",
+        "task": "Hondew",
+        "tooltip": "Route 10"
+      },
+      {
+        "id": "sub23",
+        "task": "Iapapa",
+        "tooltip": "Route 4"
+      },
+      {
+        "id": "sub25",
+        "task": "Kasib",
+        "tooltip": "Poni Wilds"
+      },
+      {
+        "id": "sub26",
+        "task": "Kebia",
+        "tooltip": "Poni Wilds"
+      },
+      {
+        "id": "sub27",
+        "task": "Kee",
+        "tooltip": "Route 10"
+      },
+      {
+        "id": "sub28",
+        "task": "Kelpsy",
+        "tooltip": "Route 10"
+      },
+      {
+        "id": "sub29",
+        "task": "Lansat",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub30",
+        "task": "Leppa",
+        "tooltip": "Route 3, Route 17, Ula'ula Beach"
+      },
+      {
+        "id": "sub31",
+        "task": "Liechi",
+        "tooltip": "Poni Wilds"
+      },
+      {
+        "id": "sub32",
+        "task": "Lum",
+        "tooltip": "Route 4, Route 5, Route 8, Route 16, Route 17"
+      },
+      {
+        "id": "sub33",
+        "task": "Mago",
+        "tooltip": "Route 4, Free Sample Daily at Thrifty Megamart"
+      },
+      {
+        "id": "sub35",
+        "task": "Maranga",
+        "tooltip": "Poni Plains"
+      },
+      {
+        "id": "sub39",
+        "task": "Occa",
+        "tooltip": "Poni Plains, Poni Wilds"
+      },
+      {
+        "id": "sub40",
+        "task": "Oran",
+        "tooltip": "Route 1, Route 8, Route 16, Berry Fields, Heahea City, Free Sample Daily at Thrifty Megamart"
+      },
+      {
+        "id": "sub42",
+        "task": "Passho",
+        "tooltip": "Poni Plains, Poni Wilds"
+      },
+      {
+        "id": "sub43",
+        "task": "Payapa",
+        "tooltip": "Poni Wilds"
+      },
+      {
+        "id": "sub44",
+        "task": "Pecha",
+        "tooltip": "Route 3, Route 4, Route 5, Route 8, Route 16, Route 17"
+      },
+      {
+        "id": "sub45",
+        "task": "Persim",
+        "tooltip": "Route 5, Route 8, Route 16, Berry Fields"
+      },
+      {
+        "id": "sub46",
+        "task": "Petaya",
+        "tooltip": "Poni Wilds"
+      },
+      {
+        "id": "sub47",
+        "task": "Pinap",
+        "tooltip": "Free Sample Daily at Thrifty Megamart"
+      },
+      {
+        "id": "sub48",
+        "task": "Pomeg",
+        "tooltip": "Route 10"
+      },
+      {
+        "id": "sub49",
+        "task": "Qualot",
+        "tooltip": "Route 10"
+      },
+      {
+        "id": "sub51",
+        "task": "Rawst",
+        "tooltip": "Route 5, Route 17, Free Sample Daily at Thrifty Megamart"
+      },
+      {
+        "id": "sub53",
+        "task": "Rindo",
+        "tooltip": "Poni Plains, Poni Wilds"
+      },
+      {
+        "id": "sub54",
+        "task": "Roseli",
+        "tooltip": "Poni Wilds"
+      },
+      {
+        "id": "sub56",
+        "task": "Salac",
+        "tooltip": "Poni Wilds"
+      },
+      {
+        "id": "sub57",
+        "task": "Shuca",
+        "tooltip": "Poni Plains, Poni Wilds"
+      },
+      {
+        "id": "sub58",
+        "task": "Sitrus",
+        "tooltip": "Route 3, Route 8, Route 16, Route 17, Berry Fields, Free Sample Daily at Thrifty Megamart"
+      },
+      {
+        "id": "sub60",
+        "task": "Starf",
+        "tooltip": "Battle Tree"
+      },
+      {
+        "id": "sub61",
+        "task": "Tamato",
+        "tooltip": "Route 10, Free Sample Daily at Thrifty Megamart"
+      },
+      {
+        "id": "sub62",
+        "task": "Tanga",
+        "tooltip": "Poni Wilds"
+      },
+      {
+        "id": "sub63",
+        "task": "Wacan",
+        "tooltip": "Poni Plains, Poni Wilds"
+      },
+      {
+        "id": "sub66",
+        "task": "Wiki",
+        "tooltip": "Route 4"
+      },
+      {
+        "id": "sub67",
+        "task": "Yache",
+        "tooltip": "Poni Plains, Poni Wilds"
+      }
+    ]
+  }
 ]
